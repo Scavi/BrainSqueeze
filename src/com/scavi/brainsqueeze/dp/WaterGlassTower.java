@@ -1,7 +1,7 @@
 package com.scavi.brainsqueeze.dp;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
+
+
 
 /**
  * Created by Michael Heymel on 21/09/16.
@@ -87,11 +87,12 @@ public class WaterGlassTower {
      * @return the cache size
      */
     private int determineCacheSize(final int rows) {
-        int size = 0;
-        for (int i = 1; i <= rows; ++i) {
-            size += i;
-        }
-        return size;
+        return ((rows + 1) * ((rows + 1) + 1)) / 2;
+//        int size = 0;
+//        for (int i = 1; i <= rows; ++i) {
+//            size += i;
+//        }
+//        return size;
     }
 
 
@@ -104,7 +105,7 @@ public class WaterGlassTower {
      */
     private int leftPos(final int index, final int row) {
         return index + row + 1;
-    }
+   }
 
 
     /**

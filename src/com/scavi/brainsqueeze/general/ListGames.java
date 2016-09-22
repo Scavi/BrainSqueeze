@@ -1,34 +1,53 @@
 package com.scavi.brainsqueeze.general;
 
-import com.scavi.braunsqueeze.util.SingleLinkedNode;
+import com.sun.istack.internal.Nullable;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 
 /**
- * Created by Scavenger on 15/09/16.
+ * Created by Michael Heymel on 18/09/16.
  */
 public class ListGames {
 
-
     /**
-     * Write a function to reverse the direction of a given singly-linked list without recursion.
-     * (after the reversal, all pointers should now point backwards)
+     * Given two sorted lists and an integer max, merge the lists up to the maximum of the max
+     * elements
      *
-     * @param head the head of the single linked list
-     * @return the new head of the single linked list
+     * @param list1 the list 1
+     * @param list2 the list 2
+     * @param max   the maximum number
+     * @return the merged list
      */
-    public <T> SingleLinkedNode<T> reverseSingleLinkedList(final SingleLinkedNode<T> head) {
-        if (head == null) {
-            return null;
+    public <T extends Comparable<T>> List<T> merge(@Nullable List<T> list1, @Nullable List<T> list2,
+            final int max) {
+        if (list1 == null) {
+            list1 = new ArrayList<>(0);
         }
-        SingleLinkedNode<T> prev = null;
-        SingleLinkedNode<T> current = head;
-        SingleLinkedNode<T> next;
+        if (list2 == null) {
+            list2 = new ArrayList<>(0);
+        }
 
-        while (current != null) {
-            next = current.getNext();
-            current.setNext(prev);
-            prev = current;
-            current = next;
+        List<T> resultList = new ArrayList<>(max);
+        int list1Pos = 0;
+        int list2Pos = 0;
+        for (int i = 0; i < max; ++i) {
+
+            T value = null;
+            if (list1Pos < list1.size() && list2Pos < list2.size()) {
+                if (list1.get(list1Pos).compareTo(list2.get(list2Pos)) < 0) {
+                    value = list1.get(list1Pos++);
+                } else {
+                    value = list2.get(list2Pos++);
+                }
+            } else if (list1Pos < list1.size()) {
+                value = list1.get(list1Pos++);
+            } else if (list2Pos < list2.size()) {
+                value = list2.get(list2Pos++);
+            }
+            resultList.add(value);
         }
-        return prev;
+        return resultList;
     }
 }

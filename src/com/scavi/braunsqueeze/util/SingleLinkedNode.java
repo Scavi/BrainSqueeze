@@ -1,7 +1,7 @@
 package com.scavi.braunsqueeze.util;
 
 /**
- * Created by Scavenger on 15/09/16.
+ * Created by Michael Heymel on 15/09/16.
  */
 public class SingleLinkedNode<T> {
 
