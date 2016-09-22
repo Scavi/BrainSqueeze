@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 
 /**
- * Created by Scavenger on 21/09/16.
+ * Created by Michael Heymel on 21/09/16.
  */
 public class WaterGlassTower {
 
