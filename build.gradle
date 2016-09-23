@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+group 'BrainSqueeze'
+version '0.0.0.1'
+
+sourceCompatibility = 1.8
+
+dependencies {
+    compile 'com.google.guava:guava:+'
+    testCompile 'junit:junit:4.12'
+}

@@ -1,10 +1,8 @@
 package com.scavi.brainsqueeze.general;
 
-import com.sun.istack.internal.Nullable;
-
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
+
 
 /**
  * Created by Michael Heymel on 18/09/16.
@@ -20,8 +18,7 @@ public class ListGames {
      * @param max   the maximum number
      * @return the merged list
      */
-    public <T extends Comparable<T>> List<T> merge(@Nullable List<T> list1, @Nullable List<T> list2,
-            final int max) {
+    public <T extends Comparable<T>> List<T> merge(List<T> list1, List<T> list2, final int max) {
         if (list1 == null) {
             list1 = new ArrayList<>(0);
         }

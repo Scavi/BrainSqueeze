@@ -1,8 +1,6 @@
 package com.scavi.brainsqueeze.dp;
 
 
-
-
 /**
  * Created by Michael Heymel on 21/09/16.
  */
@@ -12,19 +10,19 @@ public class WaterGlassTower {
 
 
     /**
-     * There are some glasses with equal volume 1 litre. The glasses kept as follows
-     * 1
-     * 2   3
-     * 4    5    6
+     * There are some glasses with equal volume 1 liter. The glasses kept as follows
+     * _______ 1
+     * _____ 2   3
+     * __ 4    5    6
      * 7    8    9   10
-     * You can put water to only top glass. If you put more than 1 litre water to 1st glass,
+     * You can put water to only top glass. If you put more than 1 liter water to 1st glass,
      * water overflow and fill equally both 2nd and 3rd glass. Glass 5 will get water from
      * both 2nd glass and 3rd glass and so on.
-     * If you have X litre of water and you put that water in top glass, so tell me how much water
-     * contained by jth glass in ith row. Example. If you will put 6 litre on top:
-     * 1.0
-     * 1.0   1.0
-     * 0.75   1.0   0.75
+     * If you have X liter of water and you put that water in top glass, so tell me how much water
+     * contained by jth glass in ith row. Example. If you will put 6 liter on top:
+     * _______ 1.0
+     * ____ 1.0   1.0
+     * _ 0.75   1.0   0.75
      * 0.0   0.25   0.25   0.0
      *
      * @param waterAmount the amount of given water
@@ -88,11 +86,11 @@ public class WaterGlassTower {
      */
     private int determineCacheSize(final int rows) {
         return ((rows + 1) * ((rows + 1) + 1)) / 2;
-//        int size = 0;
-//        for (int i = 1; i <= rows; ++i) {
-//            size += i;
-//        }
-//        return size;
+        //        int size = 0;
+        //        for (int i = 1; i <= rows; ++i) {
+        //            size += i;
+        //        }
+        //        return size;
     }
 
 
@@ -105,7 +103,7 @@ public class WaterGlassTower {
      */
     private int leftPos(final int index, final int row) {
         return index + row + 1;
-   }
+    }
 
 
     /**
