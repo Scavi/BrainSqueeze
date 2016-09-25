@@ -64,6 +64,7 @@ public class NumberGamesTest {
         Assert.assertArrayEquals(expectedOutput, output);
     }
 
+
     @Test
     public void testSquareOfSorted2() {
         NumberGames numberGames = new NumberGames();
@@ -71,5 +72,33 @@ public class NumberGamesTest {
         int[] expectedOutput = new int[]{1, 9, 25};
         int[] output = numberGames.squareOfSortedData(input);
         Assert.assertArrayEquals(expectedOutput, output);
+    }
+
+
+    @Test
+    public void testConvertPositiveNumber1() {
+        NumberGames numberGames = new NumberGames();
+        int input = 123456789;
+        int[] expected = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] result = numberGames.convertPositiveNumberToDigits(input);
+        Assert.assertArrayEquals(expected, result);
+    }
+
+
+    @Test
+    public void testConvertPositiveNumber2() {
+        NumberGames numberGames = new NumberGames();
+        int input = 0;
+        int[] expected = new int[]{0};
+        int[] result = numberGames.convertPositiveNumberToDigits(input);
+        Assert.assertArrayEquals(expected, result);
+    }
+
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testConvertPositiveNumber3() {
+        NumberGames numberGames = new NumberGames();
+        int input = -1;
+        numberGames.convertPositiveNumberToDigits(-1);
     }
 }

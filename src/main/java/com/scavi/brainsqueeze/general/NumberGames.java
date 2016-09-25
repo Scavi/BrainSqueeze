@@ -24,11 +24,36 @@ public class NumberGames {
     private static final int MAX_POT = 10;
     private static final int[] POT = new int[MAX_POT];
 
-
+    /**
+     * Initializes the cache
+     */
     static {
         for (int i = 0; i < MAX_POT; ++i) {
             POT[i] = BigInteger.valueOf(10).pow(i).intValue();
         }
+    }
+
+
+    /**
+     * Converts the given positive number to its digits
+     *
+     * @param number the number to convert
+     * @return an array with the converted number
+     */
+    public int[] convertPositiveNumberToDigits(final int number) {
+        if (number < 0) {
+            throw new IllegalArgumentException("Only positive numbers supported");
+        } else if (number == 0) {
+            return new int[]{0};
+        }
+
+        int digitCount = String.valueOf(number).length();
+        int[] digits = new int[digitCount];
+        int pos = digitCount - 1;
+        for (int i = 0; i < digitCount; ++i, --pos) {
+            digits[pos] = noAtPos(number, i);
+        }
+        return digits;
     }
 
 
@@ -79,9 +104,6 @@ public class NumberGames {
         }
         return palindrome;
     }
-
-
-    // 198 -> 199 (+2) -> 201 -> +
 
 
     /**
