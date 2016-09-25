@@ -28,7 +28,7 @@ public class ArrayPuzzleTest {
         ArrayPuzzle puzzle = new ArrayPuzzle();
         int[] input = {3, 5, 2, 4};
         int[] expOutput = {40, 24, 60, 30};
-        int[] result = puzzle.solve(input);
+        int[] result = puzzle.determineArrayProductExceptCurrentPos(input);
         Assert.assertArrayEquals(expOutput, result);
     }
 
@@ -36,7 +36,7 @@ public class ArrayPuzzleTest {
     @Test(expected = IllegalArgumentException.class)
     public void testNullInput() {
         ArrayPuzzle puzzle = new ArrayPuzzle();
-        puzzle.solve(null);
+        puzzle.determineArrayProductExceptCurrentPos(null);
     }
 
 
@@ -44,7 +44,7 @@ public class ArrayPuzzleTest {
     public void test1EntryInput() {
         ArrayPuzzle puzzle = new ArrayPuzzle();
         int[] input = {42};
-        puzzle.solve(input);
+        puzzle.determineArrayProductExceptCurrentPos(input);
     }
 
 

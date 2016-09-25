@@ -69,15 +69,15 @@ public class ArrayPuzzle {
      * @param input the input array with the values
      * @return the input array with the values
      */
-    public int[] solve(final int[] input) {
+    public int[] determineArrayProductExceptCurrentPos(final int[] input) {
         if (input == null || input.length < 2) {
-            throw new IllegalArgumentException("Input array needs at least the size of 2");
+            throw new IllegalArgumentException("Input array needs at least the size of 2!");
         }
 
         int inputLength = input.length;
         int[] leftToRight = new int[inputLength];
         int[] rightToLeft = new int[inputLength];
-        prepareCaches(input, leftToRight, rightToLeft);
+        prepareProductCaches(input, leftToRight, rightToLeft);
 
         int[] output = new int[inputLength];
         for (int i = 0; i < inputLength; ++i) {
@@ -87,7 +87,14 @@ public class ArrayPuzzle {
     }
 
 
-    private void prepareCaches(int[] input, int[] leftToRight, int[] rightToLeft) {
+    /**
+     * Creates a cache to solve the {@link #determineArrayProductExceptCurrentPos(int[])} task
+     *
+     * @param input       the given input
+     * @param leftToRight the cache for the values from left to right
+     * @param rightToLeft the cache for the values from right to left
+     */
+    private void prepareProductCaches(int[] input, int[] leftToRight, int[] rightToLeft) {
         int inputLength = input.length;
         leftToRight[0] = 1;
         rightToLeft[inputLength - 1] = 1;
