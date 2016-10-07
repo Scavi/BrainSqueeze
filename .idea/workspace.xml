@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01b62bce-6598-46b7-915d-7742f828f185" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/Permutation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/PermutationTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/KSetProblem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/KSetProblemTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BrainSqueeze.iws" />
@@ -18,6 +18,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/BrainSqueeze$KSetProblemTest.coverage" NAME="KSetProblemTest Coverage Results" MODIFIED="1475831683400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.backtracking.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/BrainSqueeze$TaskTest.coverage" NAME="TaskTest Coverage Results" MODIFIED="1474668395888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.scavi.brainsqueeze.puzzle.*</FILTER>
     </SUITE>
@@ -43,18 +46,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinaryGamesTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/BinaryGamesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#1739#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ArrayPuzzle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzle.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,11 +116,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/Permutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
+            <state relative-caret-position="87">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KSetProblem.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/KSetProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KSetProblemTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/KSetProblemTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="32" column="89" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -649,6 +664,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/BacktrackingGamesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/Permutation.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/PermutationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/KSetProblemTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/KSetProblem.java" />
       </list>
     </option>
   </component>
@@ -1028,33 +1045,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.PermutationTest">
-    <configuration default="false" name="NumberGamesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.scavi.brainsqueeze.general.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BrainSqueeze_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.general" />
-      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.general.NumberGamesTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.KSetProblemTest">
     <configuration default="false" name="BinaryGamesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1145,6 +1136,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.backtracking" />
       <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.backtracking.PermutationTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="KSetProblemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.scavi.brainsqueeze.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BrainSqueeze_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.backtracking" />
+      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.backtracking.KSetProblemTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1404,19 +1421,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.NumberGamesTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BinaryGamesTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayPuzzleTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SearchGamesTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PermutationTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BinaryGamesTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayPuzzleTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SearchGamesTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PermutationTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.KSetProblemTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PermutationTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SearchGamesTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayPuzzleTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BinaryGamesTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.NumberGamesTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.KSetProblemTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PermutationTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SearchGamesTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayPuzzleTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BinaryGamesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1434,29 +1451,29 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PermutationTest - 2016.10.06 at 10h 29m 54s.xml">
-      <configuration name="PermutationTest" configurationId="JUnit" />
+    <history-entry file="KSetProblemTest - 2016.10.07 at 11h 13m 15s.xml">
+      <configuration name="KSetProblemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PermutationTest - 2016.10.06 at 10h 30m 52s.xml">
-      <configuration name="PermutationTest" configurationId="JUnit" />
+    <history-entry file="KSetProblemTest - 2016.10.07 at 11h 14m 06s.xml">
+      <configuration name="KSetProblemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PermutationTest - 2016.10.06 at 10h 31m 11s.xml">
-      <configuration name="PermutationTest" configurationId="JUnit" />
+    <history-entry file="KSetProblemTest - 2016.10.07 at 11h 14m 31s.xml">
+      <configuration name="KSetProblemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PermutationTest - 2016.10.07 at 10h 22m 50s.xml">
-      <configuration name="PermutationTest" configurationId="JUnit" />
+    <history-entry file="KSetProblemTest - 2016.10.07 at 11h 14m 44s.xml">
+      <configuration name="KSetProblemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PermutationTest - 2016.10.07 at 10h 28m 56s.xml">
-      <configuration name="PermutationTest" configurationId="JUnit" />
+    <history-entry file="KSetProblemTest - 2016.10.07 at 11h 14m 59s.xml">
+      <configuration name="KSetProblemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PermutationTest - 2016.10.07 at 10h 29m 27s.xml">
-      <configuration name="PermutationTest" configurationId="JUnit" />
+    <history-entry file="KSetProblemTest - 2016.10.07 at 11h 15m 26s.xml">
+      <configuration name="KSetProblemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PermutationTest - 2016.10.07 at 10h 32m 09s.xml">
-      <configuration name="PermutationTest" configurationId="JUnit" />
+    <history-entry file="KSetProblemTest - 2016.10.07 at 11h 15m 59s.xml">
+      <configuration name="KSetProblemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PermutationTest - 2016.10.07 at 10h 35m 20s.xml">
-      <configuration name="PermutationTest" configurationId="JUnit" />
+    <history-entry file="KSetProblemTest - 2016.10.07 at 11h 17m 33s.xml">
+      <configuration name="KSetProblemTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PermutationTest - 2016.10.07 at 10h 35m 41s.xml">
       <configuration name="PermutationTest" configurationId="JUnit" />
@@ -1480,13 +1497,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838774" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2938053" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2938053" sideWeight="0.49361023" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39911506" sideWeight="0.5063898" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39911506" sideWeight="0.5085197" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32654867" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32654867" sideWeight="0.49574015" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1517572" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920355" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1496,14 +1514,13 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39911506" sideWeight="0.49361023" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39911506" sideWeight="0.4914803" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1517572" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1574,8 +1591,14 @@
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/KSetProblem.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="40" />
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1718,7 +1741,7 @@
           <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
           <folding>
             <element signature="e#0#1729#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1751,7 +1774,7 @@
         <state relative-caret-position="540">
           <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1864,8 +1887,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
+        <state relative-caret-position="87">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/KSetProblemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="32" column="89" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/KSetProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
