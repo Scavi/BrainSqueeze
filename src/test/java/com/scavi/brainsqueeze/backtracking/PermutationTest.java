@@ -38,4 +38,14 @@ public class PermutationTest {
             Assert.assertTrue(output.contains(expected));
         }
     }
+
+
+    @Test
+    public void test2() {
+        String input = "elhlo";
+        Permutation permutation = new Permutation();
+        List<String> output = permutation.permutation1(input);
+        Assert.assertEquals(120, output.size());
+        Assert.assertTrue(output.contains("hello"));
+    }
 }
