@@ -14,6 +14,8 @@
 
 package com.scavi.brainsqueeze.backtracking;
 
+import com.google.common.base.Preconditions;
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
@@ -42,10 +44,7 @@ public class UnscrambleWords {
      *                   string
      */
     public UnscrambleWords(final Set<String> dictionary) {
-        if (dictionary == null) {
-            throw new IllegalArgumentException("Unsupported dictionary: <null >");
-        }
-        _dictionary = dictionary;
+        _dictionary = Preconditions.checkNotNull(dictionary, "Unsupported dictionary: <null>");
     }
 
 
@@ -77,7 +76,8 @@ public class UnscrambleWords {
                 from = to;
             } else if (to == input.length()) {
                 throw new IllegalArgumentException(String.format(
-                        "Incomplete result. The part '%s' wasn't identified!", part));
+                        "Incomplete result. The part '%s' wasn't identified!",
+                        part));
             }
         }
         return words;
