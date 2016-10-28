@@ -45,7 +45,7 @@ public class UnscrambleWordTest {
     }
 
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test(expected = NullPointerException.class)
     public void testNullDictionary() {
         new UnscrambleWords(null);
     }
