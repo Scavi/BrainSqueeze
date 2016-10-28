@@ -45,24 +45,26 @@ public class UnscrambleWordTest {
     }
 
 
+    @Test
+    public void testEmptyInput() {
+        UnscrambleWords unscrambleWords = new UnscrambleWords(new HashSet<String>());
+        List<String> words = unscrambleWords.unscramble("");
+        Assert.assertTrue(words.size() == 0);
+    }
+
+
     @Test(expected = NullPointerException.class)
     public void testNullDictionary() {
         new UnscrambleWords(null);
     }
 
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test(expected = NullPointerException.class)
     public void testNullInput() {
         UnscrambleWords unscrambleWords = new UnscrambleWords(new HashSet<String>());
         unscrambleWords.unscramble(null);
     }
 
-
-    @Test(expected = IllegalArgumentException.class)
-    public void testEmptyInput() {
-        UnscrambleWords unscrambleWords = new UnscrambleWords(new HashSet<String>());
-        unscrambleWords.unscramble(null);
-    }
 
     @Test(expected = IllegalArgumentException.class)
     public void testIncompleteInput() {
