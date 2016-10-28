@@ -24,7 +24,7 @@ import java.util.Set;
  * You are given a scrambled input sentence. Each word is scrambled independently, and the results
  * are concatenated. So:
  * <p>
- * 'hello to the world' might become: 'elhloothtedrowl'
+ * 'elhloothtedrowl' might become 'hello to the world'
  * <p>
  * You have a dictionary with all words in it. Unscramble the sentence.
  *
