@@ -62,10 +62,7 @@ public class UnscrambleWords {
      * @return a list with all found words.
      */
     public List<String> unscramble(final String input) {
-        if (input == null || input.length() == 0) {
-            throw new IllegalArgumentException("Illegal input: <null >");
-        }
-
+        Preconditions.checkNotNull(input, "Unsupported input: <null>");
         List<String> words = new LinkedList<>();
         int from = 0;
         for (int to = 1; to <= input.length(); ++to) {
