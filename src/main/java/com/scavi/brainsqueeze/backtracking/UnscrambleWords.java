@@ -77,7 +77,7 @@ public class UnscrambleWords {
                 from = to;
             } else if (to == input.length()) {
                 throw new IllegalArgumentException(String.format(
-                        "Incomplete result. The part '%s' wasn't identified!"));
+                        "Incomplete result. The part '%s' wasn't identified!", part));
             }
         }
         return words;
