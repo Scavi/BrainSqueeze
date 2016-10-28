@@ -43,4 +43,37 @@ public class UnscrambleWordTest {
             Assert.assertTrue(dictionary.contains(word));
         }
     }
+
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testNullDictionary() {
+        new UnscrambleWords(null);
+    }
+
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testNullInput() {
+        UnscrambleWords unscrambleWords = new UnscrambleWords(new HashSet<String>());
+        unscrambleWords.unscramble(null);
+    }
+
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testEmptyInput() {
+        UnscrambleWords unscrambleWords = new UnscrambleWords(new HashSet<String>());
+        unscrambleWords.unscramble(null);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testIncompleteInput() {
+        Set<String> dictionary = new HashSet<>();
+        dictionary.add("hello");
+        dictionary.add("to");
+        dictionary.add("the");
+        dictionary.add("world");
+
+        UnscrambleWords unscrambleWords = new UnscrambleWords(dictionary);
+        // added _foo which isn't in the dictionary
+        List<String> words = unscrambleWords.unscramble("elhloothtedrowl_foo");
+    }
 }
