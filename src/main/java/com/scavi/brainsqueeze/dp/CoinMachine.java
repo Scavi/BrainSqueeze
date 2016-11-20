@@ -14,6 +14,8 @@
 
 package com.scavi.brainsqueeze.dp;
 
+import com.google.common.base.Preconditions;
+
 /**
  * @author Michael Heymel
  * @since 23/09/16
@@ -41,12 +43,10 @@ public class CoinMachine {
      * @return the amount of possible solutions to exchange
      */
     public int numberOfCoins(final int[] coins, final int toExchange) {
-
-        if (coins == null || coins.length == 0) {
-            throw new IllegalArgumentException("Illegal coin data! Please specify one coin value.");
-        } else if (toExchange < 0) {
-            throw new IllegalArgumentException("A negative exchange is not supported!");
-        }
+        Preconditions.checkNotNull(coins, "Unsupported coin input: <null>");
+        Preconditions.checkArgument(coins.length > 0,
+                "Illegal coin data! Please specify at least one coin value.");
+        Preconditions.checkArgument(toExchange >= 0, "A negative exchange is not supported!");
 
         // +1 array size to construct in button up
         int[] cache = new int[toExchange + 1];
