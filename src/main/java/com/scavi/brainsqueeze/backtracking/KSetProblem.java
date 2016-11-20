@@ -14,6 +14,8 @@
 
 package com.scavi.brainsqueeze.backtracking;
 
+import com.google.common.base.Preconditions;
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -48,14 +50,10 @@ public class KSetProblem {
      * @param setSize the size of the sets
      */
     public List<String> kSetOf(final char[] input, final int setSize) {
-        if (input == null || input.length < 1) {
-            throw new IllegalArgumentException(
-                    "Illegal input declaration! Input needs at least one entry!");
-        } else if (setSize < 1 || input.length < setSize) {
-            throw new IllegalArgumentException(
-                    "Illegal set size declaration! Set size must be smaller or equal than the given input.");
-        }
-
+        Preconditions.checkArgument(input != null && input.length > 0,
+                "Illegal input declaration! Input needs at least one entry!");
+        Preconditions.checkArgument(setSize >= 1 && input.length > setSize,
+                "Illegal set size declaration! Set size must be smaller or equal than the given input.");
         List<String> results = new LinkedList<>();
         kSetOf(input, 0, new char[setSize], 0, results);
         return results;
