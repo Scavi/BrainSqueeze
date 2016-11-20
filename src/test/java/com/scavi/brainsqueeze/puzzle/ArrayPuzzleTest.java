@@ -72,4 +72,34 @@ public class ArrayPuzzleTest {
         ArrayPuzzle puzzle = new ArrayPuzzle();
         puzzle.findMinimumOfSubarray(input, 2);
     }
+
+
+    @Test
+    public void testSwitchArray1() {
+        int[] input = new int[]{3, 2, 0, 1};
+        int[] expectedOutput = new int[]{1, 0, 3, 2};
+        ArrayPuzzle puzzle = new ArrayPuzzle();
+        int[] output = puzzle.switchArray(input);
+        Assert.assertArrayEquals(expectedOutput, output);
+    }
+
+
+    @Test
+    public void testSwitchArray2() {
+        int[] input = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8};
+        int[] expectedOutput = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8};
+        ArrayPuzzle puzzle = new ArrayPuzzle();
+        int[] output = puzzle.switchArray(input);
+        Assert.assertArrayEquals(expectedOutput, output);
+    }
+
+
+    @Test
+    public void testSwitchArray3() {
+        int[] input = new int[]{4, 1, 2, 0, 3};
+        int[] expectedOutput = new int[]{3, 1, 2, 4, 0};
+        ArrayPuzzle puzzle = new ArrayPuzzle();
+        int[] output = puzzle.switchArray(input);
+        Assert.assertArrayEquals(expectedOutput, output);
+    }
 }

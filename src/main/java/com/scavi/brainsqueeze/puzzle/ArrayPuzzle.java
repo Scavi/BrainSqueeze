@@ -24,16 +24,44 @@ public class ArrayPuzzle {
 
 
     /**
-     * Find the minimum of the sub-array of the given subarray size.
+     * This method switches the given <code>inputData</code> in the way
+     * inputData[i] = inputData[inputData[i]]. This method assumes that the data
+     * in the inputData array are correct and won't cause an index out of bound
+     * exception
+     *
+     * @param inputData the input data to switch
+     * @return inputData[inputData[i]]
+     */
+    public int[] switchArray(final int[] inputData) {
+        Preconditions.checkNotNull(inputData, "Illegal input: <null>");
+
+        int dataCount = inputData.length;
+        for (int i = 0; i < dataCount; ++i) {
+            int tmp = (inputData[inputData[i]] % dataCount);
+            inputData[i] += tmp * dataCount;
+        }
+        for (int i = 0; i < dataCount; ++i) {
+            inputData[i] /= dataCount;
+        }
+        return inputData;
+    }
+
+
+    /**
+     * Given an array and the length of of a sub-array within the array, find the minimum value of
+     * the given sub-array size.
+     * <p/>
+     * e.g.:
+     * 1,2,3,4,9,1,1 and the sub-array size 2, it will be 2 (the last positions with 1,1)
      *
      * @param input        the input array
-     * @param subarraySize the size of the subarray
+     * @param subarraySize the size of the sub-array
      * @return the minimum size
      */
     public int findMinimumOfSubarray(final int[] input, final int subarraySize) {
         Preconditions.checkNotNull(input);
         Preconditions.checkArgument(input.length >= subarraySize,
-                "The size of the subarray is higher than input array!");
+                "The size of the sub-array is higher than input array!");
 
         int min = 0;
         for (int i = 0; i < subarraySize; ++i) {
