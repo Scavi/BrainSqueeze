@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01b62bce-6598-46b7-915d-7742f828f185" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/cache/LRUCacheNative.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/geometry/CircleIntersection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/MazeRun.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/FieldType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/Maze.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/MazeField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BFS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/DFS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Circle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Graph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/geometry/CircleIntersectionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/maze/MazeRunTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BfsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/GraphTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/util/CircleTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/KSetProblem.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/KSetProblem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/UnscrambleWords.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/UnscrambleWords.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dac/AllHigherValues.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dac/AllHigherValues.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/CoinMachine.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/CoinMachine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/WaterGlassTower.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/WaterGlassTower.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/geeks/CountWaysToSpellNumber.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/geeks/CountWaysToSpellNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/BinaryGames.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/BinaryGames.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/NumberGames.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/NumberGames.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/grid/GemGrid.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/grid/GemGrid.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzle.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/search/SearchGames.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/search/SearchGames.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BstGames.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BstGames.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Node.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Node.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Point.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Point.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dp/CoinMachineTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dp/CoinMachineTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BstGamesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BstGamesTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzleTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzleTest.java" />
     </list>
     <ignored path="BrainSqueeze.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,6 +51,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ArrayPuzzle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayPuzzleTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Maze.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/Maze.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MazeRunTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MazeRunTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/maze/MazeRunTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="380">
+              <caret line="84" column="46" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -630,8 +620,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/NumberGames.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/grid/GemGrid.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/search/SearchGames.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/UnscrambleWords.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/Permutation.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BstGamesTest.java" />
@@ -661,6 +649,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/MazeRun.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/Maze.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/maze/MazeRunTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzle.java" />
       </list>
     </option>
   </component>
@@ -1180,6 +1170,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="puzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brainsqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="maze" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1267,6 +1287,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="brainsqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brainsqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="puzzle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1470,33 +1520,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.MazeRunTest">
-    <configuration default="false" name="GraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.scavi.brainsqueeze.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BrainSqueeze_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.tree" />
-      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.tree.GraphTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ArrayPuzzleTest">
     <configuration default="false" name="CircleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1587,6 +1611,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.maze" />
       <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.maze.MazeRunTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ArrayPuzzleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.scavi.brainsqueeze.puzzle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BrainSqueeze_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.puzzle" />
+      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.puzzle.ArrayPuzzleTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1846,19 +1896,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.GraphTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CircleTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CircleIntersectionTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.com.scavi.brainsqueeze in BrainSqueeze_test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MazeRunTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CircleTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CircleIntersectionTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.com.scavi.brainsqueeze in BrainSqueeze_test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MazeRunTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayPuzzleTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MazeRunTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.com.scavi.brainsqueeze in BrainSqueeze_test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CircleIntersectionTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CircleTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GraphTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayPuzzleTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MazeRunTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.com.scavi.brainsqueeze in BrainSqueeze_test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CircleIntersectionTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CircleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1876,8 +1926,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MazeRunTest - 2016.11.18 at 17h 24m 46s.xml">
-      <configuration name="MazeRunTest" configurationId="JUnit" />
+    <history-entry file="ArrayPuzzleTest - 2016.11.20 at 15h 25m 09s.xml">
+      <configuration name="ArrayPuzzleTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MazeRunTest - 2016.11.18 at 17h 25m 58s.xml">
       <configuration name="MazeRunTest" configurationId="JUnit" />
@@ -2059,7 +2109,7 @@
           <option name="timeStamp" value="119" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="142" />
+      <option name="time" value="143" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2209,16 +2259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#3663#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dp/CoinMachineTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -2231,17 +2271,6 @@
         <state relative-caret-position="183">
           <caret line="30" column="86" selection-start-line="30" selection-start-column="86" selection-end-line="30" selection-end-column="86" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="68" column="45" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#2203#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2536,11 +2565,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/maze/MazeRunTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="84" column="46" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
