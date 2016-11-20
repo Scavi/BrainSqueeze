@@ -26,7 +26,7 @@ import org.junit.Test;
 public class BstGamesTest {
 
     @Test
-    public void test1() {
+    public void testAllGreaterValues1() {
         // input
         Node<Integer> nodeRR = new Node<>(80);
         Node<Integer> nodeRL = new Node<>(60);
@@ -49,5 +49,69 @@ public class BstGamesTest {
         Node<Integer> result = bstGames.allGreaterValues(root);
 
         Assert.assertTrue(expectedRoot.equals(result));
+    }
+
+
+    @Test
+    public void testLca1() {
+        Node<Integer> nodeRR = new Node<>(80);
+        Node<Integer> nodeRL = new Node<>(60);
+        Node<Integer> nodeR = new Node<>(70, nodeRL, nodeRR);
+        Node<Integer> nodeLR = new Node<>(40);
+        Node<Integer> nodeLL = new Node<>(20);
+        Node<Integer> nodeL = new Node<>(30, nodeLL, nodeLR);
+        Node<Integer> root = new Node<>(50, nodeL, nodeR);
+
+        BstGames bstGames = new BstGames();
+        Node<Integer> result = bstGames.findLCA(root, 20, 40);
+        Assert.assertEquals(30, result.getValue().intValue());
+    }
+
+
+    @Test
+    public void testLca2() {
+        Node<Integer> nodeRR = new Node<>(80);
+        Node<Integer> nodeRL = new Node<>(60);
+        Node<Integer> nodeR = new Node<>(70, nodeRL, nodeRR);
+        Node<Integer> nodeLR = new Node<>(40);
+        Node<Integer> nodeLL = new Node<>(20);
+        Node<Integer> nodeL = new Node<>(30, nodeLL, nodeLR);
+        Node<Integer> root = new Node<>(50, nodeL, nodeR);
+
+        BstGames bstGames = new BstGames();
+        Node<Integer> result = bstGames.findLCA(root, 40, 20);
+        Assert.assertEquals(30, result.getValue().intValue());
+    }
+
+
+    @Test
+    public void testLca3() {
+        Node<Integer> nodeRR = new Node<>(80);
+        Node<Integer> nodeRL = new Node<>(60);
+        Node<Integer> nodeR = new Node<>(70, nodeRL, nodeRR);
+        Node<Integer> nodeLR = new Node<>(40);
+        Node<Integer> nodeLL = new Node<>(20);
+        Node<Integer> nodeL = new Node<>(30, nodeLL, nodeLR);
+        Node<Integer> root = new Node<>(50, nodeL, nodeR);
+
+        BstGames bstGames = new BstGames();
+        Node<Integer> result = bstGames.findLCA(root, 20, 70);
+        Assert.assertEquals(50, result.getValue().intValue());
+    }
+
+
+    @Test
+    public void testLca4() {
+        Node<Integer> nodeRR = new Node<>(80);
+        Node<Integer> nodeRL = new Node<>(60);
+        Node<Integer> nodeR = new Node<>(70, nodeRL, nodeRR);
+        Node<Integer> nodeLR = new Node<>(40);
+        Node<Integer> nodeLL = new Node<>(20);
+        Node<Integer> nodeL = new Node<>(30, nodeLL, nodeLR);
+        Node<Integer> root = new Node<>(50, nodeL, nodeR);
+
+        BstGames bstGames = new BstGames();
+        Node<Integer> result = bstGames.findLCA(root, 20, 30);
+        Assert.assertEquals(30, result.getValue().intValue());
     }
 }

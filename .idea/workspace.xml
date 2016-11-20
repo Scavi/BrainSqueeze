@@ -2,9 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01b62bce-6598-46b7-915d-7742f828f185" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/geeks/CountWaysToSpellNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/geeks/CountWaysToSpellNumberTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/cache/LRUCacheNative.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/geometry/CircleIntersection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/MazeRun.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/FieldType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/Maze.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/MazeField.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BFS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/DFS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Circle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Graph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/geometry/CircleIntersectionTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/maze/MazeRunTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BfsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/GraphTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/util/CircleTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/KSetProblem.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/KSetProblem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/UnscrambleWords.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/UnscrambleWords.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dac/AllHigherValues.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dac/AllHigherValues.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/CoinMachine.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/CoinMachine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/WaterGlassTower.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/WaterGlassTower.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/geeks/CountWaysToSpellNumber.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/geeks/CountWaysToSpellNumber.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/BinaryGames.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/BinaryGames.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/NumberGames.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/NumberGames.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/grid/GemGrid.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/grid/GemGrid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzle.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/search/SearchGames.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/search/SearchGames.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BstGames.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BstGames.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Node.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Node.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Point.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Point.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dp/CoinMachineTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dp/CoinMachineTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BstGamesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BstGamesTest.java" />
     </list>
     <ignored path="BrainSqueeze.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,6 +47,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/BrainSqueeze$MazeRunTest.coverage" NAME="MazeRunTest Coverage Results" MODIFIED="1479486121436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.maze.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/BrainSqueeze$CountWaysToSpellNumberTest.coverage" NAME="CountWaysToSpellNumberTest Coverage Results" MODIFIED="1477177243725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.scavi.brainsqueeze.geeks.*</FILTER>
     </SUITE>
@@ -49,11 +81,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AllHigherValuesTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dac/AllHigherValuesTest.java">
+      <file leaf-file-name="Maze.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/Maze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#8950#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#6772#6773#0" expanded="true" />
+                <element signature="e#6819#6820#0" expanded="true" />
+                <element signature="e#7594#7595#0" expanded="true" />
+                <element signature="e#7649#7650#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MazeField.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/MazeField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#2721#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MazeRunTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/maze/MazeRunTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,31 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AllHigherValues.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dac/AllHigherValues.java">
+      <file leaf-file-name="MazeRun.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/MazeRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="45" column="62" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountWaysToSpellNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/geeks/CountWaysToSpellNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountWaysToSpellNumberTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/geeks/CountWaysToSpellNumberTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="253">
+              <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,12 +134,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrameworkMethod.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="365">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding>
+                <element signature="e#1731#1732#0" expanded="true" />
+                <element signature="e#1824#1825#0" expanded="true" />
+                <element signature="e#1849#1850#0" expanded="true" />
+                <element signature="e#1896#1897#0" expanded="true" />
+                <element signature="e#1959#1960#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,6 +156,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -562,56 +610,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/braunsqueeze/util/Point.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/Task.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/puzzle/Task.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/puzzle/TaskTest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/a.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/DelMe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/cache/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/cache/LRUCacheNative.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/cache/LRUCacheJava.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/cache/LRUCacheJavaFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/cache/LRUCacheJavaCreator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/UnscrambleWords.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/PermutationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/QueensPuzzle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/QueensPuzzleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/UnscrambleWordTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/CoinMachine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/WaterGlassTower.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/ListGames.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/SingleLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/grid/GemGrid.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Point.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/SingleLinkedNode.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/SingleLinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/KSetProblem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dac/AllHigherValues.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dp/CoinMachineTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dp/WaterGlassTowerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/ListGamesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/grid/GemGridTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BSTGames.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/BstNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/strategy/InorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/strategy/change/ITraversalChange.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/strategy/move/InorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Node.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BstGamesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BstGames.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/NumberGamesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/NumberGames.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/WaterGlassTower.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/geeks/CountWaysToSpellNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/BinaryGames.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/BinaryGamesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/NumberGames.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/grid/GemGrid.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/search/SearchGames.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzle.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/sort/SortGames.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/sort/SortGamesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/sort/SearchGames.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/search/SearchGames.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/search/SearchGamesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/BacktrackingGamesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/UnscrambleWords.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/Permutation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/PermutationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/KSetProblemTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/KSetProblem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/duc/AllHigherValues.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/sort/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/sort/MergeSortTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dac/AllHigherValuesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dac/AllHigherValues.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/geeks/CountWaysToSpellNumberTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/geeks/CountWaysToSpellNumber.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BstGamesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BstGames.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BFS.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BfsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/DFS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/SimpleGraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/SimpleAdjacencyGraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Graph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/geometry/CycleIntersection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Cycle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/util/CycleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/util/CircleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/geometry/CycleIntersectionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/geometry/CircleIntersectionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/geometry/CircleIntersection.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/GraphTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/FieldType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/Maze.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/MazeField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/FieldType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/MazeField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Point.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/MazeRun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/Maze.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/maze/MazeRunTest.java" />
       </list>
     </option>
   </component>
@@ -691,7 +740,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -766,62 +814,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="runners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainSqueeze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle: junit:junit:4.11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="junit-4.11.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="junit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="runners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainSqueeze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle: junit:junit:4.11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="junit-4.11.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="junit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="internal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -887,6 +879,102 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: com.google.guava:guava:19.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guava-19.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: com.google.guava:guava:19.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guava-19.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: com.google.guava:guava:19.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guava-19.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: com.google.guava:guava:19.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guava-19.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1006,6 +1094,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brainsqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="tree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1035,10 +1153,6 @@
               <option name="myItemId" value="brainsqueeze" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1066,7 +1180,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="search" />
+              <option name="myItemId" value="maze" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1084,7 +1198,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1096,7 +1210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="puzzle" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1114,7 +1228,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brainsqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1140,7 +1284,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1152,7 +1296,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="grid" />
+              <option name="myItemId" value="maze" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1170,7 +1314,101 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brainsqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brainsqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geometry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brainsqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BrainSqueeze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1200,37 +1438,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brainsqueeze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainSqueeze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainSqueeze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1246,95 +1454,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainSqueeze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainSqueeze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brainsqueeze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainSqueeze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainSqueeze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brainsqueeze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainSqueeze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrainSqueeze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brainsqueeze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1347,19 +1470,19 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.CountWaysToSpellNumberTest">
-    <configuration default="false" name="PermutationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MazeRunTest">
+    <configuration default="false" name="GraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.scavi.brainsqueeze.backtracking.*" />
+          <option name="PATTERN" value="com.scavi.brainsqueeze.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="BrainSqueeze_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.backtracking" />
-      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.backtracking.PermutationTest" />
+      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.tree" />
+      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.tree.GraphTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1374,18 +1497,18 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="KSetProblemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CircleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.scavi.brainsqueeze.backtracking.*" />
+          <option name="PATTERN" value="com.scavi.brainsqueeze.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="BrainSqueeze_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.backtracking" />
-      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.backtracking.KSetProblemTest" />
+      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.util" />
+      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.util.CircleTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1400,18 +1523,18 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CircleIntersectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.scavi.brainsqueeze.sort.*" />
+          <option name="PATTERN" value="com.scavi.brainsqueeze.geometry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="BrainSqueeze_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.sort" />
-      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.sort.MergeSortTest" />
+      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.geometry" />
+      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.geometry.CircleIntersectionTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1426,20 +1549,20 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="AllHigherValuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="com.scavi.brainsqueeze in BrainSqueeze_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.scavi.brainsqueeze.dac.*" />
+          <option name="PATTERN" value="com.scavi.brainsqueeze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="BrainSqueeze_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.dac" />
-      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.dac.AllHigherValuesTest" />
+      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -1452,18 +1575,18 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CountWaysToSpellNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MazeRunTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.scavi.brainsqueeze.geeks.*" />
+          <option name="PATTERN" value="com.scavi.brainsqueeze.maze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="BrainSqueeze_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.geeks" />
-      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.geeks.CountWaysToSpellNumberTest" />
+      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.maze" />
+      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.maze.MazeRunTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1723,19 +1846,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PermutationTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.KSetProblemTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MergeSortTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AllHigherValuesTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CountWaysToSpellNumberTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.GraphTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CircleTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CircleIntersectionTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.com.scavi.brainsqueeze in BrainSqueeze_test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MazeRunTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CountWaysToSpellNumberTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AllHigherValuesTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MergeSortTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.KSetProblemTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PermutationTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MazeRunTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.com.scavi.brainsqueeze in BrainSqueeze_test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CircleIntersectionTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CircleTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GraphTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1753,35 +1876,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountWaysToSpellNumberTest - 2016.10.23 at 00h 52m 42s.xml">
-      <configuration name="CountWaysToSpellNumberTest" configurationId="JUnit" />
+    <history-entry file="MazeRunTest - 2016.11.18 at 17h 24m 46s.xml">
+      <configuration name="MazeRunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountWaysToSpellNumberTest - 2016.10.23 at 00h 53m 53s.xml">
-      <configuration name="CountWaysToSpellNumberTest" configurationId="JUnit" />
+    <history-entry file="MazeRunTest - 2016.11.18 at 17h 25m 58s.xml">
+      <configuration name="MazeRunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountWaysToSpellNumberTest - 2016.10.23 at 00h 55m 14s.xml">
-      <configuration name="CountWaysToSpellNumberTest" configurationId="JUnit" />
+    <history-entry file="MazeRunTest - 2016.11.18 at 17h 29m 41s.xml">
+      <configuration name="MazeRunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountWaysToSpellNumberTest - 2016.10.23 at 00h 56m 05s.xml">
-      <configuration name="CountWaysToSpellNumberTest" configurationId="JUnit" />
+    <history-entry file="MazeRunTest - 2016.11.18 at 17h 38m 38s.xml">
+      <configuration name="MazeRunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountWaysToSpellNumberTest - 2016.10.23 at 00h 57m 36s.xml">
-      <configuration name="CountWaysToSpellNumberTest" configurationId="JUnit" />
+    <history-entry file="MazeRunTest - 2016.11.18 at 17h 39m 35s.xml">
+      <configuration name="MazeRunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountWaysToSpellNumberTest - 2016.10.23 at 00h 57m 38s.xml">
-      <configuration name="CountWaysToSpellNumberTest" configurationId="JUnit" />
+    <history-entry file="MazeRunTest - 2016.11.18 at 17h 40m 42s.xml">
+      <configuration name="MazeRunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountWaysToSpellNumberTest - 2016.10.23 at 00h 59m 38s.xml">
-      <configuration name="CountWaysToSpellNumberTest" configurationId="JUnit" />
+    <history-entry file="MazeRunTest - 2016.11.18 at 17h 44m 27s.xml">
+      <configuration name="MazeRunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountWaysToSpellNumberTest - 2016.10.23 at 01h 00m 44s.xml">
-      <configuration name="CountWaysToSpellNumberTest" configurationId="JUnit" />
+    <history-entry file="MazeRunTest - 2016.11.18 at 17h 45m 14s.xml">
+      <configuration name="MazeRunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountWaysToSpellNumberTest - 2016.10.23 at 01h 01m 22s.xml">
-      <configuration name="CountWaysToSpellNumberTest" configurationId="JUnit" />
+    <history-entry file="MazeRunTest - 2016.11.18 at 17h 50m 08s.xml">
+      <configuration name="MazeRunTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountWaysToSpellNumberTest - 2016.10.23 at 01h 01m 53s.xml">
-      <configuration name="CountWaysToSpellNumberTest" configurationId="JUnit" />
+    <history-entry file="MazeRunTest - 2016.11.18 at 17h 50m 50s.xml">
+      <configuration name="MazeRunTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1795,33 +1918,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283186" sideWeight="0.49574015" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2938053" sideWeight="0.48296058" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283186" sideWeight="0.49361023" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2938053" sideWeight="0.47870076" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44513273" sideWeight="0.29552716" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44513273" sideWeight="0.3088392" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32654867" sideWeight="0.4765708" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32654867" sideWeight="0.47231096" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920355" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1517572" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1517572" sideWeight="0.5045992" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920355" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33005893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.4954008" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44513273" sideWeight="0.70447284" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44513273" sideWeight="0.6911608" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1847,7 +1970,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/grid/GemGrid.java</url>
-          <line>50</line>
+          <line>47</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -1883,19 +2006,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/search/SearchGames.java</url>
-          <line>86</line>
+          <line>87</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/Permutation.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/KSetProblem.java</url>
-          <line>60</line>
+          <line>58</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
@@ -1911,8 +2028,38 @@
           <properties />
           <option name="timeStamp" value="61" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/QueensPuzzleTest.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BfsTest.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/GraphTest.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/GraphTest.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/geometry/CircleIntersectionTest.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="62" />
+      <option name="time" value="142" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1921,131 +2068,52 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzle.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dp/WaterGlassTowerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="71" column="54" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#3711#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/BinaryGamesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/ListGamesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#2203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/BinaryGames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1586#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/puzzle/TaskTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/puzzle/Task.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/a.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/a.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/DelMe.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/CoinMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/WaterGlassTower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/ListGames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/SingleLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/grid/GemGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#2564#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/SingleLinkedNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dp/CoinMachineTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="-130">
+          <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/SingleLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="120">
           <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/grid/GemGridTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="20">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
           <folding>
-            <element signature="e#0#1729#0" expanded="true" />
-            <element signature="imports" expanded="false" />
+            <element signature="e#0#1729#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/NumberGamesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#3116#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2057,203 +2125,354 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/strategy/change/ITraversalChange.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/strategy/move/InorderTraversal.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/UnscrambleWordTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dp/WaterGlassTowerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BstGamesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+        <state relative-caret-position="810">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
+            <element signature="e#1678#1679#0" expanded="false" />
+            <element signature="e#1719#1720#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BstGames.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/cache/LRUCacheJavaCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="390">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/NumberGamesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/CoinMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#3116#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="307">
+          <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/KSetProblemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dac/AllHigherValuesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dac/AllHigherValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/WaterGlassTower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/geeks/CountWaysToSpellNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/NumberGames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="121">
+          <caret line="85" column="52" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
           <folding>
-            <element signature="e#3421#3422#0" expanded="false" />
-            <element signature="e#3467#3468#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/BinaryGamesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/grid/GemGrid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        <state relative-caret-position="301">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <element signature="e#0#1739#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/BinaryGames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1586#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="71" column="54" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="54" />
+        <state relative-caret-position="330">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
           <folding>
-            <element signature="e#0#3711#0" expanded="false" />
+            <element signature="e#0#3663#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/ListGamesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dp/CoinMachineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        <state relative-caret-position="555">
+          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/search/SearchGames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="30" column="86" selection-start-line="30" selection-start-column="86" selection-end-line="30" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="68" column="45" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="45" />
           <folding>
+            <element signature="e#0#2203#0" expanded="false" />
             <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/search/SearchGamesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/PermutationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="810">
+          <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#3352#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/backtracking/KSetProblemTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/QueensPuzzle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="89" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
+        <state relative-caret-position="345">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#2939#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/KSetProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        <state relative-caret-position="555">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#3166#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BfsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/puzzle/ArrayPuzzleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+        <state relative-caret-position="540">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
-            <element signature="e#0#2203#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/src.zip!/java/util/DualPivotQuicksort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/DFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="1002" column="16" selection-start-line="1002" selection-start-column="16" selection-end-line="1002" selection-end-column="16" />
+        <state relative-caret-position="150">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/src.zip!/java/util/Set.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="223" column="30" selection-start-line="223" selection-start-column="30" selection-end-line="223" selection-end-column="30" />
+        <state relative-caret-position="-11">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="359" column="25" selection-start-line="359" selection-start-column="25" selection-end-line="359" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="142" column="11" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="11" />
           <folding>
-            <element signature="e#8781#8782#0" expanded="false" />
-            <element signature="e#8852#8853#0" expanded="false" />
+            <element signature="e#5293#5294#0" expanded="false" />
+            <element signature="e#5345#5346#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/search/SearchGames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="227">
+          <caret line="246" column="42" selection-start-line="246" selection-start-column="23" selection-end-line="246" selection-end-column="42" />
           <folding>
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#2094#2124#0" expanded="true" />
+            <element signature="e#19296#19297#0" expanded="false" />
+            <element signature="e#19379#19380#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BstGamesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="67" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BstGames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/backtracking/UnscrambleWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/util/CircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/SingleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/BinaryGames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/geometry/CircleIntersection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/GraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="134" column="39" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#2346#2347#0" expanded="true" />
+            <element signature="e#2380#2381#0" expanded="true" />
+            <element signature="e#2466#2467#0" expanded="true" />
+            <element signature="e#2496#2497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/FieldType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#1272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/geometry/CircleIntersectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="197" column="50" selection-start-line="197" selection-start-column="50" selection-end-line="197" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#11579#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/91a4d115400e904f22b03a78deb355e9ea803cd4/guava-19.0-sources.jar!/com/google/common/base/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="216" column="5" selection-start-line="216" selection-start-column="5" selection-end-line="216" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2266,54 +2485,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/sort/MergeSortTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="365">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#1731#1732#0" expanded="true" />
+            <element signature="e#1824#1825#0" expanded="true" />
+            <element signature="e#1849#1850#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
+            <element signature="e#1959#1960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/MazeField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/util/Maze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#8950#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#6772#6773#0" expanded="true" />
+            <element signature="e#6819#6820#0" expanded="true" />
+            <element signature="e#7594#7595#0" expanded="true" />
+            <element signature="e#7649#7650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/MazeRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="59" column="15" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dac/AllHigherValues.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/maze/MazeRunTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="45" column="62" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dac/AllHigherValuesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/geeks/CountWaysToSpellNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/geeks/CountWaysToSpellNumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="470">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

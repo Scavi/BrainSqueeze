@@ -15,6 +15,8 @@
 package com.scavi.brainsqueeze.dp;
 
 
+import com.google.common.base.Preconditions;
+
 /**
  * @author Michael Heymel
  * @since 21/09/16
@@ -46,14 +48,8 @@ public class WaterGlassTower {
      * @return the amount of water in the glass at the given x / y position
      */
     public float findWaterAmount(final float waterAmount, final int xPos, final int yPos) {
-
-        if (xPos <= 0 || yPos <= 0) {
-            throw new IllegalArgumentException(
-                    "Illegal positions! Positions must be greater than 0.");
-        }
-        if (xPos > yPos) {
-            throw new IllegalArgumentException("Illegal column definition!");
-        }
+        Preconditions.checkArgument(xPos >= 0 && yPos >= 0,
+                "Illegal positions! Positions must be greater than 0.");
         //int glassAmount = BigInteger.valueOf(yPos - 1).pow(2).intValue();
         int glassAmount = determineCacheSize(yPos);
         float result = 0;

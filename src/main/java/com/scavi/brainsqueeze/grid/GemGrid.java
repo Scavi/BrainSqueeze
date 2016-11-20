@@ -14,6 +14,7 @@
 
 package com.scavi.brainsqueeze.grid;
 
+import com.google.common.base.Preconditions;
 import com.scavi.brainsqueeze.util.Point;
 
 /**
@@ -38,12 +39,8 @@ public class GemGrid {
      */
     public int determineMinimumMoves(Point positionPlayer1, Point positionPlayer2,
             final Point... gems) {
-
-        if (positionPlayer1 == null) {
-            throw new IllegalArgumentException("Player 1 is null");
-        } else if (positionPlayer2 == null) {
-            throw new IllegalArgumentException("Player 2 is null");
-        }
+        Preconditions.checkNotNull(positionPlayer1, "The position of player 1 is null");
+        Preconditions.checkNotNull(positionPlayer2, "The position of player 2 is null");
 
         int moves = 0;
         if (gems != null) {

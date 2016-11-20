@@ -78,7 +78,7 @@ public class Node<T extends Comparable<T>> {
             return false;
         } else if (node1 == null && node2 != null) {
             return false;
-        } else if (node1 == null || node2 == null) {
+        } else if (node1 == null) {
             return true;
         }
 

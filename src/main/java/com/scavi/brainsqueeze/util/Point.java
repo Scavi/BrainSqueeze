@@ -67,4 +67,10 @@ public class Point {
     public int getY() {
         return _y;
     }
+
+
+    @Override
+    public String toString() {
+        return String.format("[ x=%s | y=%s ]", _x, _y);
+    }
 }

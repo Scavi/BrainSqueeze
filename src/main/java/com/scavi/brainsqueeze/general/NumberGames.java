@@ -14,6 +14,8 @@
 
 package com.scavi.brainsqueeze.general;
 
+import com.google.common.base.Preconditions;
+
 import java.math.BigInteger;
 
 /**
@@ -41,9 +43,8 @@ public class NumberGames {
      * @return an array with the converted number
      */
     public int[] convertPositiveNumberToDigits(final int number) {
-        if (number < 0) {
-            throw new IllegalArgumentException("Only positive numbers supported");
-        } else if (number == 0) {
+        Preconditions.checkArgument(number >= 0, "Only positive numbers supported");
+        if (number == 0) {
             return new int[]{0};
         }
 
@@ -82,9 +83,9 @@ public class NumberGames {
      * @return the output number
      */
     public int nextHigherPalindrome(int palindrome) {
-        if (palindrome < 0) {
-            throw new IllegalArgumentException("Illegal value! Only positive numbers allowed!");
-        } else if (palindrome < 10) {
+        Preconditions.checkArgument(palindrome >= 0,
+                "Illegal value! Only positive numbers allowed!");
+        if (palindrome < 10) {
             return 11;
         }
         palindrome++;

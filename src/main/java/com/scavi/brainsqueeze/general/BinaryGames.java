@@ -14,6 +14,8 @@
 
 package com.scavi.brainsqueeze.general;
 
+import com.google.common.base.Preconditions;
+
 /**
  * @author Michael Heymel
  * @since 25/09/16
@@ -32,10 +34,8 @@ public class BinaryGames {
      * @return the output
      */
     public int findMissingNumber(final int[] input) {
-        if (input == null || input.length < 2) {
-            throw new IllegalArgumentException(
-                    "Illegal number input! At least 2 entries must exist!");
-        }
+        Preconditions.checkArgument(input != null && input.length >= 2,
+                "Illegal number input! At least 2 entries must exist!");
         int numberCount = input.length;
 
         int tmp1 = input[0];

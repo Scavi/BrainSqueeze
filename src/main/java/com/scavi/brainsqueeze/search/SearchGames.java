@@ -14,6 +14,8 @@
 
 package com.scavi.brainsqueeze.search;
 
+import com.google.common.base.Preconditions;
+
 /**
  * @author Michael Heymel
  * @since 26/09/16
@@ -26,9 +28,8 @@ public class SearchGames {
      * @param input the input to find the median
      */
     public int determineMedian(final int[] input) {
-        if (input == null) {
-            throw new IllegalArgumentException("Illegal input to find the medium: <null>");
-        } else if (input.length == 1) {
+        Preconditions.checkNotNull(input, "Illegal input to find the medium: <null>");
+        if (input.length == 1) {
             return input[0];
         }
         determineMedian(input, 0, input.length - 1);
