@@ -14,6 +14,8 @@
 
 package com.scavi.brainsqueeze.dac;
 
+import com.google.common.base.Preconditions;
+
 /**
  * @author Michael Heymel
  * @since 07/10/16
@@ -33,9 +35,8 @@ public class AllHigherValues {
      * @return the calculated output
      */
     public int[] findHigher(final int[] input) {
-        if (input == null || input.length < 1) {
-            throw new IllegalArgumentException("No input values are given!");
-        }
+        Preconditions.checkArgument(input != null && input.length > 0,
+                "No input values are given!");
         int[] output = new int[input.length];
         findHigher(input, output, 0, input.length - 1);
         return output;
