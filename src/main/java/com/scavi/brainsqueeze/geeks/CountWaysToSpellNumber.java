@@ -14,6 +14,8 @@
 
 package com.scavi.brainsqueeze.geeks;
 
+import com.google.common.base.Preconditions;
+
 /**
  * Question: http://www.geeksforgeeks.org/count-ways-spell-number-repeated-digits/
  * <p>
@@ -53,9 +55,7 @@ public class CountWaysToSpellNumber {
      * @return the amount of ways to count the number
      */
     public int count(final String number) {
-        if (number == null) {
-            throw new IllegalArgumentException("Illegal input: <null>");
-        }
+        Preconditions.checkNotNull(number, "Illegal input: <null>");
         int equalEntryCount = 1;
         int waysToSpell = 0;
         for (int i = 1; i < number.length(); ++i) {
