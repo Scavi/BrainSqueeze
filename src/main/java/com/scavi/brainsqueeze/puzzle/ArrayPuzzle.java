@@ -14,6 +14,8 @@
 
 package com.scavi.brainsqueeze.puzzle;
 
+import com.google.common.base.Preconditions;
+
 /**
  * @author Michael Heymel
  * @since 15/09/16
@@ -29,13 +31,9 @@ public class ArrayPuzzle {
      * @return the minimum size
      */
     public int findMinimumOfSubarray(final int[] input, final int subarraySize) {
-
-        if (input == null) {
-            throw new IllegalArgumentException("Illegal input array: <null>");
-        }
-        if (input.length < subarraySize) {
-            throw new IllegalArgumentException("Subarray size bigger then input array!");
-        }
+        Preconditions.checkNotNull(input);
+        Preconditions.checkArgument(input.length >= subarraySize,
+                "The size of the subarray is higher than input array!");
 
         int min = 0;
         for (int i = 0; i < subarraySize; ++i) {
@@ -70,9 +68,8 @@ public class ArrayPuzzle {
      * @return the input array with the values
      */
     public int[] determineArrayProductExceptCurrentPos(final int[] input) {
-        if (input == null || input.length < 2) {
-            throw new IllegalArgumentException("Input array needs at least the size of 2!");
-        }
+        Preconditions.checkArgument(input != null && input.length >= 2,
+                "The input array needs at least the size of 2!");
 
         int inputLength = input.length;
         int[] leftToRight = new int[inputLength];
