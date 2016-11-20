@@ -64,8 +64,7 @@ public class UnscrambleWords {
     public List<String> unscramble(final String input) {
         Preconditions.checkNotNull(input, "Unsupported input: <null>");
         List<String> words = new LinkedList<>();
-        int from = 0;
-        for (int to = 1; to <= input.length(); ++to) {
+        for (int from = 0, to = 1; to <= input.length(); ++to) {
             String part = input.substring(from, to);
             String foundWord = unscramble(part.toCharArray(), part.length());
             if (foundWord != null) {
