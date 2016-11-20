@@ -24,6 +24,35 @@ public class BstGames {
 
 
     /**
+     * Given the root of a Binary Tree along with two integer values. Assume that both integers are
+     * present in the tree. Find the LCA (Least Common Ancestor) of the two nodes with values of the
+     * given integers. 2 pass solution is easy. You must solve this in a single pass.
+     * <p/>
+     * Information: This is a simple version, assuming that the left side of the bst is greater than
+     * the right side
+     *
+     * @param value1 the value of the first node
+     * @param value2 the value of the second node
+     * @return the LCA of both given values
+     */
+    public Node<Integer> findLCA(final Node<Integer> root, final int value1, final int value2) {
+        if (root == null) {
+            return null;
+        }
+        Node<Integer> result;
+        if (root.getValue() >= value1 && root.getValue() <= value2 ||
+                root.getValue() <= value1 && root.getValue() >= value2) {
+            result = root;
+        } else if (root.getValue() > value1) {
+            result = findLCA(root.getLeft(), value1, value2);
+        } else {
+            result = findLCA(root.getRight(), value1, value2);
+        }
+        return result;
+    }
+
+
+    /**
      * Given a root node representing a BST, modify it so that all greater values are added to every
      * node.
      * <p/>
