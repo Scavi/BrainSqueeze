@@ -52,7 +52,7 @@ public class CoinMachineTest {
     }
 
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test(expected = NullPointerException.class)
     public void test4() {
         CoinMachine coinPossibilities = new CoinMachine();
         int[] coins = null;
