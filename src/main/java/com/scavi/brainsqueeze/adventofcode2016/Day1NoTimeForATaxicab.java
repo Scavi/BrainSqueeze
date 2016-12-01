@@ -83,11 +83,12 @@ class Day1NoTimeForATaxicab {
     private int[] findEasterBunnyHeadquarter(final Move... movementSequence) {
         int xPos = 0;
         int yPos = 0;
-        Heading heading = null;
+        Heading heading = North;
 
         Set<Point> positionCache = new HashSet<>();
         int firstTwiceVisited = POS_LOOKUP;
-        // iterate through the movement sequene
+        // iterate through the movement sequence and determine the shortest distance and
+        // the position that was visited twice first
         for (Move nextMove : movementSequence) {
             heading = determineHeading(heading, nextMove);
             switch (heading) {
@@ -129,7 +130,7 @@ class Day1NoTimeForATaxicab {
                     break;
             }
         }
-        return new int[]{Math.abs(xPos) + Math.abs(yPos), firstTwiceVisited};
+        return new int[]{Math.abs(xPos + yPos), firstTwiceVisited};
     }
 
 
@@ -155,7 +156,7 @@ class Day1NoTimeForATaxicab {
                 }
                 Point newPoint = new Point(xPos, yPos);
                 if (cache.contains(newPoint)) {
-                    visitedPos = Math.abs(xPos) + Math.abs(yPos);
+                    visitedPos = Math.abs(xPos + yPos);
                 } else {
                     cache.add(newPoint);
                 }
@@ -206,26 +207,21 @@ class Day1NoTimeForATaxicab {
      */
     private Heading determineHeading(final Heading currentHeading, final Move nextMove) {
         Heading newHeading;
-        if (currentHeading == null) {
-            newHeading = nextMove.getDirection() == R ? East : West;
-        } else {
-            switch (currentHeading) {
-                case North:
-                    newHeading = nextMove.getDirection() == R ? East : West;
-                    break;
-                case East:
-                    newHeading = nextMove.getDirection() == R ? South : North;
-                    break;
-                case South:
-                    newHeading = nextMove.getDirection() == R ? West : East;
-                    break;
-                case West:
-                    newHeading = nextMove.getDirection() == R ? North : South;
-                    break;
-                default:
-                    throw new IllegalArgumentException(
-                            "Unsupported heading type: " + currentHeading);
-            }
+        switch (currentHeading) {
+            case North:
+                newHeading = nextMove.getDirection() == R ? East : West;
+                break;
+            case East:
+                newHeading = nextMove.getDirection() == R ? South : North;
+                break;
+            case South:
+                newHeading = nextMove.getDirection() == R ? West : East;
+                break;
+            case West:
+                newHeading = nextMove.getDirection() == R ? North : South;
+                break;
+            default:
+                throw new IllegalArgumentException("Unsupported heading type: " + currentHeading);
         }
         return newHeading;
     }
