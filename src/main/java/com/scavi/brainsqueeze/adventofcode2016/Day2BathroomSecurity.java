@@ -95,31 +95,28 @@ public class Day2BathroomSecurity {
      * </p>
      * Important: Due to the first question, the position is 1 based, not 0!
      *
-     * @param position           the current position
-     * @param instruction        the instruction
-     * @param instructionSetSize the size of the instruction size. The instruction size represents
-     *                           the width of the and height of the possible instructions
-     * @param maxSize            the maximal size of the field
+     * @param pos         the current position
+     * @param instruction the instruction
+     * @param setSize     the size of the instruction size. The instruction size represents the
+     *                    width of the and height of the possible instructions
+     * @param maxSize     the maximal size of the field
      * @return the new position
      */
-    private int followInstruction(final int position, final Instruction instruction,
-            final int instructionSetSize, final int maxSize) {
+    private int followInstruction(final int pos, final Instruction instruction, final int setSize,
+            final int maxSize) {
         int newPosition = 0;
         switch (instruction) {
             case U:
-                newPosition = position - instructionSetSize > 0 ? position - instructionSetSize :
-                        position;
+                newPosition = pos - setSize > 0 ? pos - setSize : pos;
                 break;
             case D:
-                newPosition =
-                        position + instructionSetSize <= maxSize ? position + instructionSetSize :
-                                position;
+                newPosition = pos + setSize <= maxSize ? pos + setSize : pos;
                 break;
             case L:
-                newPosition = (position % instructionSetSize) != 1 ? position - 1 : position;
+                newPosition = (pos % setSize) != 1 ? pos - 1 : pos;
                 break;
             case R:
-                newPosition = (position % instructionSetSize) != 0 ? position + 1 : position;
+                newPosition = (pos % setSize) != 0 ? pos + 1 : pos;
                 break;
         }
         return newPosition;
@@ -147,10 +144,13 @@ public class Day2BathroomSecurity {
     }
 
 
+    /**
+     * Determines the second question (determine the code withthe cross)
+     *
+     * @param instructions the instructions
+     * @return the code
+     */
     public String determineCrossCode(final List<List<Instruction>> instructions) {
-        Preconditions.checkNotNull(instructions, "Illegal instruction set: <null>");
-        Preconditions.checkArgument(instructions.size() > 0, "Illegal instruction set: 0");
-
         Preconditions.checkNotNull(instructions, "Illegal instruction set: <null>");
         Preconditions.checkArgument(instructions.size() > 0, "Illegal instruction set: 0");
         int position = CROSS_START_POS; // start pos
@@ -174,7 +174,7 @@ public class Day2BathroomSecurity {
 
 
         /**
-         * A helper method to create all instruction based on the given input string array. T
+         * A helper method to create all instruction based on the given input string array. 
          *
          * @param inputInstructions the character within a string represents an instruction. The
          *                          string represents the instruction set and the array all
