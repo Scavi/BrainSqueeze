@@ -14,6 +14,8 @@
 
 package com.scavi.brainsqueeze.util;
 
+import com.google.common.base.Objects;
+
 /**
  * @author Michael Heymel
  * @since 23/09/16
@@ -50,6 +52,34 @@ public class Point {
         int disX = Math.abs(_x - otherPoint.getX());
         int disY = Math.abs(_y - otherPoint.getY());
         return Math.max(disX, disY);
+    }
+
+
+    /**
+     * @return the hashcode
+     */
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(_x, _y);
+    }
+
+
+    /**
+     * The equals method of the class
+     *
+     * @param obj the object to compare
+     * @return true if objects are equal
+     */
+    @Override
+    public boolean equals(final Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        Point toCompare = (Point) obj;
+        return Objects.equal(_x, toCompare.getX()) && Objects.equal(_y, toCompare.getY());
     }
 
 
