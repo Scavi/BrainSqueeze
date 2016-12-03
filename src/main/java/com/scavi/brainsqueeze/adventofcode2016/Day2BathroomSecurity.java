@@ -174,7 +174,7 @@ public class Day2BathroomSecurity {
 
 
         /**
-         * A helper method to create all instruction based on the given input string array. 
+         * A helper method to create all instruction based on the given input string array.
          *
          * @param inputInstructions the character within a string represents an instruction. The
          *                          string represents the instruction set and the array all
