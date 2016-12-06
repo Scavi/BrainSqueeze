@@ -16,8 +16,8 @@ package com.scavi.brainsqueeze.adventofcode2016;
 
 import com.google.common.base.Preconditions;
 import com.google.common.primitives.Chars;
+import com.scavi.brainsqueeze.util.CommonLetters;
 
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -143,7 +143,7 @@ public class Day4SecurityThroughObscurity {
         int cnt = 0;
         boolean isValid = true;
         while (mostCommonLetters.size() > 0 && cnt++ < 5 && isValid) {
-            isValid = checkSum.contains(mostCommonLetters.poll()._char);
+            isValid = checkSum.contains(mostCommonLetters.poll().getChar());
         }
         return isValid;
     }
@@ -183,13 +183,7 @@ public class Day4SecurityThroughObscurity {
                 }
             }
         }
-        PriorityQueue<CommonLetters> mostCommonLetters =
-                new PriorityQueue<>(input.length(), Collections.reverseOrder());
-        // use a max heap to store the characters with the highest occurrance first
-        for (Map.Entry<Character, Integer> entry : countCache.entrySet()) {
-            mostCommonLetters.offer(new CommonLetters(entry.getValue(), entry.getKey()));
-        }
-        return mostCommonLetters;
+        return CommonLetters.from(input.length(), countCache);
     }
 
 
@@ -204,46 +198,5 @@ public class Day4SecurityThroughObscurity {
         Preconditions.checkArgument(encryptionTextMatcher.find(),
                 String.format("Missing encryption text in %s", input));
         return encryptionTextMatcher.group();
-    }
-
-
-    /**
-     * A helper class to determine the most common letter. The helper class is used for the heap
-     */
-    private class CommonLetters implements Comparable<CommonLetters> {
-        private int _count;
-        private char _char;
-
-
-        /**
-         * Constructor
-         *
-         * @param count the count of the character
-         * @param aChar the character
-         */
-        CommonLetters(final int count, final char aChar) {
-            _count = count;
-            _char = aChar;
-        }
-
-
-        /**
-         * Compares the given object first by the count and in case the count is equal, compares it
-         * by the character
-         *
-         * @param toCompare the object to compare
-         * @return If the counter is higher, return -1, if it is lower, 1, if it is equal, compare
-         * it by the char
-         */
-        @Override
-        public int compareTo(final CommonLetters toCompare) {
-            if (_count < toCompare._count) {
-                return -1;
-            } else if (_count > toCompare._count) {
-                return 1;
-            } else {
-                return _char > toCompare._char ? -1 : 1;
-            }
-        }
     }
 }
