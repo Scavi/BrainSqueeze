@@ -23,6 +23,8 @@ import java.util.List;
 
 
 /**
+ * Solves both questions http://adventofcode.com/2016/day/7
+ *
  * @author Michael Heymel
  * @since 07/12/16
  */
@@ -112,13 +114,11 @@ public class Day7InternetProtocolVersion {
 
 
         private boolean lookup(final String part, final List<String> possibleBabData) {
-            boolean wasFound = false;
             boolean isValid = false;
             String match;
             for (int i = 0; i < part.length() - 2 && !isValid; ++i) {
                 match = isAba(part, i) ? part.substring(i, i + 3) : null;
                 if (match != null) {
-                    wasFound = true;
                     for (int j = 0; j < possibleBabData.size() && !isValid; ++j) {
                         String possibleBab = possibleBabData.get(j);
                         for (int k = 0; k < possibleBab.length() - 2 && !isValid; ++k) {
@@ -127,11 +127,6 @@ public class Day7InternetProtocolVersion {
                     }
                 }
             }
-
-            if (wasFound && !isValid) {
-                System.out.print("");
-            }
-
             return isValid;
         }
 
