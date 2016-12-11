@@ -20,6 +20,8 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
+ * Solves both questions http://adventofcode.com/2016/day/5
+ *
  * @author Michael Heymel
  * @since 06/12/16
  */
