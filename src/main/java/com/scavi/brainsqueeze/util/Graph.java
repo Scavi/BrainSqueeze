@@ -124,13 +124,13 @@ public class Graph<T> {
      * Validates if the given node content exists in the graph by using breadth-first-search. The
      * algorithm runs in O(n + m)
      *
-     * @param lookupValue the value too lookup
+     * @param lookupValue the value too lookupOutside
      * @return <code>true</code> the value exists in the graph
      * <p/>
      * <code>false</code> the value doesn't exist in the graph
      */
     public boolean isNodeExistingBfs(final T lookupValue) {
-        Preconditions.checkNotNull(lookupValue, "Illegal lookup: <null>");
+        Preconditions.checkNotNull(lookupValue, "Illegal lookupOutside: <null>");
         // reset the search from previous searches
         reinitializeNodeStates();
         return bfs(lookupValue);
@@ -157,7 +157,7 @@ public class Graph<T> {
         while (graphIterator.hasNext() && !wasFound) {
             GraphNode tmp = graphIterator.next().getValue();
 
-            // only add undiscovered nodes for the further lookup
+            // only add undiscovered nodes for the further lookupOutside
             if (tmp.getNodeState() == LookupState.Undiscovered) {
                 bfsQueue.add(tmp.setNodeState(LookupState.Discovered));
             }
@@ -194,7 +194,7 @@ public class Graph<T> {
      * <code>false</code> the value doesn't exist in the graph
      */
     public boolean isNodeExistingDfs(final T lookupValue) {
-        Preconditions.checkNotNull(lookupValue, "Illegal lookup: <null>");
+        Preconditions.checkNotNull(lookupValue, "Illegal lookupOutside: <null>");
         // reset the search from previous searches
         reinitializeNodeStates();
 
