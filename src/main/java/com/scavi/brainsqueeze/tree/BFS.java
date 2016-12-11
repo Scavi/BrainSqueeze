@@ -27,12 +27,12 @@ public class BFS {
 
 
     /**
-     * Does a breadth-first-search of the given lookup value through all nodes of the root node
+     * Does a breadth-first-search of the given lookupOutside value through all nodes of the root node
      *
      * @param root        the root node
-     * @param lookupValue the lookup value
-     * @return the first node containing the value that is equal to the given lookup value </p>
-     * <code>null</code>, if root or lookup value are <code>null</code> or if no node exists to the
+     * @param lookupValue the lookupOutside value
+     * @return the first node containing the value that is equal to the given lookupOutside value </p>
+     * <code>null</code>, if root or lookupOutside value are <code>null</code> or if no node exists to the
      * given value
      */
     public <T extends Comparable<T>> Node<T> search(final Node<T> root, final T lookupValue) {
