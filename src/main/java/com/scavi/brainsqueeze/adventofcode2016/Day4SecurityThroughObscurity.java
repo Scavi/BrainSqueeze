@@ -61,16 +61,16 @@ public class Day4SecurityThroughObscurity {
 
 
     /**
-     * Decrypts all valid encrypted names and looks if the given name contains the lookup name
+     * Decrypts all valid encrypted names and looks if the given name contains the lookupOutside name
      *
      * @param input      the input containing all encrypted names, checksum and ids. Some of input
      *                   are decoys
-     * @param lookupName the lookup name
+     * @param lookupName the lookupOutside name
      * @return the id of the value that was found
      */
     public int sectorIdLookup(final String[] input, final String lookupName) {
         Preconditions.checkNotNull(input, "Illegal encrypted names: <null>");
-        Preconditions.checkNotNull(lookupName, "Illegal lookup name: <null>");
+        Preconditions.checkNotNull(lookupName, "Illegal lookupOutside name: <null>");
         int id = -1;
         for (String name : input) {
             PriorityQueue<CommonLetters> mostCommonLetters = determineMostCommonLetters(name);
@@ -88,7 +88,7 @@ public class Day4SecurityThroughObscurity {
 
 
     /**
-     * Determines the id from the given name using the lookup pattern. In case no idea exists, an
+     * Determines the id from the given name using the lookupOutside pattern. In case no idea exists, an
      * exception will be thrown
      *
      * @param encryptedName the current encrypted name
