@@ -22,6 +22,8 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 /**
+ * Solves both questions http://adventofcode.com/2016/day/6
+ *
  * @author Michael Heymel
  * @since 06/12/16
  */
