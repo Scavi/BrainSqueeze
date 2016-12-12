@@ -118,12 +118,6 @@ public class Day10BalanceBots {
     private Bot processInstruction(final Map<Integer, Bot> botArmy, final String instruction,
             final int lookup1, final int lookup2, final boolean isBotExecution) {
         Bot lookupBot = null;
-
-
-        if (instruction.contains("output")) {
-            System.out.println();
-        }
-
         // do something with a bot
         if (instruction.startsWith("bot")) {
             Matcher botSourceMatcher = BOT_SOURCE_PATTERN.matcher(instruction);
