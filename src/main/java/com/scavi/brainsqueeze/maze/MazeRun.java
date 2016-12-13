@@ -27,6 +27,7 @@ import java.util.Queue;
  */
 public class MazeRun {
     private final Maze _maze;
+    private int _movableFieldsInRange;
 
 
     /**
@@ -49,6 +50,35 @@ public class MazeRun {
      * @return the number of steps to find the way from start to end
      */
     public int findWay(final Point startPoint, final Point endPoint) {
+        return findWay(startPoint, endPoint, Integer.MAX_VALUE);
+    }
+
+
+    /**
+     * Find all unique steps in the given range
+     *
+     * @param startPoint the start point
+     * @param endPoint   the end point
+     * @param maxRange   the max distance / range from the start point
+     * @return
+     */
+    public int findStepsInRange(final Point startPoint, final Point endPoint, final int maxRange) {
+        _movableFieldsInRange = 0;
+        findWay(startPoint, endPoint, maxRange);
+        return _movableFieldsInRange;
+    }
+
+
+    /**
+     * Find the shortest way from the starting point to the given end point using O (n + m) time on
+     * the given matrix.
+     *
+     * @param startPoint the start point
+     * @param endPoint   the end point
+     * @param maxRange   the max distance / range from the start point
+     * @return the number of steps to find the way from start to end
+     */
+    private int findWay(final Point startPoint, final Point endPoint, final int maxRange) {
         Preconditions.checkNotNull(startPoint, "Illegal start position: <null >");
         Preconditions.checkNotNull(endPoint, "Illegal end position: <null >");
         validatePosition(startPoint);
@@ -63,6 +93,11 @@ public class MazeRun {
         steps.add(_maze.positionOfPoint(startPoint));
         while (steps.size() > 0) {
             int currentPos = steps.poll();
+
+            if (_maze.stepsRequired(currentPos) < maxRange) {
+                _movableFieldsInRange++;
+            }
+
             if (currentPos == targetPosition) {
                 numberOfSteps = Math.min(numberOfSteps, _maze.stepsRequired(currentPos));
             } else {
