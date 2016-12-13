@@ -40,7 +40,17 @@ public class Day13TwistedLittleCubiclesTest {
         Day13TwistedLittleCubicles twistedLittleCubicles = new Day13TwistedLittleCubicles();
         Point start = new Point(1, 1);
         Point end = new Point(31, 39);
-        int shortestDistance = twistedLittleCubicles.shortestPath(50, 1364, start, end);
-        Assert.assertEquals(68, shortestDistance);
+        int shortestDistance = twistedLittleCubicles.shortestPath(41, 1364, start, end);
+        Assert.assertEquals(86, shortestDistance);
+    }
+
+
+    @Test
+    public void testQuestion2() {
+        Day13TwistedLittleCubicles twistedLittleCubicles = new Day13TwistedLittleCubicles();
+        Point start = new Point(1, 1);
+        Point end = new Point(61, 63);
+        int steps = twistedLittleCubicles.determineSteps(100, 1364, start, end, 50);
+        Assert.assertEquals(127, steps);
     }
 }
