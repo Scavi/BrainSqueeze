@@ -261,8 +261,6 @@ public class Day10BalanceBots {
     private Bot processBotInstructions(final Map<Integer, Bot> botArmy, final Bot currentBot,
             final int lookup1, final int lookup2) {
         Bot lookupBot = currentBot.isProcessing(lookup1, lookup2) ? currentBot : null;
-
-
         while (currentBot.instructions().peek() != null) {
             Bot tmp = processInstruction(botArmy,
                     currentBot.instructions().poll(),
