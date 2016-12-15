@@ -15,9 +15,9 @@
 package com.scavi.brainsqueeze.adventofcode2016;
 
 import com.google.common.base.Preconditions;
+import com.scavi.brainsqueeze.util.StringHelper;
 
 import java.io.UnsupportedEncodingException;
-import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
@@ -33,25 +33,39 @@ public class Day14OneTimePad {
     private final int _hashIterations;
 
 
+    /**
+     * Constructor
+     */
     public Day14OneTimePad() throws NoSuchAlgorithmException {
         this(1);
     }
 
 
+    /**
+     * Constructor
+     *
+     * @param hashIterations the amount of iterations to create the md 5 hash
+     */
     public Day14OneTimePad(final int hashIterations) throws NoSuchAlgorithmException {
         _hashIterations = hashIterations;
         _md5 = MessageDigest.getInstance("MD5");
     }
 
 
+    /**
+     * Find the position which contains the specified number of keys. E.g. if it is 64, find the
+     * position of the 64 key.
+     *
+     * @param salt     the salt
+     * @param noOfKeys the number of keys
+     * @return the position of the specified number of key.
+     */
     public int findKeys(final String salt, final int noOfKeys) throws UnsupportedEncodingException {
         Preconditions.checkNotNull(salt, "Illegal salt: <null>");
-
         List<String> keys = new ArrayList<>(noOfKeys);
         // cache for the already determined 5 digits cache
         LinkedHashMap<Integer, String> _sequenceCache = new LinkedHashMap<>();
         int cachePos = 0;
-
         // iterates from 0 to max value until 6 keys are found
         int i = 0;
         for (; i < Integer.MAX_VALUE && keys.size() <= noOfKeys; ++i) {
@@ -93,15 +107,29 @@ public class Day14OneTimePad {
     }
 
 
+    /**
+     * Creates a hash string
+     *
+     * @param hashBase the hash base (salt + counter)
+     * @return the created hash
+     */
     private String createHash(String hashBase) throws UnsupportedEncodingException {
         for (int i = 0; i < _hashIterations; ++i) {
             _md5.update(hashBase.getBytes("UTF-8"));
-            hashBase = String.format("%1$032x", new BigInteger(1, _md5.digest()));
+            hashBase = StringHelper.toHexString(_md5.digest());
         }
         return hashBase;
     }
 
 
+    /**
+     * Validate if the given hash contains the sequence of the specified length (e.g. abcaaa
+     * contains 3x 'a')
+     *
+     * @param hash           the hash to validate
+     * @param sequenceLength the length
+     * @return the sequence that was found
+     */
     private String determineSequence(final String hash, final int sequenceLength) {
         if (hash.length() < sequenceLength) {
             return null;
