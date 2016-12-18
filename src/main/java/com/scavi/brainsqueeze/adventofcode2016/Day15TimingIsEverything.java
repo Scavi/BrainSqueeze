@@ -22,6 +22,8 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 /**
+ * Question: http://adventofcode.com/2016/day/15
+ *
  * @author Michael Heymel
  * @since 16/12/16
  */
