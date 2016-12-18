@@ -19,6 +19,8 @@ import com.scavi.brainsqueeze.maze.util.Maze;
 import com.scavi.brainsqueeze.util.Point;
 
 /**
+ * Question: http://adventofcode.com/2016/day/13
+ *
  * @author Michael Heymel
  * @since 13/12/16
  */
