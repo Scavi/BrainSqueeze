@@ -27,6 +27,7 @@ import java.util.Map;
 public class Day12LeonardoMonorail {
     private static final int ASCII_START_A = 97;
 
+
     public int determineRegisterValue(final String[] input,
             final Map<Character, Integer> registerValues, final char lookup) {
         Preconditions.checkNotNull(input, "Illegal input: <null>");
@@ -52,8 +53,7 @@ public class Day12LeonardoMonorail {
                 if ((registerValues.containsKey(registerAccess) &&
                         registerValues.get(registerAccess) != 0) ||
                         (ASCII_START_A > registerAccess && registerAccess >= 0)) {
-                    int jnz = Integer.parseInt(instructionParts[2]);
-                    i += --jnz;
+                    i += Integer.parseInt(instructionParts[2]) - 1;
                 }
             }
         }
