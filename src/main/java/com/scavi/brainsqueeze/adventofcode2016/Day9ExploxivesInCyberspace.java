@@ -20,7 +20,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Solves both questions http://adventofcode.com/2016/day/8
+ * Solves both questions http://adventofcode.com/2016/day/9
  *
  * @author Michael Heymel
  * @since 09/12/16
