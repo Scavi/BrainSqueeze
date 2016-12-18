@@ -14,6 +14,11 @@
 
 package com.scavi.brainsqueeze.util;
 
+import com.google.common.base.Preconditions;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * @author Michael Heymel
  * @since 15/12/16
@@ -49,5 +54,53 @@ public class StringHelper {
             builder.append(BYTE_TO_HEX[b < 0 ? b + 256 : b]);
         }
         return builder.toString();
+    }
+
+
+    /**
+     * Uses the pattern to extract the number from the input to create an int
+     *
+     * @param input   the input string
+     * @param pattern the pattern to use
+     * @return the extracted int
+     */
+    public static int fromInput(final String input, final Pattern pattern) {
+        Matcher matcher = pattern.matcher(input);
+        Preconditions.checkArgument(matcher.find(), "Illegal input to pattern!");
+        return Integer.parseInt(matcher.group().trim());
+    }
+
+
+    /**
+     * Returns the shortest string. In case one string is null, the other string will be returned
+     *
+     * @param string1 the string 1
+     * @param string2 the string 2
+     * @return the shortest string
+     */
+    public static String min(final String string1, final String string2) {
+        if (string1 == null) {
+            return string2;
+        } else if (string2 == null) {
+            return string1;
+        }
+        return string1.length() > string2.length() ? string2 : string1;
+    }
+
+
+    /**
+     * Returns the shortest string. In case one string is null, the other string will be returned
+     *
+     * @param string1 the string 1
+     * @param string2 the string 2
+     * @return the shortest string
+     */
+    public static String max(final String string1, final String string2) {
+        if (string1 == null) {
+            return string2;
+        } else if (string2 == null) {
+            return string1;
+        }
+        return string1.length() > string2.length() ? string1 : string2;
     }
 }
