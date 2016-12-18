@@ -25,6 +25,8 @@ import java.util.LinkedHashMap;
 import java.util.List;
 
 /**
+ * Question: http://adventofcode.com/2016/day/14
+ *
  * @author Michael Heymel
  * @since 14/12/16
  */
