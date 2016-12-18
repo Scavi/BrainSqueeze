@@ -14,8 +14,9 @@
 
 package com.scavi.brainsqueeze.adventofcode2016;
 
+import com.scavi.brainsqueeze.util.StringHelper;
+
 import java.io.UnsupportedEncodingException;
-import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
@@ -53,9 +54,8 @@ public class Day5NiceGameOfChess {
         int matchCount = 0;
         for (int i = 0; i < Integer.MAX_VALUE && matchCount != 8; ++i) {
             String input = id + i;
-            md5.reset();
             md5.update(input.getBytes("UTF-8"));
-            String hashCode = String.format("%1$032x", new BigInteger(1, md5.digest()));
+            String hashCode = StringHelper.toHexString(md5.digest());
             if (hashCode.startsWith("00000")) {
                 if (_resultProcessor.tryProcessHash(hashCode)) {
                     matchCount++;
