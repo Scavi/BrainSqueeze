@@ -18,7 +18,7 @@ package com.scavi.brainsqueeze.util;
  * @author Michael Heymel
  * @since 14/12/16
  */
-public class Pair<T, V> {
+public class Pair<T extends Comparable<T>, V> implements Comparable<Pair<T, V>> {
     private final T _key;
     private final V _value;
 
@@ -48,5 +48,20 @@ public class Pair<T, V> {
      */
     public V getValue() {
         return _value;
+    }
+
+
+    @Override
+    public int compareTo(final Pair<T, V> toCompare) {
+        return _key.compareTo(toCompare.getKey());
+    }
+
+
+    /**
+     * @return key and value as string
+     */
+    @Override
+    public String toString() {
+        return String.format("[key=%s | value=%s]", _key, _value);
     }
 }
