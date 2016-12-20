@@ -15,7 +15,7 @@
 package com.scavi.brainsqueeze.adventofcode2016;
 
 import com.google.common.base.Preconditions;
-import com.scavi.brainsqueeze.util.CompareFunction;
+import com.scavi.brainsqueeze.util.functions.CompareFunction;
 import com.scavi.brainsqueeze.util.StringHelper;
 
 import java.io.UnsupportedEncodingException;
