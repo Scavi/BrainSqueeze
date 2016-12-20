@@ -14,11 +14,13 @@
 
 package com.scavi.brainsqueeze.util;
 
+import java.util.Iterator;
+
 /**
  * @author Michael Heymel
  * @since 15/09/16
  */
-public class SingleLinkedNode<T> {
+public class SingleLinkedNode<T> implements Iterator<SingleLinkedNode<T>> {
 
     private final T _value;
     private SingleLinkedNode<T> _next;
@@ -47,5 +49,23 @@ public class SingleLinkedNode<T> {
 
     public SingleLinkedNode<T> getNext() {
         return _next;
+    }
+
+
+    @Override
+    public boolean hasNext() {
+        return _next != null;
+    }
+
+
+    @Override
+    public SingleLinkedNode<T> next() {
+        return _next;
+    }
+
+
+    @Override
+    public void remove() {
+        throw new UnsupportedOperationException();
     }
 }
