@@ -37,7 +37,7 @@ public class Day13TwistedLittleCubicles {
      */
     public int shortestPath(final int gridSize, final int favNumber, final Point start,
             final Point end) {
-        MazeRun mazeRun = createMazeRunner(gridSize, favNumber, start, end);
+        MazeRun mazeRun = createMazeRunner(gridSize, favNumber);
         return mazeRun.findWay(start, end);
     }
 
@@ -54,7 +54,7 @@ public class Day13TwistedLittleCubicles {
      */
     public int determineSteps(final int gridSize, final int favNumber, final Point start,
             final Point end, final int maxRange) {
-        MazeRun mazeRun = createMazeRunner(gridSize, favNumber, start, end);
+        MazeRun mazeRun = createMazeRunner(gridSize, favNumber);
         mazeRun.findWay(start, end);
         return mazeRun.findStepsInRange(start, end, maxRange);
     }
@@ -65,12 +65,9 @@ public class Day13TwistedLittleCubicles {
      *
      * @param gridSize  the size of the grid
      * @param favNumber the favorite number to create field
-     * @param start     the start point
-     * @param end       the end point
      * @return the maze runner
      */
-    private MazeRun createMazeRunner(final int gridSize, final int favNumber, final Point start,
-            final Point end) {
+    private MazeRun createMazeRunner(final int gridSize, final int favNumber) {
         boolean[][] fieldDefinition = createFieldDefinition(gridSize, favNumber);
         Maze twistedCubicles = Maze.from(fieldDefinition);
         MazeRun mazeRun = new MazeRun(twistedCubicles);
