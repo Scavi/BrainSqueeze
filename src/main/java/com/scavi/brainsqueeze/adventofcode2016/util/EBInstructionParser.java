@@ -26,7 +26,7 @@ public class EBInstructionParser {
     private static final int ASCII_START_A = 97;
 
 
-    public static int determineRegisterValue(final String[] input,
+    public int determineRegisterValue(final String[] input,
             final Map<Character, Integer> registerValues, final char lookup) {
         Preconditions.checkNotNull(input, "Illegal input: <null>");
         for (int i = 0; i < input.length; ++i) {
@@ -84,6 +84,8 @@ public class EBInstructionParser {
                                 "Illegal tgl instruction reference: " + targetInstruction);
                     }
                 }
+            } else if (instruction.startsWith("out")) {
+
             } else {
                 throw new UnsupportedOperationException("Illegal instruction: " + instruction);
             }
