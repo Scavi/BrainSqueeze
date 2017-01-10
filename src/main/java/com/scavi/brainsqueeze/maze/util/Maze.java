@@ -237,7 +237,7 @@ public class Maze {
      * field is accessible, otherwise not
      *
      * @param structure the maze structure
-     * @return the maze
+     * @return the maze based on the given structure
      */
     public static Maze from(final boolean[][] structure) {
         Preconditions.checkNotNull(structure, "Illegal maze fields: <null >");
@@ -249,6 +249,36 @@ public class Maze {
         for (int y = 0; y < structure.length; ++y) {
             for (int x = 0; x < structure[0].length; ++x) {
                 mazeFields[y][x] = new MazeField(structure[y][x]);
+            }
+        }
+        return new Maze(mazeFields);
+    }
+
+
+    /**
+     * Helper method to create a maze from a given String array. The structure supports wall / non
+     * wall
+     *
+     * @param structure the string array
+     * @param wall      the representing character for a wall
+     * @return the maze based on the given structure
+     */
+    public static Maze from(final String[] structure, final char wall) {
+        Preconditions.checkNotNull(structure, "Illegal maze fields: <null >");
+        Preconditions.checkArgument(structure.length != 0, "Illegal maze fields: <empty column>");
+
+        int length = -1;
+        MazeField[][] mazeFields = new MazeField[structure.length][structure[0].length()];
+        for (int y = 0; y < structure.length; ++y) {
+            for (int x = 0; x < structure[y].length(); ++x) {
+                if (length != -1) {
+                    Preconditions.checkArgument(length == structure[y].length(),
+                            String.format("Illegal structure. Length is not equal (%s -> %s)",
+                                    length,
+                                    structure[y].length()));
+                }
+                mazeFields[y][x] = new MazeField(structure[y].charAt(x) != wall);
+                length = structure[y].length();
             }
         }
         return new Maze(mazeFields);
