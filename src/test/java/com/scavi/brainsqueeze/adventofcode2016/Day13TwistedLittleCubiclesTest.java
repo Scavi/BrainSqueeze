@@ -51,6 +51,6 @@ public class Day13TwistedLittleCubiclesTest {
         Point start = new Point(1, 1);
         Point end = new Point(61, 63);
         int steps = twistedLittleCubicles.determineSteps(100, 1364, start, end, 50);
-        Assert.assertEquals(127, steps);
+        Assert.assertEquals(126, steps);
     }
 }
