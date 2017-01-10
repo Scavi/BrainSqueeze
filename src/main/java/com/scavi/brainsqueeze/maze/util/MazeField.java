@@ -99,4 +99,13 @@ public class MazeField {
     protected FieldType getType() {
         return _type;
     }
+
+
+    /**
+     * @return the definition of the field
+     */
+    @Override
+    public String toString() {
+        return _type == FieldType.Wall ? "#" : " ";
+    }
 }
