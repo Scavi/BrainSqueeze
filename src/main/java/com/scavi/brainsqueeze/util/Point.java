@@ -23,6 +23,7 @@ import com.google.common.base.Objects;
 public class Point {
     private final int _x;
     private final int _y;
+    private final String _id;
 
 
     /**
@@ -32,8 +33,21 @@ public class Point {
      * @param y the y position of the current point
      */
     public Point(final int x, final int y) {
+        this(x, y, "");
+    }
+
+
+    /**
+     * Constructor
+     *
+     * @param x  the x position of the current point
+     * @param y  the y position of the current point
+     * @param id the id of the point (optional)
+     */
+    public Point(final int x, final int y, final String id) {
         this._x = x;
         this._y = y;
+        _id = id;
     }
 
 
@@ -101,6 +115,6 @@ public class Point {
 
     @Override
     public String toString() {
-        return String.format("[ x=%s | y=%s ]", _x, _y);
+        return String.format("[ x=%s | y=%s | id=%s]", _x, _y, _id);
     }
 }
