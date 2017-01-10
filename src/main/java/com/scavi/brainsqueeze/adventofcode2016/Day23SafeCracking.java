@@ -38,7 +38,7 @@ public class Day23SafeCracking {
 
     public int determineRegisterValue(final String[] input,
             final Map<Character, Integer> registerValues, final char lookup) {
-        EBInstructionParser.determineRegisterValue(input, registerValues, lookup);
+        new EBInstructionParser().determineRegisterValue(input, registerValues, lookup);
         return registerValues.get(lookup);
     }
 }
