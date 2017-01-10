@@ -72,6 +72,6 @@ public class Day10BalanceBotsTest {
         String[] instructions = FileHelper.readLines(inputFile);
         Day10BalanceBots balanceBots = new Day10BalanceBots();
         long result = balanceBots.outputValues(instructions, 61, 17, 0, 1, 2);
-        Assert.assertEquals(118, result);
+        Assert.assertEquals(143153, result);
     }
 }
