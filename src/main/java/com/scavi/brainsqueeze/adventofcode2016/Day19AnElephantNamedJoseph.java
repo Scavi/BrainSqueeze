@@ -16,6 +16,7 @@ package com.scavi.brainsqueeze.adventofcode2016;
 
 import com.google.common.base.Preconditions;
 
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -38,7 +39,8 @@ public class Day19AnElephantNamedJoseph {
         Preconditions.checkArgument(participantCount > 0,
                 "Illegal participant count. Higher than 0 expected");
         int presentPos = 0;
-        int[] participants = createParticipantsArray(participantCount);
+        int[] participants = new int[participantCount];
+        Arrays.fill(participants, 1);
         int position = 0;
         int presentsLeft = participantCount;
         while (presentsLeft > 1) {
@@ -57,21 +59,6 @@ public class Day19AnElephantNamedJoseph {
             position++;
         }
         return presentPos + 1; // +1 because the positions are 0 based
-    }
-
-
-    /**
-     * Creates a participant array. For each position the participant has 1 present
-     *
-     * @param participantCount the number of participants
-     * @return the array of participants with their presents
-     */
-    private int[] createParticipantsArray(final int participantCount) {
-        int[] participants = new int[participantCount];
-        for (int i = 0; i < participantCount; ++i) {
-            participants[i] = 1;
-        }
-        return participants;
     }
 
 
