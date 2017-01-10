@@ -47,7 +47,7 @@ public class Permutation {
         }
         int size = determinePermutationSize(input.length);
         List<String> results = new ArrayList<>(size);
-        permutation1(input, input.length, results);
+        permutation1(input, input.length - 1, results);
         return results;
     }
 
@@ -62,13 +62,13 @@ public class Permutation {
      */
     private void permutation1(final char[] input, final int inputLength,
             final List<String> results) {
-        if (inputLength == 1) {
+        if (inputLength == 0) {
             results.add(String.valueOf(input));
         } else {
-            for (int i = 0; i < inputLength; ++i) {
-                swap(input, i, inputLength - 1);
+            for (int i = 0; i <= inputLength; ++i) {
+                swap(input, i, inputLength);
                 permutation1(input, inputLength - 1, results);
-                swap(input, i, inputLength - 1);
+                swap(input, i, inputLength);
             }
         }
     }
