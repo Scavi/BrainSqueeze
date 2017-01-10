@@ -60,7 +60,7 @@ public class MazeRun {
      * @param startPoint the start point
      * @param endPoint   the end point
      * @param maxRange   the max distance / range from the start point
-     * @return
+     * @return the movable fields in range
      */
     public int findStepsInRange(final Point startPoint, final Point endPoint, final int maxRange) {
         _movableFieldsInRange = 0;
