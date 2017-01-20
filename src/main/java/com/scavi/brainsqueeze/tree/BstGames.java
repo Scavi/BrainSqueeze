@@ -173,4 +173,46 @@ public class BstGames {
             }
         }
     }
+
+
+    /**
+     * Given a binary tree, such that each node contains a number. Find the maximum possible sum in
+     * going from one leaf node to another.
+     * <p/>
+     * http://www.geeksforgeeks.org/archives/28569
+     *
+     * @param root the root of the binary tree
+     * @return the maximum sum
+     */
+    public int maxSumBetweenLeafs(final Node<Integer> root) {
+        int[] cache = new int[]{Integer.MIN_VALUE};
+        maxSumBetweenLeafs(root, cache);
+        return cache[0];
+    }
+
+
+    /**
+     * Determines the maximum sum between two leafs of the given binary tree
+     *
+     * @param root  the  current root of the binary tree
+     * @param cache a cache array of dimension 1 to store the max result
+     * @return the maximum sum
+     */
+    private int maxSumBetweenLeafs(final Node<Integer> root, final int[] cache) {
+        if (root == null) {
+            return 0;
+        }
+        if (root.getLeft() == null && root.getRight() == null) {
+            return root.getValue();
+        }
+        int maxLeft = maxSumBetweenLeafs(root.getLeft(), cache);
+        int maxRight = maxSumBetweenLeafs(root.getRight(), cache);
+
+        if (root.getLeft() != null && root.getRight() != null) {
+            cache[0] = Math.max(cache[0], maxLeft + maxRight + root.getValue());
+            return root.getValue() + Math.max(maxLeft, maxRight);
+        } else {
+            return root.getLeft() == null ? maxRight + root.getValue() : maxLeft + root.getValue();
+        }
+    }
 }

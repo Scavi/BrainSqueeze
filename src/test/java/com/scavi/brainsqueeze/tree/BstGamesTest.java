@@ -151,4 +151,36 @@ public class BstGamesTest {
         int kMin = bstGames.kMin(root, 3);
         Assert.assertEquals(90, kMin);
     }
+
+
+    @Test
+    public void testMaxLeafs1() {
+        Node<Integer> nodeRR = new Node<>(80);
+        Node<Integer> nodeRL = new Node<>(60);
+        Node<Integer> nodeR = new Node<>(70, nodeRL, nodeRR);
+        Node<Integer> nodeLR = new Node<>(40);
+        Node<Integer> nodeLL = new Node<>(20);
+        Node<Integer> nodeL = new Node<>(30, nodeLL, nodeLR);
+        Node<Integer> root = new Node<>(50, nodeL, nodeR);
+
+        BstGames bstGames = new BstGames();
+        int maxResult = bstGames.maxSumBetweenLeafs(root);
+        Assert.assertEquals(270, maxResult);
+    }
+
+
+    @Test
+    public void testMaxLeafs2() {
+        Node<Integer> nodeRR = new Node<>(-30);
+        Node<Integer> nodeRL = new Node<>(-19);
+        Node<Integer> nodeR = new Node<>(-20, nodeRL, nodeRR);
+        Node<Integer> nodeLR = new Node<>(40);
+        Node<Integer> nodeLL = new Node<>(20);
+        Node<Integer> nodeL = new Node<>(30, nodeLL, nodeLR);
+        Node<Integer> root = new Node<>(-10, nodeL, nodeR);
+
+        BstGames bstGames = new BstGames();
+        int maxResult = bstGames.maxSumBetweenLeafs(root);
+        Assert.assertEquals(90, maxResult);
+    }
 }
