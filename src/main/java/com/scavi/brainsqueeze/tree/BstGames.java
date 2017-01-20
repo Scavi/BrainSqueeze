@@ -135,4 +135,42 @@ public class BstGames {
         }
         return result;
     }
+
+
+    /**
+     * Determines the k- min elements within the binary tree.
+     * <p/>
+     * http://www.geeksforgeeks.org/sum-k-smallest-elements-bst/
+     * <p/>
+     * The algorithm runs in O(k), since the node isn't augmented (containing the amount of
+     * children from the current node)
+     *
+     * @param root      the root element of the bst
+     * @param kElements the number of elements
+     * @return the min-sum of k elements in the binary tree
+     */
+    public int kMin(final Node<Integer> root, final int kElements) {
+        int[] cache = new int[]{0, kElements};
+        kMin(root, cache);
+        return cache[0];
+    }
+
+
+    /**
+     * Determines the k- min elements within the binary tree using
+     *
+     * @param root  the root element of the bst
+     * @param cache the first position within the array contains the number of min elements. The
+     *              second of the remaining k-elements
+     */
+    private void kMin(final Node<Integer> root, final int[] cache) {
+        if (root != null && root.getValue() != null && cache[1] > 0) {
+            kMin(root.getLeft(), cache);
+            if (root.getValue() != null && cache[1] > 0) {
+                cache[0] += root.getValue();
+                cache[1] -= 1;
+                kMin(root.getRight(), cache);
+            }
+        }
+    }
 }
