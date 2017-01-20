@@ -111,7 +111,7 @@ public class BstGames {
      * @param root the root
      * @return the converted linked list
      */
-    public <T extends Comparable<T>> List toList(final Node<T> root) {
+    public <T extends Comparable<T>> List<T> toList(final Node<T> root) {
         if (root == null) {
             return null;
         }

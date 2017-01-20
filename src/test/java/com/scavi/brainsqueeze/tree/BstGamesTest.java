@@ -19,6 +19,8 @@ import com.scavi.brainsqueeze.util.Node;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.List;
+
 /**
  * @author Michael Heymel
  * @since 25/09/16
@@ -113,5 +115,24 @@ public class BstGamesTest {
         BstGames bstGames = new BstGames();
         Node<Integer> result = bstGames.findLCA(root, 20, 30);
         Assert.assertEquals(30, result.getValue().intValue());
+    }
+
+
+    @Test
+    public void testBstToList1() {
+        // input
+        Node<Integer> nodeRR = new Node<>(80);
+        Node<Integer> nodeRL = new Node<>(60);
+        Node<Integer> nodeR = new Node<>(70, nodeRL, nodeRR);
+        Node<Integer> nodeLR = new Node<>(40);
+        Node<Integer> nodeLL = new Node<>(20);
+        Node<Integer> nodeL = new Node<>(30, nodeLL, nodeLR);
+        Node<Integer> root = new Node<>(50, nodeL, nodeR);
+
+        Integer[] expected = new Integer[]{20, 30, 40, 50, 60, 70, 80};
+
+        BstGames bstGames = new BstGames();
+        List<Integer> result = bstGames.toList(root);
+        Assert.assertArrayEquals(expected, result.toArray(new Integer[result.size()]));
     }
 }

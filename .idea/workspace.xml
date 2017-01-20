@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01b62bce-6598-46b7-915d-7742f828f185" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BstGames.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BstGames.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BstGamesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BstGamesTest.java" />
     </list>
     <ignored path="BrainSqueeze.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -152,8 +152,8 @@
       <file leaf-file-name="BstGamesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BstGamesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="668">
+              <caret line="134" column="42" selection-start-line="134" selection-start-column="42" selection-end-line="134" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -162,8 +162,8 @@
       <file leaf-file-name="BstGames.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BstGames.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="108" column="54" selection-start-line="108" selection-start-column="54" selection-end-line="108" selection-end-column="54" />
+            <state relative-caret-position="317">
+              <caret line="113" column="45" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -667,7 +667,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode2016/Day15TimingIsEverything.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode2016/Day14OneTimePad.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode2016/Day11RadioisotopeThermoelectricGenerators.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode2016/Day9ExploxivesInCyberspace.java" />
@@ -718,6 +717,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/sort/QuickSortTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/sort/BucketSortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BstGames.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BstGamesTest.java" />
       </list>
     </option>
   </component>
@@ -1519,33 +1519,7 @@
       <recent name="$PROJECT_DIR$/src/input/adventofcode2016" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BucketSortTest">
-    <configuration default="false" name="com.scavi.brainsqueeze.adventofcode2016 in BrainSqueeze_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.scavi.brainsqueeze.adventofcode2016.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BrainSqueeze_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.adventofcode2016" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.BstGamesTest">
     <configuration default="false" name="Day25ClockSignalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1636,6 +1610,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.sort" />
       <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.sort.BucketSortTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BstGamesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.scavi.brainsqueeze.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BrainSqueeze_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.tree" />
+      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.tree.BstGamesTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1895,19 +1895,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.com.scavi.brainsqueeze.adventofcode2016 in BrainSqueeze_test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Day25ClockSignalTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.InsertionSortTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.QuickSortTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BucketSortTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Day25ClockSignalTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.InsertionSortTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.QuickSortTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BucketSortTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BstGamesTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BucketSortTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.QuickSortTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.InsertionSortTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Day25ClockSignalTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.com.scavi.brainsqueeze.adventofcode2016 in BrainSqueeze_test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BstGamesTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BucketSortTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.QuickSortTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.InsertionSortTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Day25ClockSignalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1928,6 +1928,9 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="BstGamesTest - 2017.01.20 at 11h 46m 54s.xml">
+      <configuration name="BstGamesTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="BucketSortTest - 2017.01.14 at 21h 45m 08s.xml">
       <configuration name="BucketSortTest" configurationId="JUnit" />
     </history-entry>
@@ -1954,9 +1957,6 @@
     </history-entry>
     <history-entry file="QuickSortTest - 2017.01.14 at 21h 40m 36s.xml">
       <configuration name="QuickSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_scavi_brainsqueeze_adventofcode2016_in_BrainSqueeze_test - 2017.01.10 at 22h 42m 43s.xml">
-      <configuration name="com.scavi.brainsqueeze.adventofcode2016 in BrainSqueeze_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -2741,16 +2741,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/tree/BstGamesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="668">
+          <caret line="134" column="42" selection-start-line="134" selection-start-column="42" selection-end-line="134" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/tree/BstGames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="108" column="54" selection-start-line="108" selection-start-column="54" selection-end-line="108" selection-end-column="54" />
+        <state relative-caret-position="317">
+          <caret line="113" column="45" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
