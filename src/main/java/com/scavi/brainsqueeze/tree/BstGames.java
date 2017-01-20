@@ -16,6 +16,9 @@ package com.scavi.brainsqueeze.tree;
 
 import com.scavi.brainsqueeze.util.Node;
 
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * @author Michael Heymel
  * @since 25/09/16
@@ -99,5 +102,37 @@ public class BstGames {
             toAdd = inorderRightTraversal(currentRoot.getLeft(), toAdd);
         }
         return toAdd;
+    }
+
+
+    /**
+     * Converts the given BST to a linked list in O(n)
+     *
+     * @param root the root
+     * @return the converted linked list
+     */
+    public <T extends Comparable<T>> List toList(final Node<T> root) {
+        if (root == null) {
+            return null;
+        }
+        List<T> result = new LinkedList<>();
+        return toList(root, result);
+    }
+
+
+    /**
+     * Converts the given BST to a linked list
+     *
+     * @param root   the root
+     * @param result the list result
+     * @return the converted linked list
+     */
+    private <T extends Comparable<T>> List<T> toList(final Node<T> root, final List<T> result) {
+        if (root != null) {
+            toList(root.getLeft(), result);
+            result.add(root.getValue());
+            toList(root.getRight(), result);
+        }
+        return result;
     }
 }
