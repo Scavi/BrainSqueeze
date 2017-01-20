@@ -54,7 +54,7 @@ public class Day23SafeCrackingTest {
     }
 
 
-    @Test
+    //@Test (slow test)
     public void testQuestion2() throws Exception {
         Day23SafeCracking gridComputing = new Day23SafeCracking();
         File inputFile = FileHelper.forUnitTests("adventofcode2016/Day23.txt");
