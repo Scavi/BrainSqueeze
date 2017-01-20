@@ -138,4 +138,13 @@ public class Node<T extends Comparable<T>> {
     public void setRight(final Node<T> right) {
         _right = right;
     }
+
+
+    /**
+     * @return string value information of the node
+     */
+    @Override
+    public String toString() {
+        return _value != null ? _value.toString() : "<null>";
+    }
 }
