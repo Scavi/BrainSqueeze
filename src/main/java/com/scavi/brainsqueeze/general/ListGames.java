@@ -14,6 +14,8 @@
 
 package com.scavi.brainsqueeze.general;
 
+import com.scavi.brainsqueeze.util.SingleLinkedNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,7 +47,6 @@ public class ListGames {
         int list1Pos = 0;
         int list2Pos = 0;
         for (int i = 0; i < max; ++i) {
-
             T value = null;
             if (list1Pos < list1.size() && list2Pos < list2.size()) {
                 if (list1.get(list1Pos).compareTo(list2.get(list2Pos)) < 0) {
@@ -61,5 +62,32 @@ public class ListGames {
             resultList.add(value);
         }
         return resultList;
+    }
+
+
+    /**
+     * Determines the middle element of a single linked list using a slow and a quick "pointer".
+     * While the quick "pointer" iterates two steps, the slow "pointer" moves only one.
+     *
+     * @param list the list
+     * @return the middle element
+     */
+    public <T extends Comparable<T>> T middleElement(final SingleLinkedNode<T> list) {
+        if (list == null) {
+            return null;
+        } else if (list.getNext() == null) {
+            return list.getValue();
+        }
+        SingleLinkedNode<T> slow = list;
+        SingleLinkedNode<T> quick = list.getNext();
+        do {
+            quick = quick.getNext();
+            if (quick != null) {
+                slow = slow.getNext();
+                quick = quick.getNext();
+            }
+        }
+        while (quick != null);
+        return slow.getValue();
     }
 }

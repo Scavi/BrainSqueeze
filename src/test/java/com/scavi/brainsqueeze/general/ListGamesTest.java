@@ -14,6 +14,8 @@
 
 package com.scavi.brainsqueeze.general;
 
+import com.scavi.brainsqueeze.util.SingleLinkedNode;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -68,5 +70,37 @@ public class ListGamesTest {
         ListGames listGames = new ListGames();
         List<Integer> output = listGames.merge(list1, list2, 5);
         Assert.assertEquals(expected, output);
+    }
+
+
+    @Test
+    public void testMiddleElement1() {
+        SingleLinkedNode<Integer> s3 = new SingleLinkedNode<>(3);
+        SingleLinkedNode<Integer> s2 = new SingleLinkedNode<>(2, s3);
+        SingleLinkedNode<Integer> s1 = new SingleLinkedNode<>(1, s2);
+        ListGames listGames = new ListGames();
+        int retVal = listGames.middleElement(s1);
+        Assert.assertEquals(2, retVal);
+    }
+
+    @Test
+    public void testMiddleElement2() {
+        SingleLinkedNode<Integer> s2 = new SingleLinkedNode<>(2);
+        SingleLinkedNode<Integer> s1 = new SingleLinkedNode<>(1, s2);
+        ListGames listGames = new ListGames();
+        int retVal = listGames.middleElement(s1);
+        Assert.assertEquals(1, retVal);
+    }
+
+    @Test
+    public void testMiddleElement3() {
+        SingleLinkedNode<Integer> s5 = new SingleLinkedNode<>(5);
+        SingleLinkedNode<Integer> s4 = new SingleLinkedNode<>(4, s5);
+        SingleLinkedNode<Integer> s3 = new SingleLinkedNode<>(3, s4);
+        SingleLinkedNode<Integer> s2 = new SingleLinkedNode<>(2, s3);
+        SingleLinkedNode<Integer> s1 = new SingleLinkedNode<>(1, s2);
+        ListGames listGames = new ListGames();
+        int retVal = listGames.middleElement(s1);
+        Assert.assertEquals(3, retVal);
     }
 }
