@@ -36,6 +36,8 @@ public class MaxInArray {
     public int maxDotProduct(int[] input1, int[] input2) {
         Preconditions.checkNotNull(input1, "Illegal input1: <null>");
         Preconditions.checkNotNull(input2, "Illegal input2: <null>");
+        Preconditions.checkArgument(input1.length != 0, "Illegal input1 length: 0");
+        Preconditions.checkArgument(input2.length != 0, "Illegal input2 length: 0");
         Preconditions.checkArgument(input1.length != input2.length,
                 "Illegal input! Array's must have different sizes!");
         return calculate(input1.length > input2.length ? input1 : input2,
@@ -68,5 +70,70 @@ public class MaxInArray {
             }
         }
         return max;
+    }
+
+
+    /**
+     * This method determines the maximum sum path in across two arrays. The algorithm runs in O(n
+     * + m) time.
+     * <p/>
+     * The question was taken from: http://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/
+     *
+     * @param input1 the input 1
+     * @param input2 the input 2
+     * @return the maximum sum across two arrays
+     */
+    public int maxSumPath(final int[] input1, final int[] input2) {
+        Preconditions.checkNotNull(input1, "Illegal input1: <null>");
+        Preconditions.checkNotNull(input2, "Illegal input2: <null>");
+        Preconditions.checkArgument(input1.length != 0, "Illegal input1 length: 0");
+        Preconditions.checkArgument(input2.length != 0, "Illegal input2 length: 0");
+
+        int pos1 = 0;
+        int pos2 = 0;
+        int sumPath1 = 0;
+        int sumPath2 = 0;
+
+        while (input1.length > pos1 && input2.length > pos2) {
+            // input1 is at the current position less then input2 and still not at the end,
+            // move 2 forward
+            while (input1.length > pos1 && input1[pos1] < input2[pos2]) {
+                sumPath1 += input1[pos1];
+                pos1++;
+            }
+
+            // input2 is at the current position less then input1 and still not at the end,
+            // move 2 forward
+            while (input2.length > pos2 && input2[pos2] < input1[pos1]) {
+                sumPath2 += input2[pos2];
+                pos2++;
+            }
+
+            // reached a positions in the arrays where the elements are equal. Due to this, it is
+            // possible to switch from one array to another. In case the sum path 1 is higher it
+            // could continue in the second array and visa verse
+            if (input1.length > pos1 && input2.length > pos2 && input2[pos2] == input1[pos1]) {
+                // add the equal array element to both sum path's and increases the position
+                sumPath1 += input1[pos1++];
+                sumPath2 += input2[pos2++];
+                if (sumPath1 > sumPath2) {
+                    sumPath2 = sumPath1;
+                } else {
+                    sumPath1 = sumPath2;
+                }
+            }
+        }
+
+        while (input1.length > pos1) {
+            sumPath1 += input1[pos1];
+            pos1++;
+        }
+
+        while (input2.length > pos2) {
+            sumPath2 += input2[pos2];
+            pos2++;
+        }
+
+        return Math.max(sumPath1, sumPath2);
     }
 }

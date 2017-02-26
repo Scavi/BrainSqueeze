@@ -48,4 +48,31 @@ public class MaxInArrayTest {
         int retVal = new MaxInArray().maxDotProduct(input1, input2);
         Assert.assertEquals(0, retVal);
     }
+
+
+    @Test
+    public void testMaxSumPath1() {
+        int[] input1 = new int[]{2, 3, 7, 10, 12};
+        int[] input2 = {1, 5, 7, 8};
+        int retVal = new MaxInArray().maxSumPath(input1, input2);
+        Assert.assertEquals(35, retVal);
+    }
+
+
+    @Test
+    public void testMaxSumPath2() {
+        int[] input1 = new int[]{10, 12};
+        int[] input2 = {5, 7, 9};
+        int retVal = new MaxInArray().maxSumPath(input1, input2);
+        Assert.assertEquals(22, retVal);
+    }
+
+
+    @Test
+    public void testMaxSumPath3() {
+        int[] input1 = new int[]{2, 3, 7, 10, 12, 15, 30, 34};
+        int[] input2 = {1, 5, 7, 8, 10, 15, 16, 19};
+        int retVal = new MaxInArray().maxSumPath(input1, input2);
+        Assert.assertEquals(122, retVal);
+    }
 }
