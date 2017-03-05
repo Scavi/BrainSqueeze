@@ -17,7 +17,6 @@ package com.scavi.brainsqueeze.adventofcode2016;
 import com.scavi.brainsqueeze.util.FileHelper;
 
 import org.junit.Assert;
-import org.junit.Test;
 
 import java.io.File;
 
@@ -26,7 +25,7 @@ import java.io.File;
  * @since 25/12/16
  */
 public class Day25ClockSignalTest {
-    @Test
+    //@Test
     public void testQuestion1() throws Exception {
         Day25ClockSignal clockSignal = new Day25ClockSignal();
         File inputFile = FileHelper.forUnitTests("adventofcode2016/Day25.txt");
