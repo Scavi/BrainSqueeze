@@ -32,6 +32,6 @@ public class Day22GridComputingTest {
         File inputFile = FileHelper.forUnitTests("adventofcode2016/Day22.txt");
         String[] fileSystemInformation = FileHelper.readLines(inputFile);
         int viablePairCount = gridComputing.viablePairs(fileSystemInformation);
-        Assert.assertEquals(0, viablePairCount); // 988 too high, 494 is too low, 626 too low
+        Assert.assertEquals(0, viablePairCount);
     }
 }
