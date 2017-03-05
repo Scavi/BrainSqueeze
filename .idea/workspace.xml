@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01b62bce-6598-46b7-915d-7742f828f185" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_google_guava_guava_20_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/BrainSqueeze_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/BrainSqueeze_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/BrainSqueeze_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/BrainSqueeze_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/SubstringGames.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/SubstringGamesTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/ArrayGames.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/ArrayGames.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/ArrayGamesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/ArrayGamesTest.java" />
     </list>
@@ -103,8 +99,8 @@
       <file leaf-file-name="ArrayGamesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/ArrayGamesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="86" column="69" lean-forward="false" selection-start-line="86" selection-start-column="69" selection-end-line="86" selection-end-column="69" />
+            <state relative-caret-position="567">
+              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,14 +128,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayGames.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayGames.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/ArrayGames.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="165" column="15" lean-forward="false" selection-start-line="165" selection-start-column="15" selection-end-line="165" selection-end-column="15" />
+            <state relative-caret-position="567">
+              <caret line="155" column="5" lean-forward="false" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubstringGames.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/SubstringGames.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="597">
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubstringGamesTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/SubstringGamesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryGames.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/BinaryGames.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,18 +197,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/FileHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -533,8 +549,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode2016/Day10BalanceBotsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode2016/Day11RadioisotopeThermoelectricGeneratorsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode2016/Day13TwistedLittleCubiclesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/maze/MazeRun.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode2016/Day13TwistedLittleCubicles.java" />
@@ -582,8 +596,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/ArrayGames.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode2016/Day22GridComputingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode2016/Day25ClockSignalTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/ArrayGamesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/ArrayGames.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/SubstringGames.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/ArrayGamesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/SubstringGamesTest.java" />
       </list>
     </option>
   </component>
@@ -1763,18 +1779,6 @@
           <properties />
           <option name="timeStamp" value="660" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/ArrayGames.java</url>
-          <line>196</line>
-          <properties />
-          <option name="timeStamp" value="673" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/ArrayGames.java</url>
-          <line>175</line>
-          <properties />
-          <option name="timeStamp" value="674" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="675" />
     </breakpoint-manager>
@@ -1785,27 +1789,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode2016/Day21ScrambledLettersAndHash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode2016/ex/TransmitException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode2016/Day23SafeCracking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode2016/Day12LeonardoMonorail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -2153,20 +2136,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/ArrayGamesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/BinaryGames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="86" column="69" lean-forward="false" selection-start-line="86" selection-start-column="69" selection-end-line="86" selection-end-column="69" />
+        <state relative-caret-position="150">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/ArrayGames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="155" column="5" lean-forward="false" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/ArrayGames.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/general/SubstringGames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="165" column="15" lean-forward="false" selection-start-line="165" selection-start-column="15" selection-end-line="165" selection-end-column="15" />
+        <state relative-caret-position="597">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/ArrayGamesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/general/SubstringGamesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
