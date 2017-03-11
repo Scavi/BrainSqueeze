@@ -77,4 +77,45 @@ public class SubstringGames {
         }
         return right;
     }
+
+
+    /**
+     * Beside using a suffix-tree (which would take O(n)) it is also possible to use DP to determine
+     * the longest substring. The solution takes O(n^2) space and runs in O(n^2).
+     *
+     * @param input the input
+     * @return the palindrome sequence
+     */
+    public String longestPalindrome(final String input) {
+        if (input == null || input.length() == 0) {
+            return null;
+        }
+        int inputLength = input.length();
+        int longestBegin = 0;
+        int maxLen = 1;
+        boolean[][] table = new boolean[inputLength][inputLength];
+        // set the diagonal values to true because each letter is a palindrome to itself
+        for (int i = 0; i < inputLength; i++) {
+            table[i][i] = true;
+        }
+        // set the table for values that are next to each other
+        for (int i = 0; i < inputLength - 1; i++) {
+            if (input.charAt(i) == input.charAt(i + 1)) {
+                table[i][i + 1] = true;
+                longestBegin = i;
+                maxLen = 2;
+            }
+        }
+        for (int len = 3; len <= inputLength; len++) {
+            for (int i = 0; i < inputLength - len + 1; i++) {
+                int j = i + len - 1;
+                if (input.charAt(i) == input.charAt(j) && table[i + 1][j - 1]) {
+                    table[i][j] = true;
+                    longestBegin = i;
+                    maxLen = len;
+                }
+            }
+        }
+        return input.substring(longestBegin, longestBegin + maxLen);
+    }
 }

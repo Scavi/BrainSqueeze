@@ -29,4 +29,11 @@ public class SubstringGamesTest {
         int[] input = new int[]{4, 1, 2, 9, 2, 4, 6, 7, 8};
         Assert.assertEquals(6, substringGames.findLongestIncreasingSubsequenceLength(input));
     }
+
+
+    @Test
+    public void testLongestPalindrome() {
+        SubstringGames substringGames = new SubstringGames();
+        Assert.assertEquals("geeksskeeg", substringGames.longestPalindrome("forgeeksskeegfor"));
+    }
 }
