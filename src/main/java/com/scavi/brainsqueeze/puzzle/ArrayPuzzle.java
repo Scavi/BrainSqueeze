@@ -27,7 +27,12 @@ public class ArrayPuzzle {
      * This method switches the given <code>inputData</code> in the way
      * inputData[i] = inputData[inputData[i]]. This method assumes that the data
      * in the inputData array are correct and won't cause an index out of bound
-     * exception
+     * exception.
+     * <p/>
+     * E.g.
+     * Input: {3, 2, 0, 1}
+     * After first iteration: {7, 2, 12, 9}
+     * Output: {1, 0, 3, 2}
      *
      * @param inputData the input data to switch
      * @return inputData[inputData[i]]
