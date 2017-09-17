@@ -36,7 +36,7 @@ public class MazeRun {
      * @param maze the maze
      */
     public MazeRun(final Maze maze) {
-        Preconditions.checkNotNull(maze, "Illegal maze: <null >");
+        Preconditions.checkNotNull(maze, "Illegal maze: <null>");
         _maze = maze;
     }
 
@@ -79,8 +79,8 @@ public class MazeRun {
      * @return the number of steps to find the way from start to end
      */
     private int findWay(final Point startPoint, final Point endPoint, final int maxRange) {
-        Preconditions.checkNotNull(startPoint, "Illegal start position: <null >");
-        Preconditions.checkNotNull(endPoint, "Illegal end position: <null >");
+        Preconditions.checkNotNull(startPoint, "Illegal start position: <null>");
+        Preconditions.checkNotNull(endPoint, "Illegal end position: <null>");
         validatePosition(startPoint);
         validatePosition(endPoint);
 
