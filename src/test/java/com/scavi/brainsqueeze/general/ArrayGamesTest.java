@@ -66,7 +66,7 @@ public class ArrayGamesTest {
     @Test
     public void test2DimArrayLookup1() {
         int[][] input = new int[][]{{1, 2, 3, 4, 5}, {6, 7, 8, 9, 10}, {11, 12, 13, 15, 16},
-                {17, 18, 19, 20, 21}, {22, 23, 24, 25, 26}};
+                                    {17, 18, 19, 20, 21}, {22, 23, 24, 25, 26}};
         ArrayGames arrayGames = new ArrayGames();
         for (int i = 1; i <= 26; ++i) {
             boolean isExisting = arrayGames.isValueExisting(input, i);
@@ -79,12 +79,79 @@ public class ArrayGamesTest {
         }
     }
 
+
+    @Test
+    public void testFindClosestPair1() {
+        int[] sortedInput1 = new int[]{13, 14, 15, 16, 18};
+        int[] sortedInput2 = new int[]{1, 6, 19, 22};
+
+        ArrayGames arrayGames = new ArrayGames();
+        int[] result = arrayGames.findClosestPair(sortedInput1, sortedInput2);
+        Assert.assertEquals(2, result.length);
+        Assert.assertEquals(18, result[0]);
+        Assert.assertEquals(19, result[1]);
+    }
+
+
+    @Test
+    public void testFindClosestPair2() {
+        int[] sortedInput1 = new int[]{3, 14, 15, 16, 18, 24, 34};
+        int[] sortedInput2 = new int[]{1, 6, 29, 33, 34};
+
+        ArrayGames arrayGames = new ArrayGames();
+        int[] result = arrayGames.findClosestPair(sortedInput1, sortedInput2);
+        Assert.assertEquals(2, result.length);
+        Assert.assertEquals(34, result[0]);
+        Assert.assertEquals(34, result[1]);
+    }
+
+
+    @Test
+    public void testFindClosestPair3() {
+        int[] sortedInput1 = new int[]{-10, -8, -3, 3, 14, 15, 16, 18, 24, 34};
+        int[] sortedInput2 = new int[]{-100, 1, 6, 29, 33, 34};
+
+        ArrayGames arrayGames = new ArrayGames();
+        int[] result = arrayGames.findClosestPair(sortedInput1, sortedInput2);
+        Assert.assertEquals(2, result.length);
+        Assert.assertEquals(34, result[0]);
+        Assert.assertEquals(34, result[1]);
+    }
+
+
+    @Test
+    public void testMinAdjacentFields1() {
+        ArrayGames arrayGames = new ArrayGames();
+        int minAdjacentFields = arrayGames.minAdjacentLength(11, new int[]{3, 4, 6, 1, 5, 1, 2});
+        Assert.assertEquals(3, minAdjacentFields);
+    }
+
+
+    @Test
+    public void testMinAdjacentFields2() {
+        ArrayGames arrayGames = new ArrayGames();
+        int minAdjacentFields =
+                arrayGames.minAdjacentLength(11, new int[]{3, 4, 6, 1, 5, 1, 2, 5, 6});
+        Assert.assertEquals(2, minAdjacentFields);
+    }
+
+
+    @Test
+    public void testMinAdjacentFields3() {
+        ArrayGames arrayGames = new ArrayGames();
+        int minAdjacentFields =
+                arrayGames.minAdjacentLength(12, new int[]{3, 4, 6, 10, 5, 19, 2, 5, 6});
+        Assert.assertEquals(-1, minAdjacentFields);
+    }
+
+
     @Test
     public void testMaxSum1() {
         int[] input = {-23, 1, 7, -5, 28, -48, 50};
         int sum = new ArrayGames().maxSum(input);
         Assert.assertEquals(50, sum);
     }
+
 
     @Test
     public void testMaxSum2() {
@@ -93,12 +160,14 @@ public class ArrayGamesTest {
         Assert.assertEquals(-5, sum);
     }
 
+
     @Test
     public void testMaxSum3() {
         int[] input = {-3, 10};
         int sum = new ArrayGames().maxSum(input);
         Assert.assertEquals(10, sum);
     }
+
 
     @Test
     public void testMaxSum4() {
@@ -107,12 +176,14 @@ public class ArrayGamesTest {
         Assert.assertEquals(78, sum);
     }
 
+
     @Test
     public void testMaxSum5() {
         int[] input = {6, 2, 4, -1, 5, 9, -2, 10};
         int sum = new ArrayGames().maxSum(input);
         Assert.assertEquals(33, sum);
     }
+
 
     @Test
     public void testRearrange1() {

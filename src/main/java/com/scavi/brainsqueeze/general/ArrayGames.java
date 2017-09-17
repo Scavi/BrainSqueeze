@@ -203,4 +203,74 @@ public class ArrayGames {
         }
         return isExisting;
     }
+
+
+    /**
+     * Find the clostest pair in two sorted arrays
+     *
+     * @param sortedInput1 sorted input 1
+     * @param sortedInput2 sorted input 2
+     * @return the closest pair
+     */
+    public int[] findClosestPair(final int[] sortedInput1, final int[] sortedInput2) {
+        Preconditions.checkNotNull(sortedInput1);
+        Preconditions.checkNotNull(sortedInput2);
+
+        int distance = Integer.MAX_VALUE;
+        int value1 = 0, value2 = 0;
+        int pos1 = 0, pos2 = 0;
+        while (pos1 < sortedInput1.length && pos2 < sortedInput2.length && distance > 0) {
+            int tmpDistance = Math.abs(sortedInput1[pos1] - sortedInput2[pos2]);
+
+            if (tmpDistance < distance) {
+                value1 = sortedInput1[pos1];
+                value2 = sortedInput2[pos2];
+                distance = tmpDistance;
+            }
+
+            if (sortedInput1[pos1] > sortedInput2[pos2]) {
+                pos2++;
+            } else {
+                pos1++;
+            }
+        }
+        return new int[]{value1, value2};
+    }
+
+
+    /**
+     * This method determines the minimal entries within the given
+     * <code>inputData</code> array that are next to each other, to create
+     * a sum that is bigger than <code>sum</code>. The algorithm performs
+     * in O(n) time.
+     *
+     * @param sum       the sum that have to be exceeded
+     * @param inputData the input data array
+     * @return the minimal number adjacent entries in the input data or <code>-1</code> in case no
+     * result exists
+     */
+    public int minAdjacentLength(final int sum, final int[] inputData) {
+        int retVal = Integer.MAX_VALUE;
+
+        if (inputData != null && inputData.length > 0 && sum > 0) {
+
+            int left = 0, tmp = 0, right;
+            for (int i = 0; i < inputData.length && retVal > 1; ++i) {
+                tmp += inputData[i];
+                right = i + 1;
+
+                while (tmp > sum && left < right) {
+                    tmp -= inputData[left];
+                    if (tmp == sum) {
+                        retVal = Math.min(retVal, (right - left));
+                    }
+                    left++;
+                }
+                if (tmp == sum) {
+                    retVal = Math.min(retVal, (right - left));
+                }
+            }
+        }
+        return retVal != Integer.MAX_VALUE ? retVal : -1;
+    }
 }
