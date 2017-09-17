@@ -14,7 +14,7 @@
 
 package com.scavi.brainsqueeze.tree;
 
-import com.scavi.brainsqueeze.util.Graph;
+import com.scavi.brainsqueeze.util.graph.Graph;
 
 import org.junit.Assert;
 import org.junit.Test;
