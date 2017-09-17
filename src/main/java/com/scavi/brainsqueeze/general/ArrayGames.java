@@ -39,6 +39,55 @@ import java.util.Map;
  */
 public class ArrayGames {
 
+
+    public int[] rearrange(int[] nums) {
+        Preconditions.checkArgument(nums != null && nums.length >= 2,
+                "Illegal input !No given values !");
+        int sum = determineSum(nums);
+        float average = ((float) sum) / (float) nums.length;
+        int evenPos = 0;
+        int oddPos = 1;
+        int[] result = new int[nums.length];
+        for (int i = 0; i < nums.length; ++i) {
+            int tmpNum = nums[i];
+            if (tmpNum > average && (oddPos + 1) < nums.length) {
+                result[oddPos] = tmpNum;
+                oddPos += 2;
+            } else {
+                result[evenPos] = tmpNum;
+                evenPos += 2;
+            }
+        }
+        return result;
+    }
+
+    private int determineSum(int[] nums) {
+        int sum = 0;
+        for (int current : nums) {
+            sum += current;
+        }
+        return sum;
+    }
+
+    /**
+     * Question: https://www.careercup.com/question?id=5177437882155008
+     * Find maximum contiguous subarray sum with size (the number of the element in the subarray) <= k
+     *
+     * @param input the input
+     * @return the max sum
+     */
+    public int maxSum(final int[] input) {
+        Preconditions.checkNotNull(input, "Illegal input!");
+        int maxSum = Integer.MIN_VALUE;
+        int currentSum = 0;
+        for (int i = 0; i < input.length; ++i) {
+            currentSum = Math.max(currentSum + input[i], input[i]);
+            maxSum = Math.max(currentSum, maxSum);
+        }
+        return maxSum;
+    }
+
+
     /**
      * Find the sub-array with least average. Given an array arr[] of size n and integer k such that
      * k <= n.
