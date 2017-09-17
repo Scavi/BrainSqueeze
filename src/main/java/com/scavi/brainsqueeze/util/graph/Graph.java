@@ -12,16 +12,11 @@
  * limitations under the License.
  */
 
-package com.scavi.brainsqueeze.util;
+package com.scavi.brainsqueeze.util.graph;
 
 import com.google.common.base.Preconditions;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Queue;
-
+import java.util.*;
 
 /**
  * @author Michael Heymel
@@ -29,7 +24,7 @@ import java.util.Queue;
  */
 public class Graph<T> {
     private final boolean _isDirected;
-    private final Map<T, GraphNode> _adjacencyList;
+    private final Map<T, GraphNode<T>> _adjacencyList;
 
 
     /**
@@ -95,9 +90,9 @@ public class Graph<T> {
      * @param weight the weight between the two given points
      */
     private void addEdgeToGraph(final T from, final T to, final int weight) {
-        GraphNode fromGraphNode = addNodeToGraph(from);
-        GraphNode toGraphNode = addNodeToGraph(to);
-        GraphEdge edge = new GraphEdge(weight, toGraphNode);
+        GraphNode<T> fromGraphNode = addNodeToGraph(from);
+        GraphNode<T> toGraphNode = addNodeToGraph(to);
+        GraphEdge<T> edge = new GraphEdge<>(weight, toGraphNode);
         fromGraphNode.getEdges().add(edge);
     }
 
@@ -109,8 +104,8 @@ public class Graph<T> {
      * @param value the value to add
      * @return the added graph node or the existing node, in case the node was already in the graph
      */
-    private GraphNode addNodeToGraph(final T value) {
-        GraphNode graphNode = new GraphNode(value);
+    private GraphNode<T> addNodeToGraph(final T value) {
+        GraphNode<T> graphNode = new GraphNode<>(value);
         if (_adjacencyList.containsKey(value)) {
             graphNode = _adjacencyList.get(value);
         } else {
@@ -149,13 +144,13 @@ public class Graph<T> {
      */
     private boolean bfs(final T lookupValue) {
         boolean wasFound = false;
-        Queue<GraphNode> bfsQueue = new LinkedList<>();
+        Queue<GraphNode<T>> bfsQueue = new LinkedList<>();
 
         // iterate through all list. This will make sure, that also nodes that are not attached
         // to the graph will be iterated
-        Iterator<Map.Entry<T, GraphNode>> graphIterator = _adjacencyList.entrySet().iterator();
+        Iterator<Map.Entry<T, GraphNode<T>>> graphIterator = _adjacencyList.entrySet().iterator();
         while (graphIterator.hasNext() && !wasFound) {
-            GraphNode tmp = graphIterator.next().getValue();
+            GraphNode<T> tmp = graphIterator.next().getValue();
 
             // only add undiscovered nodes for the further lookupOutside
             if (tmp.getNodeState() == LookupState.Undiscovered) {
@@ -164,13 +159,13 @@ public class Graph<T> {
             // iterates through the queue until the entry was found. During iteration, edges that
             // are not discovered yet will be added to the queue
             while (bfsQueue.size() > 0 && !wasFound) {
-                GraphNode currentNode = bfsQueue.poll();
+                GraphNode<T> currentNode = bfsQueue.poll();
 
                 if (lookupValue.equals(currentNode.getContent())) {
                     wasFound = true;
                 } else {
                     // adds all undiscovered nodes
-                    for (GraphEdge edge : currentNode.getEdges()) {
+                    for (GraphEdge<T> edge : currentNode.getEdges()) {
                         if (edge.getTo().getNodeState() == LookupState.Undiscovered) {
                             bfsQueue.add(edge.getTo());
                         }
@@ -198,10 +193,10 @@ public class Graph<T> {
         // reset the search from previous searches
         reinitializeNodeStates();
 
-        Iterator<Map.Entry<T, GraphNode>> graphIterator = _adjacencyList.entrySet().iterator();
+        Iterator<Map.Entry<T, GraphNode<T>>> graphIterator = _adjacencyList.entrySet().iterator();
         boolean wasFound = false;
         while (graphIterator.hasNext() && !wasFound) {
-            GraphNode currentNode = graphIterator.next().getValue();
+            GraphNode<T> currentNode = graphIterator.next().getValue();
             if (currentNode.getNodeState() == LookupState.Undiscovered) {
                 wasFound = dfs(currentNode.setNodeState(LookupState.Discovered), lookupValue);
                 currentNode.setNodeState(LookupState.Processed);
@@ -221,7 +216,7 @@ public class Graph<T> {
      * <p/>
      * <code>false</code> the value doesn't exist in the graph
      */
-    private boolean dfs(final GraphNode currentNode, final T lookupValue) {
+    private boolean dfs(final GraphNode<T> currentNode, final T lookupValue) {
 
         boolean wasFound = false;
         if (lookupValue.equals(currentNode.getContent())) {
@@ -229,7 +224,7 @@ public class Graph<T> {
         } else {
             // follow only roots that were undiscovered
             for (int i = 0; i < currentNode.getEdges().size() && !wasFound; ++i) {
-                GraphEdge currentEdge = currentNode.getEdges().get(i);
+                GraphEdge<T> currentEdge = currentNode.getEdges().get(i);
                 if (currentEdge.getTo().getNodeState() == LookupState.Undiscovered) {
                     wasFound = dfs(currentEdge.getTo().setNodeState(LookupState.Discovered),
                             lookupValue);
@@ -250,109 +245,10 @@ public class Graph<T> {
         }
     }
 
-
     /**
-     * The class to represent a node in the graph
+     * @return The map representing the adjacency "list"
      */
-    private final class GraphNode {
-        private final T _content;
-        private final LinkedList<GraphEdge> _edges;
-        private LookupState _nodeState = LookupState.Undiscovered;
-
-
-        /**
-         * Constructor
-         *
-         * @param content the ocntent of the node
-         */
-        public GraphNode(final T content) {
-            _content = content;
-            _edges = new LinkedList<>();
-        }
-
-
-        /**
-         * @return the content of the node
-         */
-        public T getContent() {
-            return _content;
-        }
-
-
-        /**
-         * @return all edges of the current node
-         */
-        public LinkedList<GraphEdge> getEdges() {
-            return _edges;
-        }
-
-
-        /**
-         * @return the current state of the node
-         */
-        public LookupState getNodeState() {
-            return _nodeState;
-        }
-
-
-        /**
-         * @param nodeState the current state of the node
-         * @return this
-         */
-        public GraphNode setNodeState(final LookupState nodeState) {
-            _nodeState = nodeState;
-            return this;
-        }
-
-
-        @Override
-        public String toString() {
-            return String.format("%s (%s)", String.valueOf(_content), _nodeState);
-        }
-    }
-
-
-    /**
-     * A class to represent the edges between two nodes
-     */
-    private final class GraphEdge {
-        private final int _weight;
-        private final GraphNode _to;
-
-
-        /**
-         * Constructor
-         *
-         * @param weight the weight to reach the node
-         * @param to     the end point of the edge
-         */
-        public GraphEdge(final int weight, final GraphNode to) {
-            _weight = weight;
-            _to = to;
-        }
-
-
-        /**
-         * @return the weight to reach the node
-         */
-        public int getWeight() {
-            return _weight;
-        }
-
-
-        /**
-         * @return the end point of the edge
-         */
-        public GraphNode getTo() {
-            return _to;
-        }
-    }
-
-
-    /**
-     * To support lookups in graphs with cycles
-     */
-    private enum LookupState {
-        Undiscovered, Discovered, Processed
+    public Map<T, GraphNode<T>> getGraph() {
+        return _adjacencyList;
     }
 }
