@@ -30,7 +30,6 @@ import java.util.Set;
  * Try to do it in one pass
  * example
  * [4, 2, 0, 5, 2, 0, 1] return: 0, 2
- * [1, 2, 3, 0, 0, 1, 3, 6, 6,6] return 0, 1, 3, 6
  */
 public class Repeats {
 
