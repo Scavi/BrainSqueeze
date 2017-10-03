@@ -15,6 +15,7 @@
 package com.scavi.brainsqueeze.tree;
 
 import com.scavi.brainsqueeze.util.Node;
+import com.scavi.brainsqueeze.util.Pair;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -24,6 +25,66 @@ import java.util.List;
  * @since 25/09/16
  */
 public class BstGames {
+
+    private class TempResult {
+        private int _distance;
+        private boolean _isFinished = false;
+
+        public TempResult(int distance) {
+            this._distance = distance;
+        }
+
+        public TempResult setDistance(int distance) {
+            _distance = distance;
+            return this;
+        }
+
+        public TempResult setIsFinished() {
+            _isFinished = true;
+            return this;
+        }
+
+        public boolean isFinished() {
+            return _isFinished;
+        }
+
+        public int getDistance() {
+            return _distance;
+        }
+    }
+
+    public int distance(Node<Integer> root, final Node<Integer> lookup1, final Node<Integer> lookup2) {
+        TempResult result = findDistance(root, lookup1, lookup2);
+        return result.isFinished() ? result.getDistance() : -1;
+    }
+
+
+    private TempResult findDistance(Node<Integer> root, final Node<Integer> lookup1, final Node<Integer> lookup2) {
+        TempResult result = new TempResult(-1);
+        if (root == null || lookup1 == null || lookup2 == null) {
+            return result;
+        }
+        TempResult leftResult = findDistance(root.getLeft(), lookup1, lookup2);
+        TempResult rightResult = findDistance(root.getRight(), lookup1, lookup2);
+
+        if (root.equals(lookup1) || root.equals(lookup2)) {
+            return result.setDistance(1);
+        }
+        else if (leftResult.isFinished()) {
+            return leftResult;
+        }
+        else if (rightResult.isFinished()) {
+            return rightResult;
+        }
+        else if (leftResult.getDistance() > 0 && rightResult.getDistance() > 0) {
+            result.setDistance(leftResult.getDistance() + rightResult.getDistance()).setIsFinished();
+        } else if (leftResult.getDistance() > 0) {
+            result.setDistance(leftResult.getDistance() + 1);
+        } else if (rightResult.getDistance() > 0) {
+            result.setDistance(rightResult.getDistance() + 1);
+        }
+        return result;
+    }
 
 
     /**
