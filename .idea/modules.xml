@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BrainSqueeze.iml" filepath="$PROJECT_DIR$/.idea/modules/BrainSqueeze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BrainSqueeze.iml" filepath="$PROJECT_DIR$/BrainSqueeze.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BrainSqueeze_main.iml" filepath="$PROJECT_DIR$/.idea/modules/BrainSqueeze_main.iml" group="BrainSqueeze" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BrainSqueeze_test.iml" filepath="$PROJECT_DIR$/.idea/modules/BrainSqueeze_test.iml" group="BrainSqueeze" />
     </modules>
