@@ -17,108 +17,56 @@ package com.scavi.brainsqueeze.career;
 import com.google.common.base.Preconditions;
 import com.scavi.brainsqueeze.util.Point;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by Scavenger on 5/13/2017.
  */
 public class ClosestPoints {
+    /**
+     * This method uses a max heap to keep track of the k min values to 0.
+     * This algorithm runs in O(k + (n-k) log k) and uses O(k) space.
+     *
+     * @param points the k points. int[0] represents the x coordinate, int[1] the y coordinate
+     * @param k      the k closest points to 0
+     * @return the k closest points
+     */
+    public int[][] findClosestPointsTo0(final int[][] points, final int k) {
+        Preconditions.checkArgument(k < points.length, "Illegal argument! More required points than available");
 
-    public List<Point> findClosestPoints(ArrayList<Point> input, Point origin, int kClosest) {
-        Preconditions.checkNotNull(origin, "Illegal origin: <null >");
-        Preconditions.checkArgument(kClosest > 0, "Illegal k - declaration !The value must be > 0");
-        if (input == null || kClosest > input.size()) {
-            return input;
-        }
-        Collections.sort(input, new PointComparator(origin));
-        List<Point> closestPoints = new ArrayList<>(kClosest);
-
-        int closestPos = findClosest(input, origin, 0, input.size() - 1);
-        int leftLookup = closestPos + 1;
-        int rightLookup = closestPos - 1;
-
-        while (closestPoints.size() < kClosest) {
-            closestPoints.add(input.get(closestPos));
-
-            double distanceLeft = Float.MAX_VALUE;
-            double distanceRight = Float.MAX_VALUE;
-            if (leftLookup - 1 >= 0) {
-                distanceLeft = distance(input.get(leftLookup - 1), origin);
-            }
-            if (distanceRight + 1 < input.size()) {
-                distanceRight = distance(input.get(rightLookup + 1), origin);
-            }
-
-            if (distanceRight < distanceLeft) {
-                closestPos = rightLookup + 1;
-                rightLookup++;
-            } else {
-                closestPos = leftLookup - 1;
-                leftLookup--;
-            }
+        PriorityQueue<int[]> maxHeap = new PriorityQueue<>(k, (o1, o2) -> {
+            double d1 = distanceTo0(o1[0], o1[1]);
+            double d2 = distanceTo0(o2[0], o2[1]);
+            return Double.compare(d2, d1);
+        });
+        // add the first k entries into the heap
+        for (int i = 0; i < k; ++i) {
+            maxHeap.offer(points[i]);
         }
 
-        return closestPoints;
+        double currentDistance;
+        double maxHeapDistance;
+        for (int i = k; i < points.length; ++i) {
+            int[] currentPoint = points[i];
+            currentDistance = distanceTo0(currentPoint[0], currentPoint[1]);
+            maxHeapDistance = distanceTo0(maxHeap.peek()[0], maxHeap.peek()[1]);
+
+            if (Double.compare(currentDistance, maxHeapDistance) < 0) {
+                maxHeap.remove(maxHeap.peek());
+                maxHeap.offer(currentPoint);
+            }
+        }
+
+        // put the results of the maxHeap into the result array
+        int[][] result = new int[k][2];
+        for (int i = 0; i < k; ++i) {
+            result[i] = maxHeap.poll();
+        }
+        return result;
     }
 
 
-    private int findClosest(ArrayList<Point> input, Point origin, int left, int right) {
-        if (left >= right) {
-            return -1;
-        }
-
-        int lookupPos = (left + right) / 2;
-        Point target = input.get(lookupPos);
-        if (origin.equals(target)) {
-            return lookupPos;
-        }
-        double distanceCurrent = distance(target, origin);
-        double distanceLeft = lookupPos - 1 >= 0 ?
-                distance(input.get(lookupPos - 1), origin) : Float.MAX_VALUE;
-        double distanceRight = lookupPos + 1 < input.size() ?
-                distance(input.get(lookupPos + 1), origin) : Float.MAX_VALUE;
-        // found the middle point
-        if (distanceCurrent < distanceLeft && distanceCurrent < distanceRight) {
-            return lookupPos;
-        }
-        // go to the left
-        else if (distanceLeft < distanceRight) {
-            return findClosest(input, origin, left, lookupPos - 1);
-        }
-        // go to the right
-        else {
-            return findClosest(input, origin, left + 1, right);
-        }
-    }
-
-    private double distance(Point p1, Point p2) {
-        int x = 1 << Math.abs(p2.getX() - p1.getX()) - 1;
-        int y = 1 << Math.abs(p2.getY() - p1.getY()) - 1;
-        return Math.sqrt(x + y);
-    }
-
-    private class PointComparator implements Comparator<Point> {
-        private final Point _origin;
-
-        PointComparator(Point origin) {
-            _origin = origin;
-        }
-
-        @Override
-        public int compare(Point point1, Point point2) {
-            if (point1 == null) {
-                return -1;
-            } else if (point2 == null) {
-                return 1;
-            } else if (point2.getX() == point1.getX() && point2.getY() == point2.getX()) {
-                return 0;
-            }
-            double distanceP1 = distance(point1, _origin);
-            double distanceP2 = distance(point1, _origin);
-            return distanceP1 < distanceP2 ? -1 : 1;
-        }
+    private double distanceTo0(final int x, final int y) {
+        return Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
     }
 }

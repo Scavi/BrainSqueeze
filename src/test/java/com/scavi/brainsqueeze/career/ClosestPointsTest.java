@@ -14,12 +14,9 @@
 
 package com.scavi.brainsqueeze.career;
 
-import com.scavi.brainsqueeze.util.Point;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import static com.google.common.truth.Truth.assertThat;
 
 /**
  * Created by Scavenger on 5/13/2017.
@@ -27,15 +24,22 @@ import java.util.List;
 public class ClosestPointsTest {
     @Test
     public void test1() {
-        Point pA = new Point(4, 2, "a");
-        Point pB = new Point(6, 1, "b");
-        Point pC = new Point(1, 1, "c");
-        Point pD = new Point(5, 2, "d");
-        Point pE = new Point(1, 3, "e");
+        int[][] points = new int[][]{
+                new int[]{-2, -3},
+                new int[]{-1, 0},
+                new int[]{-2, 4},
+                new int[]{0, -2},
+                new int[]{3, 2},
+                new int[]{3, -5},
+        };
 
-        ArrayList<Point> input = new ArrayList<>(Arrays.asList(pA, pB, pC, pD, pE));
-        Point pOrigin = new Point(0, 0, "o");
-        List<Point> result = new ClosestPoints().findClosestPoints(input, pOrigin, 2);
-        int i = 0;
+        int[][] expectedResult = new int[][]{
+                new int[]{0, -2},
+                new int[]{-1, 0},
+        };
+
+        int[][] result = new ClosestPoints().findClosestPointsTo0(points, 2);
+        assertThat(result.length).isEqualTo(2);
+        assertThat(result).isEqualTo(expectedResult);
     }
 }
