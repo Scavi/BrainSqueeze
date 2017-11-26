@@ -14,7 +14,7 @@ public class Trie {
     /**
      * Inserts the text into the current trie.
      *
-     * @param text the text to isnert.
+     * @param text the text to insert.
      */
     public void insert(@Nonnull final String text) {
         if (text.isEmpty()) {
