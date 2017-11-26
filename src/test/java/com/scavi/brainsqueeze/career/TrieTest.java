@@ -51,4 +51,12 @@ public class TrieTest {
 
         assertThat(trie.exists("ha")).isFalse();
     }
+
+    @Test
+    public void test5() {
+        Trie trie = new Trie();
+        trie.insert("foo*bar");
+
+        assertThat(trie.exists("foo*bar")).isTrue();
+    }
 }
