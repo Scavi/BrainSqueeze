@@ -15,7 +15,7 @@
 package com.scavi.brainsqueeze.util;
 
 import com.google.common.base.Charsets;
-import com.scavi.brainsqueeze.adventofcode2016.Day8TwoFactorAuthentication;
+import com.scavi.brainsqueeze.adventofcode.y2016.Day8TwoFactorAuthentication;
 
 import java.io.BufferedReader;
 import java.io.File;
