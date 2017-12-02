@@ -17,19 +17,21 @@ package com.scavi.brainsqueeze.util;
 import com.google.common.base.Charsets;
 import com.scavi.brainsqueeze.adventofcode.y2016.Day8TwoFactorAuthentication;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import javax.annotation.Nonnull;
+import javax.annotation.ParametersAreNonnullByDefault;
+import java.io.*;
 import java.net.URL;
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.StringTokenizer;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * @author Michael Heymel
  * @since 09/12/16
  */
+@ParametersAreNonnullByDefault
 public class FileHelper {
 
     public static File forUnitTests(final String inputDir) {
@@ -46,7 +48,7 @@ public class FileHelper {
      * @return the array with the lines of the file
      */
     public static String[] readLines(final File file) throws IOException {
-        List<String> lines = new ArrayList<>();
+        List<String> lines = new LinkedList<>();
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(
                 file), Charsets.UTF_8))) {
             String line;
@@ -55,5 +57,33 @@ public class FileHelper {
             }
         }
         return lines.toArray(new String[lines.size()]);
+    }
+
+
+    /**
+     * Parses a given file and tokenizes each line by the delimiter to determine the integer values.
+     *
+     * @param file the file
+     * @return the matrix or <code>null</code>
+     * @throws IOException
+     */
+    public static int[][] toIntMatrix(final File file) throws IOException {
+        String[] lines = readLines(file);
+        int[][] matrix = null;
+
+        if (lines.length > 0) {
+            matrix = new int[lines.length][];
+            int row = 0;
+            for (String line : lines) {
+                List<Integer> lineIntegers = new LinkedList<>();
+                Matcher numberMatcher = Pattern.compile("\\d+").matcher(line);
+                while (numberMatcher.find()) {
+                    int value = Integer.parseInt(numberMatcher.group());
+                    lineIntegers.add(value);
+                }
+                matrix[row++] = PrimitiveHelper.toPrimitive(lineIntegers);
+            }
+        }
+        return matrix;
     }
 }
