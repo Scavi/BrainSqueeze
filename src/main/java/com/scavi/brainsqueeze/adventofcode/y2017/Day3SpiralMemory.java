@@ -64,12 +64,15 @@ public class Day3SpiralMemory {
      * @return the amount of fields
      */
     private int fieldsOfMatrix(final int input) {
-        int mul = 0;
-        int length = 1;
-        while (input > length) {
-            length += 8 * mul++;
-        }
-        return length;
+        // stolen from https://github.com/shaeberling/euler/blob/master/go/src/aoc17/problems/p03/p03.go ;-)
+        int ring = (int) Math.ceil((Math.sqrt(input) - 1) / 2);
+        return (int) Math.pow((ring << 1) + 1, 2);
+//        int mul = 0;
+//        int length = 1;
+//        while (input > length) {
+//            length += 8 * mul++;
+//        }
+//        return length;
     }
 
 
