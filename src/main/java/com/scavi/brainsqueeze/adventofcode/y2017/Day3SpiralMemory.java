@@ -3,7 +3,7 @@ package com.scavi.brainsqueeze.adventofcode.y2017;
 import com.scavi.brainsqueeze.adventofcode.util.Direction;
 import com.scavi.brainsqueeze.util.Point;
 
-public class SpiralMemory {
+public class Day3SpiralMemory {
     /**
      * Based on the given input the required fields for the matrix (two-dimensional-array) will be determined.
      * E.g. with a puzzle input of 16, 25 fields (5x5) matrix would be required.
