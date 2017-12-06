@@ -76,7 +76,7 @@ public class FileHelper {
             int row = 0;
             for (String line : lines) {
                 List<Integer> lineIntegers = new LinkedList<>();
-                Matcher numberMatcher = Pattern.compile("\\d+").matcher(line);
+                Matcher numberMatcher = Pattern.compile("-?\\d+").matcher(line);
                 while (numberMatcher.find()) {
                     int value = Integer.parseInt(numberMatcher.group());
                     lineIntegers.add(value);

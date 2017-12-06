@@ -14,6 +14,8 @@
 
 package com.scavi.brainsqueeze.util;
 
+import java.util.Objects;
+
 /**
  * @author Michael Heymel
  * @since 14/12/16
@@ -56,6 +58,20 @@ public class Pair<T extends Comparable<T>, V> implements Comparable<Pair<T, V>> 
         return _key.compareTo(toCompare.getKey());
     }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(_key, _value);
+    }
+
+    @Override
+    public boolean equals(final Object obj) {
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        Pair<T, V> toCompare = (Pair<T, V>) obj;
+        return Objects.equals(getKey(), toCompare.getKey()) &&
+                Objects.equals(getValue(), toCompare.getValue());
+    }
 
     /**
      * @return key and value as string
