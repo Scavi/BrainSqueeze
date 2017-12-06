@@ -105,8 +105,11 @@ public class Day3SpiralMemory {
                     else if (currentDir == Direction.North) y--;
                     else if (currentDir == Direction.West) x--;
                     else if (currentDir == Direction.South) y++;
-                    // sum up
-                    sum = matrix[y][x] = addUp(matrix, x, y);
+                    // Lazy brute force - just add all values together of all adjacent fields of x, y
+                    sum = matrix[y][x] =
+                            matrix[y - 1][x - 1] + matrix[y - 1][x] + matrix[y - 1][x + 1] +
+                                    matrix[y][x - 1] + matrix[y][x + 1] + matrix[y + 1][x - 1] + matrix[y + 1][x] +
+                                    matrix[y + 1][x + 1];
                 }
                 // change the direction
                 currentDir = Direction.valueOf((currentDir.getValue() + 1) % 4);
@@ -115,20 +118,5 @@ public class Day3SpiralMemory {
             steps++;
         }
         return sum;
-    }
-
-
-    /**
-     * Lazy brute force - just add all values together of all adjacent fields of x, y
-     *
-     * @param matrix the current matrix
-     * @param x      the current x coordinate in the matrix
-     * @param y      the current y coordinate in the matrix
-     * @return the sum of all adjacent fields
-     */
-    private int addUp(final int[][] matrix, final int x, final int y) {
-        return matrix[y - 1][x - 1] + matrix[y - 1][x] + matrix[y - 1][x + 1] +
-                matrix[y][x - 1] + matrix[y][x + 1] +
-                matrix[y + 1][x - 1] + matrix[y + 1][x] + matrix[y + 1][x + 1];
     }
 }
