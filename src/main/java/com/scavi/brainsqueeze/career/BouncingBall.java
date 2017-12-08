@@ -2,11 +2,21 @@ package com.scavi.brainsqueeze.career;
 
 import com.scavi.brainsqueeze.util.Pair;
 
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class BouncingBall {
+    private final Set<Integer> _stickyLevels;
+
+    public BouncingBall() {
+        this(null);
+    }
+
+    public BouncingBall(final Set<Integer> stickyLevels) {
+        _stickyLevels = stickyLevels;
+    }
+
 
     public int waysToBounce(final int level) {
         return waysToBounce(level, 0);
@@ -31,27 +41,33 @@ public class BouncingBall {
     }
 
 
-    public int waysToBounceDP(final int level) {
-        Map<Pair<Integer, Boolean>, Integer> dpCache = new HashMap<>();
+    /**
+     * This solution uses a cache of the level to it's odd / equal information to store already calculated values.
+     * The rest is the like the recursive solution that just follows all paths from the current leevel.
+     *
+     * @param level the level to bounce
+     * @return the ways to bounce from the level
+     */
+    public long waysToBounceDP(final int level) {
+        Map<Pair<Integer, Boolean>, Long> dpCache = new HashMap<>();
         return waysToBounceDP(level, dpCache, 0);
     }
 
 
-    // TODO in progress 
-    public int waysToBounceDP(final int level, Map<Pair<Integer, Boolean>, Integer> dpCache, int it) {
+    private long waysToBounceDP(final int level, Map<Pair<Integer, Boolean>, Long> dpCache, int it) {
         if (level < 0 || isStuck(level)) {
             return 0;
         } else if (level == 0) {
             return 1;
         }
 
-        Pair<Integer, Boolean> lookup = new Pair<>(it, it % 2 != 0);
+        Pair<Integer, Boolean> lookup = new Pair<>(level, it % 2 != 0);
         if (dpCache.containsKey(lookup)) {
             return dpCache.get(lookup);
         }
 
         it++;
-        int ways = waysToBounceDP(level - 1, dpCache, it);
+        long ways = waysToBounceDP(level - 1, dpCache, it);
         if (it % 2 != 0) {
             ways += waysToBounceDP(level - 2, dpCache, it);
         } else {
@@ -65,7 +81,7 @@ public class BouncingBall {
 
 
     private boolean isStuck(int level) {
-        return false;
+        return _stickyLevels != null && _stickyLevels.contains(level);
     }
 }
 

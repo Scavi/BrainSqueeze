@@ -2,6 +2,9 @@ package com.scavi.brainsqueeze.career;
 
 import org.junit.Test;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import static com.google.common.truth.Truth.*;
 
 public class BouncingBallTest {
@@ -15,6 +18,13 @@ public class BouncingBallTest {
         }
     }
 
+    @Test
+    public void testStickyRecursive() {
+        Set<Integer> stickyLevel = new HashSet<>();
+        stickyLevel.add(3);
+        int ways = new BouncingBall(stickyLevel).waysToBounce(5);
+        assertThat(ways).isEqualTo(3);
+    }
 
     @Test
     public void testDP() {
@@ -24,6 +34,20 @@ public class BouncingBallTest {
         }
     }
 
+    @Test
+    public void testHighLevelDP() {
+        long result = new BouncingBall().waysToBounceDP(1000);
+        assertThat(result).isEqualTo(4534738885923899843L);
+    }
+
+
+    @Test
+    public void testStickyDP() {
+        Set<Integer> stickyLevel = new HashSet<>();
+        stickyLevel.add(3);
+        long ways = new BouncingBall(stickyLevel).waysToBounceDP(5);
+        assertThat(ways).isEqualTo(3);
+    }
 
     private void validateRecursiveSolution(final int[] bouncesToExpectedResult) {
         int bounces = new BouncingBall().waysToBounce(bouncesToExpectedResult[0]);
@@ -31,7 +55,7 @@ public class BouncingBallTest {
     }
 
     private void validateDpSolution(final int[] bouncesToExpectedResult) {
-        int bounces = new BouncingBall().waysToBounceDP(bouncesToExpectedResult[0]);
+        long bounces = new BouncingBall().waysToBounceDP(bouncesToExpectedResult[0]);
         assertThat(bounces).isEqualTo(bouncesToExpectedResult[1]);
     }
 
