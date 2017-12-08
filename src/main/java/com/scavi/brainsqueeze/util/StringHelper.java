@@ -16,6 +16,10 @@ package com.scavi.brainsqueeze.util;
 
 import com.google.common.base.Preconditions;
 
+import javax.annotation.Nonnull;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.StringTokenizer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -27,7 +31,7 @@ public class StringHelper {
     public static final String EMPTY = "";
     private static final char[] HEX =
             new char[]{'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e',
-                       'f'};
+                    'f'};
     private static String[] BYTE_TO_HEX = new String[256];
 
     static {
@@ -102,5 +106,23 @@ public class StringHelper {
             return string1;
         }
         return string1.length() > string2.length() ? string1 : string2;
+    }
+
+
+    /**
+     * A split / tokenize method to reduce boilerplate code. Splits the input with the given delimiter and and
+     * returns all token.
+     *
+     * @param input     the input to split
+     * @param delimiter the delimiter to split
+     * @return the tokens
+     */
+    public static String[] split(@Nonnull final String input, @Nonnull final String delimiter) {
+        StringTokenizer registerTokens = new StringTokenizer(input, delimiter);
+        List<String> result = new LinkedList<>();
+        while (registerTokens.hasMoreTokens()) {
+            result.add(registerTokens.nextToken().trim());
+        }
+        return result.toArray(new String[result.size()]);
     }
 }
