@@ -10,7 +10,7 @@ import static com.google.common.truth.Truth.*;
 
 public class Day9StreamProcessingTest {
     @Test
-    public void test1() {
+    public void testQuestion1() {
         int score = new Day9StreamProcessing().solveA("{{{}}}");
         assertThat(score).isEqualTo(6);
     }

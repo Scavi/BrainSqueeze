@@ -9,47 +9,42 @@ public class Day9StreamProcessing {
 
     public int solveA(@Nonnull final String input) {
         int[] result = new int[2];
-        solve(new StringBuilder(input), 1, result);
+        solve(input, result);
         return result[POS_SCORE];
     }
 
     public int solveB(@Nonnull final String input) {
         int[] result = new int[2];
-        solve(new StringBuilder(input), 1, result);
+        solve(input, result);
         return result[POS_GARBAGE];
     }
 
-    private void solve(final StringBuilder input, int level, int[] result) {
-        while (input.length() > 0) {
-            input.deleteCharAt(0);
-            if (input.charAt(0) == '}') {
+    private void solve(String input, int[] result) {
+        int level = 0;
+        for (int i = 0; i < input.length(); ++i) {
+            if (input.charAt(i) == '{') {
+                level++;
+            } else if (input.charAt(i) == '}') {
                 result[POS_SCORE] += level;
-                return;
-            } else if (input.charAt(0) == '{') {
-                solve(input, level + 1, result);
-            } else if (input.charAt(0) == '<') {
-                result[POS_GARBAGE] += removeGarbage(input);
+                level--;
+            } else if (input.charAt(i) == '<') {
+                boolean isEndOfGarbage = false;
+                int garbage = 0;
+
+                do {
+                    i++;
+                    if (input.charAt(i) == '>') {
+                        isEndOfGarbage = true;
+                    } else {
+                        if (input.charAt(i) == '!') {
+                            i++;
+                        } else {
+                            garbage++;
+                        }
+                    }
+                } while (i < input.length() && !isEndOfGarbage);
+                result[POS_GARBAGE] += garbage;
             }
         }
-    }
-
-    private int removeGarbage(final StringBuilder input) {
-        int garbage = 0;
-        boolean isEndOfGarbage = false;
-        input.deleteCharAt(0);
-        while (input.length() > 0 && !isEndOfGarbage) {
-            if (input.charAt(0) == '>') {
-                isEndOfGarbage = true;
-            } else {
-                if (input.charAt(0) == '!') {
-                    input.deleteCharAt(0);
-                } else {
-                    garbage++;
-                }
-                input.deleteCharAt(0);
-
-            }
-        }
-        return garbage;
     }
 }
