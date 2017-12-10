@@ -61,6 +61,15 @@ public class StringHelper {
     }
 
 
+    public static String toHexString(final int[] input) {
+        final StringBuilder builder = new StringBuilder();
+        for (int i : input) {
+            builder.append(BYTE_TO_HEX[i]);
+        }
+        return builder.toString();
+    }
+
+
     /**
      * Uses the pattern to extract the number from the input to create an int
      *

@@ -18,4 +18,14 @@ public class PrimitiveHelper {
         }
         return res;
     }
+
+
+    public static int[] toAsciiDec(@Nonnull final String input) {
+        int[] result = new int[input.length()];
+        int pos = 0;
+        for (char c : input.toCharArray()) {
+            result[pos++] = c;
+        }
+        return result;
+    }
 }
