@@ -61,6 +61,12 @@ public class StringHelper {
     }
 
 
+    /**
+     * Converts a given int input with ascii decimals to a hex string.
+     *
+     * @param input the input
+     * @return the hex string
+     */
     public static String toHexString(final int[] input) {
         final StringBuilder builder = new StringBuilder();
         for (int i : input) {

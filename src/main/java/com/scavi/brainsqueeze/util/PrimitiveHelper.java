@@ -20,6 +20,12 @@ public class PrimitiveHelper {
     }
 
 
+    /**
+     * Converts the characters of the given string to their corresponding ascii decimal
+     *
+     * @param input the input string
+     * @return the result
+     */
     public static int[] toAsciiDec(@Nonnull final String input) {
         int[] result = new int[input.length()];
         int pos = 0;
