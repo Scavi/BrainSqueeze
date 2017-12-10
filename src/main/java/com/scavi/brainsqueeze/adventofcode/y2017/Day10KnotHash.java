@@ -28,20 +28,19 @@ public class Day10KnotHash {
         int currentPos = 0;
         for (int i = 0; i < iterations; ++i) {
             for (int range : rangeData) {
-                int targetPos = (currentPos + range - 1) % length;
+                int targetPos = (currentPos + range - 1);
                 int sourcePos = currentPos;
-                boolean hasToSwap = range > 1; // mhh ugly :-/
-                while (hasToSwap || Math.abs(sourcePos - targetPos) > 1) {
-                    swap(testData, sourcePos, targetPos);
-                    sourcePos = sourcePos == length - 1 ? 0 : sourcePos + 1;
-                    targetPos = targetPos < sourcePos ? (targetPos == 0 ? length - 1 : targetPos - 1) : targetPos - 1;
-                    hasToSwap = false;
+                while (sourcePos < targetPos) {
+                    swap(testData, sourcePos % length, targetPos % length);
+                    sourcePos++;
+                    targetPos--;
                 }
                 currentPos = (currentPos + range + skipSize++) % length;
             }
         }
         return testData[0] * testData[1];
     }
+
 
     private int[] createDenseHash(final int[] testData) {
         int[] denseHash = new int[testData.length / 16];
@@ -55,9 +54,9 @@ public class Day10KnotHash {
 
     private void swap(final int[] testData, final int pos1, final int pos2) {
         if (pos1 != pos2) {
-            testData[pos1] ^= testData[pos2];
-            testData[pos2] ^= testData[pos1];
-            testData[pos1] ^= testData[pos2];
+            int tmp = testData[pos1];
+            testData[pos1] = testData[pos2];
+            testData[pos2] = tmp;
         }
     }
 }
