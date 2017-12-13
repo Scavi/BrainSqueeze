@@ -216,7 +216,7 @@ public class Graph<T> {
      * <p/>
      * <code>false</code> the value doesn't exist in the graph
      */
-    private boolean dfs(final GraphNode<T> currentNode, final T lookupValue) {
+    public boolean dfs(final GraphNode<T> currentNode, final T lookupValue) {
 
         boolean wasFound = false;
         if (lookupValue.equals(currentNode.getContent())) {
@@ -239,7 +239,7 @@ public class Graph<T> {
     /**
      * Re-initializes the nodes states to undiscovered
      */
-    private void reinitializeNodeStates() {
+    public void reinitializeNodeStates() {
         for (GraphNode current : _adjacencyList.values()) {
             current.setNodeState(LookupState.Undiscovered);
         }
