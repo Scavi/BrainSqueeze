@@ -11,7 +11,7 @@ import static com.google.common.truth.Truth.*;
 public class Day13PacketScannersTest {
 
     @Test
-    public void test1() {
+    public void testQuestion1() {
         String[] input = new String[]{
                 "0: 3",
                 "1: 2",
