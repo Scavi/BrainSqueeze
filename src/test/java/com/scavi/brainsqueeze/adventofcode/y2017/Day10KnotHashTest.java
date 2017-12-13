@@ -12,7 +12,6 @@ public class Day10KnotHashTest {
     public void test1() {
         int[] testData = IntStream.range(0, 5).toArray();
         int[] range = new int[]{3, 4, 1, 5};
-
         int result = new Day10KnotHash().solveA(testData, range);
         assertThat(result).isEqualTo(12);
     }
@@ -55,7 +54,6 @@ public class Day10KnotHashTest {
 
     @Test
     public void testQuestionB() {
-        //String range = "1,2,3";
         String range = "106,118,236,1,130,0,235,254,59,205,2,87,129,25,255,118";
         int[] testData = IntStream.range(0, 256).toArray();
         String result = new Day10KnotHash().solveB(testData, range);
