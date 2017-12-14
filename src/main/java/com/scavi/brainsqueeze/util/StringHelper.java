@@ -17,6 +17,8 @@ package com.scavi.brainsqueeze.util;
 import com.google.common.base.Preconditions;
 
 import javax.annotation.Nonnull;
+import java.math.BigDecimal;
+import java.math.BigInteger;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.StringTokenizer;
@@ -30,8 +32,7 @@ import java.util.regex.Pattern;
 public class StringHelper {
     public static final String EMPTY = "";
     private static final char[] HEX =
-            new char[]{'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e',
-                    'f'};
+            new char[]{'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'};
     private static String[] BYTE_TO_HEX = new String[256];
 
     static {
@@ -73,6 +74,27 @@ public class StringHelper {
             builder.append(BYTE_TO_HEX[i]);
         }
         return builder.toString();
+    }
+
+
+    /**
+     * Converts a hex string to the binary string and keeps the leading zeros
+     *
+     * @param hex the hex string to convert
+     * @return the binary string
+     */
+    public static String fromHexToBinary(@Nonnull final String hex) {
+        StringBuilder binary = new StringBuilder(hex.length() * 4);
+        String temp;
+        for (char c : hex.toCharArray()) {
+            int dec = Integer.parseInt(String.valueOf(c), 16);
+            temp = String.format("%s", Integer.toBinaryString(dec));
+            if (temp.length() < 4) {
+                binary.append("0000".substring(temp.length()));
+            }
+            binary.append(temp);
+        }
+        return binary.toString();
     }
 
 
