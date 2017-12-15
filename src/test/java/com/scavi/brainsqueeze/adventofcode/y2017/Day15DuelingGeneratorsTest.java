@@ -2,7 +2,7 @@ package com.scavi.brainsqueeze.adventofcode.y2017;
 
 import org.junit.Test;
 
-import static com.google.common.truth.Truth.*;
+import static com.google.common.truth.Truth.assertThat;
 
 public class Day15DuelingGeneratorsTest {
     @Test
