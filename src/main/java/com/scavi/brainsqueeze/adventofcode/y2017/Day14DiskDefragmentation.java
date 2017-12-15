@@ -26,41 +26,24 @@ public class Day14DiskDefragmentation {
                 // found a marked position in the grid.
                 if (grid[y][x] == MARKED) {
                     groupCount++;
-                    Queue<int[]> fields = new LinkedList<>();
-                    fields.add(new int[]{x, y});
-                    // do bfs and mark every field marked field as visited
-                    while (!fields.isEmpty()) {
-                        int[] current = fields.poll();
-                        int currentX = current[0];
-                        int currentY = current[1];
-                        int left = currentX - 1;
-                        int up = currentY - 1;
-                        int right = currentX + 1;
-                        int down = currentY + 1;
-
-                        // left
-                        if (left >= 0 && grid[currentY][left] == MARKED) {
-                            fields.add(new int[]{left, currentY});
-                        }
-                        // right
-                        if (right < SIZE && grid[currentY][right] == MARKED) {
-                            fields.add(new int[]{right, currentY});
-                        }
-                        // up
-                        if (up >= 0 && grid[up][currentX] == MARKED) {
-                            fields.add(new int[]{currentX, up});
-                        }
-                        // down
-                        if (down < SIZE && grid[down][currentX] == MARKED) {
-                            fields.add(new int[]{currentX, down});
-                        }
-                        grid[currentY][currentX] = 'X'; // mark as visited
-                    }
+                    markGroup(grid, x, y);
                 }
             }
         }
         return groupCount;
     }
+
+    private void markGroup(final char[][] grid, final int x, final int y) {
+        if (x < 0 || y < 0 || x >= SIZE || y >= SIZE || grid[y][x] != MARKED) {
+            return;
+        }
+        grid[y][x] = 'X'; // mark as visited
+        markGroup(grid, x - 1, y);
+        markGroup(grid, x + 1, y);
+        markGroup(grid, x, y + 1);
+        markGroup(grid, x, y - 1);
+    }
+
 
     private String[] solve(final String input) {
         String[] gridBinaries = new String[SIZE];
