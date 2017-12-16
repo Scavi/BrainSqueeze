@@ -33,7 +33,7 @@ public class Day15DuelingGenerators {
         return result;
     }
 
-    private short last(final long value) {
-        return (short) ((value & 0xffff) - ((value & 0x0800) << 1));
+    private long last(final long value) {
+        return value & 0xffff;
     }
 }
