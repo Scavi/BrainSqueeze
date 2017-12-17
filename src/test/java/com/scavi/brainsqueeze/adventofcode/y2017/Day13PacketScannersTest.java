@@ -10,6 +10,7 @@ import static com.google.common.truth.Truth.*;
 
 public class Day13PacketScannersTest {
 
+
     @Test
     public void testQuestion1() {
         String[] input = new String[]{
@@ -33,6 +34,16 @@ public class Day13PacketScannersTest {
 
 
     @Test
+    public void testQuestionB() {
+        String[] input = new String[]{
+                "0: 3",
+                "1: 2",
+        };
+        int severity = new Day13PacketScanners().solveB(input);
+        assertThat(severity).isEqualTo(2);
+    }
+
+    @Test
     public void test2() {
         String[] input = new String[]{
                 "0: 3",
@@ -40,15 +51,15 @@ public class Day13PacketScannersTest {
                 "4: 4",
                 "6: 4"
         };
-        int severity = new Day13PacketScanners().solveB(input);
-        assertThat(severity).isEqualTo(10);
+        int wait = new Day13PacketScanners().solveB(input);
+        assertThat(wait).isEqualTo(10);
     }
 
 //    @Test
 //    public void testQuestionB() throws IOException {
 //        File inputFile = FileHelper.forUnitTests("adventofcode/y2017/Day13.txt");
 //        String[] scannerData = FileHelper.readLines(inputFile);
-//        int severity = new Day13PacketScanners().solveB(scannerData);
-//        assertThat(severity).isEqualTo(3897604);
+//        int wait = new Day13PacketScanners().solveB(scannerData);
+//        assertThat(wait).isEqualTo(3897604);
 //    }
 }
