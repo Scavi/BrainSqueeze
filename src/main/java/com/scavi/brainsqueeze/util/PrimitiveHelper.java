@@ -21,6 +21,23 @@ public class PrimitiveHelper {
 
 
     /**
+     * Creates token from the given input using the delimiter. Trims and converts the values to integer,
+     * e.g. "1,2,3" -> int[]{1,2,3}
+     *
+     * @param input     the input string
+     * @param delimiter the delimiter
+     * @return the integer array from the input
+     */
+    public static int[] toIntArray(@Nonnull final String input, final String delimiter) {
+        String[] tokens = input.split(delimiter);
+        int[] intArray = new int[tokens.length];
+        for (int i = 0; i < intArray.length; ++i) {
+            intArray[i] = Integer.parseInt(tokens[i].trim());
+        }
+        return intArray;
+    }
+
+    /**
      * Converts the characters of the given string to their corresponding ascii decimal
      *
      * @param input the input string
