@@ -10,14 +10,14 @@ import static com.google.common.truth.Truth.assertThat;
 
 public class Day16PermutationPromenadeTest {
     @Test
-    public void test1() throws CloneNotSupportedException {
+    public void test1() {
         String order = new Day16PermutationPromenade().solveA("s1,x3/4,pe/b", "abcde");
         assertThat(order).isEqualTo("baedc");
     }
 
 
     @Test
-    public void testQuestionA() throws IOException, CloneNotSupportedException {
+    public void testQuestionA() throws IOException {
         File inputFile = FileHelper.forUnitTests("adventofcode/y2017/Day16.txt");
         String[] input = FileHelper.readLines(inputFile);
         String order = new Day16PermutationPromenade().solveA(input[0], "abcdefghijklmnop");
@@ -25,7 +25,7 @@ public class Day16PermutationPromenadeTest {
     }
 
     @Test
-    public void testQuestionB() throws IOException, CloneNotSupportedException {
+    public void testQuestionB() throws IOException {
         File inputFile = FileHelper.forUnitTests("adventofcode/y2017/Day16.txt");
         String[] input = FileHelper.readLines(inputFile);
         String order = new Day16PermutationPromenade().solveB(input[0], "abcdefghijklmnop");
