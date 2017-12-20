@@ -28,30 +28,36 @@
 
 package com.scavi.brainsqueeze.codefight.challenge;
 
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.IntStream;
 
-/**
- * Created by Scavenger on 5/28/2017.
- * <p>
- * Given an array of numbers arr, determine whether arr can be divided into two subsets for which the sum of elements in both subsets is the same.
- * <p>
- * Example
- * <p>
- * For arr = [3, 5, 16, 8], the output should be
- * subsetSum(arr) = true.
- * <p>
- * It is possible to partition this array into two subsets that have a sum of 16: [16] and [3, 5, 8].
- * <p>
- * For arr = [5, 7, 1], the output should be
- * subsetSum(arr) = false.
- */
 public class SubsetSum {
 
-    public boolean subsetSum(int[] input) {
+    /**
+     * Given an array of numbers arr, determine whether arr can be divided into two subsets for which the sum of
+     * elements * in both subsets is the same.
+     * <p>
+     * Example:
+     * For arr = [3, 5, 16, 8], the output should be
+     * subsetSum(arr) = true.
+     * <p>
+     * It is possible to partition this array into two subsets that have a sum of 16: [16] and [3, 5, 8].
+     * <p>
+     * For arr = [5, 7, 1], the output should be
+     * subsetSum(arr) = false.
+     *
+     * @param input
+     * @return
+     */
+    public boolean isSubsetDividable(final int[] input) {
         if (input == null || input.length == 1) {
             return false;
         }
-        int inputSum = overallSum(input);
+        int inputSum = IntStream.of(input).sum();
         if ((inputSum % 2) != 0) {
             return false;
         }
@@ -71,11 +77,66 @@ public class SubsetSum {
     }
 
 
-    private int overallSum(int[] input) {
-        int sum = 0;
-        for (int current : input) {
-            sum += current;
+    /**
+     * This method tries to find exactly k elements from the given data list that sum's up the given sum.
+     * This method assumes that data and sum is positive.
+     * The runtime of this method is O (n!) but has a lot of search pruning (stops at k times etc.)
+     *
+     * @param data the input data (assuming only positive numbers!)
+     * @param k    the k elements to determine the sum
+     * @param sum  the target sum
+     * @return the result
+     */
+    public List<List<Integer>> findKElementsOfSum(@Nonnull final ArrayList<Integer> data, final int k, final int sum) {
+        if (k < 0 || data.size() < k) {
+            return null;
         }
-        return sum;
+        Collections.sort(data);
+        List<List<Integer>> result = new ArrayList<>();
+        findKElementsOfSum(result, data, 0, new Integer[k], 0, sum, 0);
+        return result;
+    }
+
+
+    private void findKElementsOfSum(
+            final List<List<Integer>> result,
+            final List<Integer> data,
+            final int dataPos,
+            final Integer[] buffer,
+            final int bufferPos,
+            final int targetSum,
+            final int currentSum) {
+
+        if (currentSum > targetSum) {
+            return;
+        } else if (bufferPos == buffer.length) {
+            if (targetSum == currentSum) {
+                result.add(Arrays.asList(buffer.clone()));
+            }
+            return;
+        }
+        // k - 1 elements are already added to teh buffer (started ascending from the left side). Now search from the
+        // right for the last value
+        if (bufferPos == buffer.length - 1) {
+            int diff = targetSum - currentSum;
+            for (int i = data.size() - 1; i >= dataPos; --i) {
+                if (data.get(i) == diff) {
+                    buffer[bufferPos] = data.get(i);
+                    findKElementsOfSum(result, data, dataPos + 1, buffer, bufferPos + 1, targetSum, currentSum +
+                            buffer[bufferPos]);
+                    break;
+                } else {
+                    if (data.get(i) < diff) {
+                        break;
+                    }
+                }
+            }
+        } else {
+            for (int i = dataPos; i < data.size(); ++i) {
+                buffer[bufferPos] = data.get(i);
+                findKElementsOfSum(result, data, dataPos + 1, buffer, bufferPos + 1, targetSum, currentSum +
+                        buffer[bufferPos]);
+            }
+        }
     }
 }

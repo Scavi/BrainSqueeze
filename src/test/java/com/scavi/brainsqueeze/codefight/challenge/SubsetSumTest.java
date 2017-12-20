@@ -28,26 +28,36 @@
 
 package com.scavi.brainsqueeze.codefight.challenge;
 
-import com.scavi.brainsqueeze.codefight.challenge.SubsetSum;
 import org.junit.Assert;
 import org.junit.Test;
 
-/**
- * Created by Scavenger on 5/28/2017.
- */
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import static com.google.common.truth.Truth.*;
+
 public class SubsetSumTest {
     @Test
-    public void test1() {
-        Assert.assertTrue(new SubsetSum().subsetSum(new int[]{3, 5, 2, 6}));
+    public void testSubsetDividable1() {
+        Assert.assertTrue(new SubsetSum().isSubsetDividable(new int[]{3, 5, 2, 6}));
     }
 
     @Test
-    public void test2() {
-        Assert.assertTrue(new SubsetSum().subsetSum(new int[]{3, 5, 16, 8}));
+    public void testSubsetDividable2() {
+        Assert.assertTrue(new SubsetSum().isSubsetDividable(new int[]{3, 5, 16, 8}));
     }
 
     @Test
-    public void test3() {
-        Assert.assertFalse(new SubsetSum().subsetSum(new int[]{5, 7, 1}));
+    public void testSubsetDividable3() {
+        Assert.assertFalse(new SubsetSum().isSubsetDividable(new int[]{5, 7, 1}));
+    }
+
+    @Test
+    public void testFindKElementsOfSum1() {
+        ArrayList<Integer> input = new ArrayList<>(Arrays.asList(1, 5, 2, 3, 4, 6, 7, 8, 9));
+        List<List<Integer>> result = new SubsetSum().findKElementsOfSum(input, 3, 9);
+        assertThat(result.size()).isEqualTo(10);
+        assertThat(result.get(0)).isEqualTo(Arrays.asList(1, 2, 6));
     }
 }
