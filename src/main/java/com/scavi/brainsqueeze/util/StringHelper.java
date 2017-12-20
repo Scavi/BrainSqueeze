@@ -162,4 +162,27 @@ public class StringHelper {
         }
         return result.toArray(new String[result.size()]);
     }
+
+
+    /**
+     * Converts a string array into a two dimensional char array. Assumes that every string has the same length
+     *
+     * @param input the input to convert
+     * @return the two dimensional char array
+     */
+    public static char[][] toCharArray(@Nonnull final String[] input) {
+        if (input.length == 0 || input[0].length() == 0) {
+            return null;
+        }
+
+        char[][] charArray = new char[input.length][input[0].length()];
+
+        for (int y = 0; y < input.length; ++y) {
+            for (int x = 0; x < input[0].length(); ++x) {
+                charArray[y][x] = input[y].charAt(x);
+            }
+        }
+
+        return charArray;
+    }
 }
