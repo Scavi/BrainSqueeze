@@ -1,7 +1,7 @@
 package com.scavi.brainsqueeze.adventofcode.util;
 
 public enum Direction {
-    Unknown(-1), East(0), North(1), West(2), South(3);
+    Unknown(-1), North(0), East(1), South(2), West(3);
     private int _value;
 
     Direction(final int value) {
