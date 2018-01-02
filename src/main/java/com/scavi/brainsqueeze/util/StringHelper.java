@@ -172,7 +172,7 @@ public class StringHelper {
      */
     public static char[][] toCharArray(@Nonnull final String[] input) {
         if (input.length == 0 || input[0].length() == 0) {
-            return null;
+            return new char[0][0];
         }
 
         char[][] charArray = new char[input.length][input[0].length()];
