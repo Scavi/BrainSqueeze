@@ -40,4 +40,14 @@ public class ListNode<T> {
         }
         return root;
     }
+
+    public int size() {
+        int length = 1;
+        ListNode<T> tmp = next;
+        while (tmp != null) {
+            length++;
+            tmp = tmp.next;
+        }
+        return length;
+    }
 }

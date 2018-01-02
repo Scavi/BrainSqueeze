@@ -26,19 +26,39 @@
  * limitations under the License.
  */
 
-package com.scavi.brainsqueeze.codefight.i;
+package com.scavi.brainsqueeze.codefight.i.llist;
 
+import com.scavi.brainsqueeze.codefight.util.ListNode;
+import org.junit.Assert;
 import org.junit.Test;
 
-public class GroupingDishesTest {
+/**
+ * Created by Scavenger on 5/28/2017.
+ */
+public class ListPalindromeTest {
+    @Test
+    public void test0() {
+        ListNode<Integer> input = ListNode.from(new int[]{1, 2, 3, 4, 5});
+        Assert.assertFalse(new ListPalindrome().isListPalindrome(input));
+    }
+
+
     @Test
     public void test1() {
-        String[][] input = new String[][]{{"Salad", "Tomato", "Cucumber", "Salad", "Sauce"},
-                {"Pizza", "Tomato", "Sausage", "Sauce", "Dough"},
-                {"Quesadilla", "Chicken", "Cheese", "Sauce"},
-                {"Sandwich", "Salad", "Bread", "Tomato", "Cheese"}};
-        GroupingDishes groupDishes = new GroupingDishes();
-        String[][] output = groupDishes.groupingDishes(input);
-        int i = 0;
+        ListNode<Integer> input = ListNode.from(new int[]{0, 1, 2, 1, 0});
+        Assert.assertTrue(new ListPalindrome().isListPalindrome(input));
+    }
+
+    @Test
+    public void test2() {
+        ListNode<Integer> input = ListNode.from(new int[]{0, 1, 1, 0});
+        Assert.assertTrue(new ListPalindrome().isListPalindrome(input));
+    }
+
+
+    @Test
+    public void test3() {
+        ListNode<Integer> l1 = new ListNode<>(0);
+        Assert.assertTrue(new ListPalindrome().isListPalindrome(l1));
     }
 }

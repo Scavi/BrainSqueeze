@@ -12,20 +12,16 @@
  * limitations under the License.
  */
 
-package com.scavi.brainsqueeze.codefight.i;
+package com.scavi.brainsqueeze.codefight.i.ht;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class GroupingDishes {
     String[][] groupingDishes(String[][] dishes) {
         if (dishes == null || dishes.length == 0 || dishes[0].length == 0) {
             return null;
         }
-        int max = 0;
-        Map<String, Set<String>> groupedDishes = new HashMap<>();
+        Map<String, Set<String>> groupedDishes = new TreeMap<>();
         for (String[] dishIngredients : dishes) {
             for (int i = 1; i < dishIngredients.length; ++i) {
                 String dish = dishIngredients[0];
@@ -34,29 +30,31 @@ public class GroupingDishes {
                     Set<String> ingredients = groupedDishes.get(ingredient);
                     if (!ingredients.contains(dish)) {
                         ingredients.add(dish);
-                        max = Math.max(max, ingredients.size() + 1);
                     }
                 } else {
-                    max = Math.max(max, 1);
-                    Set<String> knownDishes = new HashSet<>();
+                    Set<String> knownDishes = new TreeSet<>();
                     knownDishes.add(dish);
                     groupedDishes.put(ingredient, knownDishes);
                 }
             }
         }
-        return dishesToStringArray(groupedDishes, max);
+        return dishesToStringArray(groupedDishes);
     }
 
 
-    private String[][] dishesToStringArray(Map<String, Set<String>> groupedDishes, int max) {
-        String[][] ingredientsToDishes = new String[groupedDishes.size()][max];
+    private String[][] dishesToStringArray(Map<String, Set<String>> groupedDishes) {
+        groupedDishes.entrySet().removeIf(stringSetEntry -> stringSetEntry.getValue().size() < 2);
+        String[][] ingredientsToDishes = new String[groupedDishes.size()][];
         int y = 0;
         for (Map.Entry<String, Set<String>> groupedDish : groupedDishes.entrySet()) {
-            int x = 0;
+            ingredientsToDishes[y] = new String[groupedDish.getValue().size() + 1];
+            ingredientsToDishes[y][0] = groupedDish.getKey();
+            int x = 1;
             for (String dish : groupedDish.getValue()) {
                 ingredientsToDishes[y][x] = dish;
                 x++;
             }
+            y++;
         }
         return ingredientsToDishes;
     }

@@ -18,7 +18,6 @@ import com.scavi.brainsqueeze.codefight.util.Tree;
 
 public class KthLargest {
 
-
     int kthLargestInBST(Tree<Integer> tree, int pos) {
         Meta meta = new Meta(pos);
         kthLargestInBST(tree, meta);
@@ -36,7 +35,6 @@ public class KthLargest {
             kthLargestInBST(tree.right, meta);
         }
     }
-
 
     private class Meta {
         private final int _pos;

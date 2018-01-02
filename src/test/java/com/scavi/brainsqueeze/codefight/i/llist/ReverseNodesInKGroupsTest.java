@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package com.scavi.brainsqueeze.codefight.i;
+package com.scavi.brainsqueeze.codefight.i.llist;
 
 import com.scavi.brainsqueeze.codefight.util.ListNode;
 import com.scavi.brainsqueeze.codefight.utilities.CompareHelper;
@@ -22,17 +22,21 @@ import org.junit.Test;
  * Created by Scavenger on 7/11/2017.
  */
 public class ReverseNodesInKGroupsTest {
-//    @Test
-//    public void test1() {
-//        ListNode<Integer> input = ListNode.from(new int[]{1, 2, 3, 4, 5, 6, 7, 8});
-//        ListNode<Integer> output = new ReverseNodesInKGroups().reverseNodesInKGroups(input, 3);
-//        CompareHelper.verify(output, new int[]{3,2,1,6,5,4,8,7});
-//    }
-@Test
-public void test1() {
-    ListNode<Integer> input = ListNode.from(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9});
-    ListNode<Integer> output = new ReverseNodesInKGroups().reverseNodesInKGroups(input, 4);
-    CompareHelper.verify(output, new int[]{3,2,1,6,5,4,8,7});
-}
+
+
+    @Test
+    public void test1() {
+        ListNode<Integer> input = ListNode.from(new int[]{1, 2, 3, 4});
+        ListNode<Integer> output = new ReverseNodesInKGroups().reverseNodesInKGroups(input, 2);
+        CompareHelper.verify(output, new int[]{2, 1, 4, 3});
+    }
+
+
+    @Test
+    public void test2() {
+        ListNode<Integer> input = ListNode.from(new int[]{1, 2, 3, 4, 5, 6, 7, 8});
+        ListNode<Integer> output = new ReverseNodesInKGroups().reverseNodesInKGroups(input, 3);
+        CompareHelper.verify(output, new int[]{3, 2, 1, 6, 5, 4, 7, 8});
+    }
 
 }

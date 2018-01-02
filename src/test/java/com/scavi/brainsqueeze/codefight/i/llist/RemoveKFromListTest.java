@@ -12,8 +12,9 @@
  * limitations under the License.
  */
 
-package com.scavi.brainsqueeze.codefight.i;
+package com.scavi.brainsqueeze.codefight.i.llist;
 
+import com.scavi.brainsqueeze.codefight.i.llist.RemoveKFromList;
 import com.scavi.brainsqueeze.codefight.util.ListNode;
 import org.junit.Test;
 
