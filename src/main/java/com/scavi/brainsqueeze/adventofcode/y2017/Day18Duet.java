@@ -36,16 +36,17 @@ public class Day18Duet {
         return duet1._sendCount;
     }
 
-    private class Duet extends Thread {
+    public static class Duet extends Thread {
         private final String[] _instructions;
         private final int _id;
         private BlockingQueue<Long> _sendQueue;
         private BlockingQueue<Long> _receiveQueue;
         private long _sendCount = 0;
         private long _lastSound = 0;
-        private Map<Character, Long> _assembly;
+        private Map<Character, Long> _assembly = new HashMap<>();
+        private int _mulCount = 0;
 
-        Duet(final int id, final String[] instructions) {
+        public Duet(final int id, final String[] instructions) {
             this(id, instructions, null, null);
         }
 
@@ -61,7 +62,7 @@ public class Day18Duet {
 
         @Override
         public void run() {
-            _assembly = new HashMap<>();
+            //_assembly = new HashMap<>();
             _assembly.put('p', (long) _id);
             try {
                 for (int i = 0; i < _instructions.length && !isInterrupted(); ++i) {
@@ -96,14 +97,24 @@ public class Day18Duet {
                                     _assembly.put(key, get(key) + value);
                                     break;
                                 case "mul":
+                                    _mulCount++;
                                     _assembly.put(key, get(key) * value);
                                     break;
                                 case "mod":
                                     _assembly.put(key, get(key) % value);
                                     break;
+                                case "sub":
+                                    _assembly.put(key, get(key) - value);
+                                    break;
                                 case "jgz":
-                                    Integer tmpJump = Ints.tryParse(String.valueOf(key));
-                                    if ((tmpJump != null && tmpJump > 0) || get(key) > 0) {
+                                    Integer tmpJgz = Ints.tryParse(String.valueOf(key));
+                                    if ((tmpJgz != null && tmpJgz > 0) || (get(key) > 0)) {
+                                        i += (value - 1);
+                                    }
+                                    break;
+                                case "jnz":
+                                    Integer tmpJnz = Ints.tryParse(String.valueOf(key));
+                                    if ((tmpJnz != null && tmpJnz != 0) || get(key) != 0) {
                                         i += (value - 1);
                                     }
                                     break;
@@ -116,8 +127,17 @@ public class Day18Duet {
             }
         }
 
+        public Map<Character, Long> getAssembly() {
+            return _assembly;
+        }
+
         private long get(final char key) {
             return _assembly.getOrDefault(key, 0L);
+        }
+
+
+        public int getMulCount() {
+            return _mulCount;
         }
     }
 }
