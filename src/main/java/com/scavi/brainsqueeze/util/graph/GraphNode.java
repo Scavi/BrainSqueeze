@@ -14,6 +14,7 @@
 package com.scavi.brainsqueeze.util.graph;
 
 import java.util.LinkedList;
+import java.util.Objects;
 
 /**
  * Created by Scavenger on 5/13/2017.
@@ -27,7 +28,7 @@ public final class GraphNode<T> {
     /**
      * Constructor
      *
-     * @param content the ocntent of the node
+     * @param content the content of the node
      */
     public GraphNode(final T content) {
         _content = content;
@@ -68,6 +69,20 @@ public final class GraphNode<T> {
         return this;
     }
 
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null || obj.getClass() != GraphNode.class) {
+            return false;
+        }
+        GraphNode<T> toCompare = (GraphNode<T>) obj;
+        return _content.equals(toCompare.getContent());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(_content);
+    }
 
     @Override
     public String toString() {

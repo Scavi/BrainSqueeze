@@ -92,7 +92,7 @@ public class Graph<T> {
     private void addEdgeToGraph(final T from, final T to, final int weight) {
         GraphNode<T> fromGraphNode = addNodeToGraph(from);
         GraphNode<T> toGraphNode = addNodeToGraph(to);
-        GraphEdge<T> edge = new GraphEdge<>(weight, toGraphNode);
+        GraphEdge<T> edge = new GraphEdge<>(weight, fromGraphNode, toGraphNode);
         fromGraphNode.getEdges().add(edge);
     }
 
