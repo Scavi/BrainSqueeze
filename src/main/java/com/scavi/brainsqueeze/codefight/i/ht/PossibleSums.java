@@ -5,6 +5,19 @@ import java.util.Set;
 
 public class PossibleSums {
 
+    /**
+     * You have a collection of coins, and you know the values of the coins and the quantity of each type of coin in
+     * it. You want to know how many distinct sums you can make from non-empty groupings of these coins.
+     * <p>
+     * Example
+     * <p>
+     * For coins = [10, 50, 100] and quantity = [1, 2, 1], the output should be
+     * possibleSums(coins, quantity) = 9.
+     *
+     * @param coins      the coins
+     * @param quantities the quantity
+     * @return the different sums
+     */
     public int possibleSums(final int[] coins, final int[] quantities) {
         return possibleSums(new HashSet<>(), coins, quantities, 0, 0) - 1;
     }

@@ -35,10 +35,8 @@ public class RotateImage {
     }
 
     private void swap(int[][] image, int x1, int y1, int x2, int y2) {
-        if (x1 != x2 || y1 != y2) {
-            image[y1][x1] ^= image[y2][x2];
-            image[y2][x2] ^= image[y1][x1];
-            image[y1][x1] ^= image[y2][x2];
-        }
+        int tmp = image[y1][x1];
+        image[y1][x1] = image[y2][x2];
+        image[y2][x2] = tmp;
     }
 }

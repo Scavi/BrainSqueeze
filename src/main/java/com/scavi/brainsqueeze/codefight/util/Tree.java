@@ -23,4 +23,9 @@ public class Tree<T> {
     public T value;
     public Tree<T> left;
     public Tree<T> right;
+
+    @Override
+    public String toString() {
+        return String.valueOf(value);
+    }
 }
