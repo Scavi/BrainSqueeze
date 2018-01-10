@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day20ParticleSwarmTest.java" line="12" mnemonic="6" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/ht/PossibleSums.java" line="20" mnemonic="8" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="09224dfa-63d0-4f97-8560-5805671dbc5d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/input/adventofcode/y2017/Day21.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/input/adventofcode/y2017/Day24.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/input/adventofcode/y2017/Day25.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Foo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day21FractalArt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day24ElectromagneticMoat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day25HaltingProblem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/tree/FindSubstrings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/tree/RestoreBinaryTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/KnapsackProblem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/MedianOfTwoSortedArrays.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/PalindromeInMaxDistance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/ParagraphDistance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/ParagraphOfNWords.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/PatternDigitMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day24ElectromagneticMoatTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day25HaltingProblemTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/backtracking/ClimbingStaircaseTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/tree/FindSubstringsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/tree/RestoreBinaryTreeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dp/KnapsackProblemTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/misc/MedianOfTwoSortedArraysTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/misc/PalindromeInMaxDistanceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/misc/ParagraphDistanceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/misc/PatternDigitMatcherTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/StringHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/StringHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/RotateImage.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/RotateImage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/ht/PossibleSums.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/ht/PossibleSums.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/util/Tree.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/util/Tree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/graph/Graph.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/graph/Graph.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/graph/GraphEdge.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/graph/GraphEdge.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/graph/GraphNode.java" afterPath="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/graph/GraphNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day21FractalArtTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day21FractalArtTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -16,13 +51,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/BrainSqueeze$FlipBinaryArrayTest.coverage" NAME="FlipBinaryArrayTest Coverage Results" MODIFIED="1510824612080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.scavi.brainsqueeze.career.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/BrainSqueeze$CompanyMergerTest_test1.coverage" NAME="CompanyMergerTest.test1 Coverage Results" MODIFIED="1510830055475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.scavi.brainsqueeze.career.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$Foo.coverage" NAME="Foo Coverage Results" MODIFIED="1514031639756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/BrainSqueeze$ForestGumpTest.coverage" NAME="ForestGumpTest Coverage Results" MODIFIED="1512326016268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.career.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$SumAllRangesTest_test3.coverage" NAME="SumAllRangesTest.test3 Coverage Results" MODIFIED="1511980599400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.codefight.challenge.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$Day15DuelingGeneratorsTest.coverage" NAME="Day15DuelingGeneratorsTest Coverage Results" MODIFIED="1513505031960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.adventofcode.y2017.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$Day24ElectromagneticMoatTest_test1.coverage" NAME="Day24ElectromagneticMoatTest.test1 Coverage Results" MODIFIED="1515507109423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.adventofcode.y2017.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$PossibleSumsTest.coverage" NAME="PossibleSumsTest Coverage Results" MODIFIED="1514886450110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.codefight.i.ht.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$Day18DuetTest_test2.coverage" NAME="Day18DuetTest.test2 Coverage Results" MODIFIED="1513613830808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.adventofcode.y2017.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$TemperatureLookupTest_test2.coverage" NAME="TemperatureLookupTest.test2 Coverage Results" MODIFIED="1511454051066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.career.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$ListRearrangeTest.coverage" NAME="ListRearrangeTest Coverage Results" MODIFIED="1514821524616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.codefight.i.llist.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$com_scavi_brainsqueeze_adventofcode_y2017_in_BrainSqueeze_test.coverage" NAME="com.scavi.brainsqueeze.adventofcode.y2017 in BrainSqueeze_test Coverage Results" MODIFIED="1513950064888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.adventofcode.y2017.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$Day18DuetTest_testQuestionB.coverage" NAME="Day18DuetTest.testQuestionB Coverage Results" MODIFIED="1513612176233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.adventofcode.y2017.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$FlipBinaryArrayTest.coverage" NAME="FlipBinaryArrayTest Coverage Results" MODIFIED="1510824612080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.scavi.brainsqueeze.career.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/BrainSqueeze$DropbotTest_test2_1.coverage" NAME="DropbotTest.test2_1 Coverage Results" MODIFIED="1512330177430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -31,14 +94,29 @@
     <SUITE FILE_PATH="coverage/BrainSqueeze$DropbotTest_test3_3.coverage" NAME="DropbotTest.test3_3 Coverage Results" MODIFIED="1512406127149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.scavi.brainsqueeze.codefight.bot.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$RestoreBinaryTreeTest.coverage" NAME="RestoreBinaryTreeTest Coverage Results" MODIFIED="1514908918916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.codefight.i.tree.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$KnapsackProblemTest.coverage" NAME="KnapsackProblemTest Coverage Results" MODIFIED="1515434073692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.dp.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/BrainSqueeze$FlipBinaryArrayTest_test3.coverage" NAME="FlipBinaryArrayTest.test3 Coverage Results" MODIFIED="1510825160761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.scavi.brainsqueeze.career.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/BrainSqueeze$SumAllRangesTest_test3.coverage" NAME="SumAllRangesTest.test3 Coverage Results" MODIFIED="1511980599400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.scavi.brainsqueeze.codefight.challenge.*</FILTER>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$Day22SporificaVirusTest_test2.coverage" NAME="Day22SporificaVirusTest.test2 Coverage Results" MODIFIED="1513946352307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.adventofcode.y2017.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/BrainSqueeze$TemperatureLookupTest_test2.coverage" NAME="TemperatureLookupTest.test2 Coverage Results" MODIFIED="1511454051066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.scavi.brainsqueeze.career.*</FILTER>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$Day19ASeriesOfTubesTest.coverage" NAME="Day19ASeriesOfTubesTest Coverage Results" MODIFIED="1513678840650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.adventofcode.y2017.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$Day22SporificaVirusTest.coverage" NAME="Day22SporificaVirusTest Coverage Results" MODIFIED="1513950056818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.adventofcode.y2017.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$MedianOfTwoSortedArraysTest.coverage" NAME="MedianOfTwoSortedArraysTest Coverage Results" MODIFIED="1515163379723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.misc.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BrainSqueeze$Day24ElectromagneticMoatTest.coverage" NAME="Day24ElectromagneticMoatTest Coverage Results" MODIFIED="1515503844908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.scavi.brainsqueeze.adventofcode.y2017.*</FILTER>
     </SUITE>
   </component>
   <component name="ExternalProjectsData">
@@ -48,49 +126,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Dropbot.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/bot/Dropbot.java">
+      <file leaf-file-name="Day21FractalArtTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day21FractalArtTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+            <state relative-caret-position="432">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3744#3745#0" expanded="true" />
-                <element signature="e#3841#3842#0" expanded="true" />
-                <element signature="e#4214#4215#0" expanded="true" />
-                <element signature="e#4249#4250#0" expanded="true" />
-                <element signature="e#4283#4284#0" expanded="true" />
-                <element signature="e#4318#4319#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringHelper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/StringHelper.java">
+      <file leaf-file-name="Day22SporificaVirusTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day22SporificaVirusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="827">
-              <caret line="117" column="25" lean-forward="false" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
+            <state relative-caret-position="558">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NativeMethodAccessorImpl.class" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <file leaf-file-name="Day21FractalArt.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day21FractalArt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="396">
+              <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectiveCallable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DropbotTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/bot/DropbotTest.java">
+      <file leaf-file-name="Day21.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/input/adventofcode/y2017/Day21.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+            <state relative-caret-position="229">
+              <caret line="91" column="11" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -108,19 +192,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>il</find>
-      <find>new int</find>
-      <find>adventofcode2016</find>
-      <find>&quot;adventofcode/</find>
-      <find>&quot;adventofcode</find>
-      <find>int[][]</find>
+      <find>&quot; &quot; +</find>
+      <find>&quot; &quot; + string</find>
+      <find>edit</find>
+      <find>hex</find>
+      <find>generateRange</find>
+      <find>stream</find>
+      <find>FFFF</find>
+      <find>dfs</find>
+      <find>gcd</find>
+      <find>offset</find>
+      <find>&quot;%d</find>
+      <find>0110000101001110</find>
+      <find>.add(</find>
+      <find>east</find>
+      <find>POT</find>
+      <find>strea</find>
+      <find>abcdc</find>
+      <find>hashCode</find>
+      <find>Objects.has</find>
+      <find>object</find>
+      <find>Objects.hash</find>
+      <find>]</find>
+      <find>north</find>
+      <find>c</find>
+      <find>infectionBursts</find>
+      <find>che</find>
+      <find>h</find>
       <find>PriorityQueue</find>
-      <find>input</find>
-      <find>e9</find>
-      <find>-&gt;</find>
-      <find>same_prefix(_1)23[12]3_same_suffix</find>
-      <find>a(2)_3(b)4(2)c(_)[2]7[_]8[e]d</find>
+      <find>rotate</find>
+      <find>###/#.#/##.</find>
     </findStrings>
+    <replaceStrings>
+      <replace>}</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -455,64 +560,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/input/adventofcode/y2017/Day2.txt" />
-        <option value="$PROJECT_DIR$/src/input/adventofcode/y2017/Day2_2.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day1InverseCaptchaTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day2CorruptionChecksum.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day2CorruptionChecksumTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/career/MaxProfit.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/career/MaxProfitTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/career/SpiralMemoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/util/Direction.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/career/ForestGumpTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/SpiralMemoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/SpiralMemory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day3SpiralMemory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/career/MatrixFlip.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/challenge/MatrixFlip.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/career/MatrixFlipTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day3SpiralMemoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/career/MatrixFlip.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/challenge/ForestGumpTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/challenge/ForestGump.java" />
-        <option value="$PROJECT_DIR$/src/input/adventofcode/y2017/Day4.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day4HighEntropyPassphrasesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day4HighEntropyPassphrases.java" />
-        <option value="$PROJECT_DIR$/src/input/adventofcode/y2017/Day5.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/FileHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day5MazeOfTwistyTrampolines.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day5MazeOfTwistyTrampolinesTest.java" />
-        <option value="$PROJECT_DIR$/src/input/adventofcode/y2017/Day6.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day6MemoryReallocationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day6MemoryReallocation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Pair.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/career/BouncingBallTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/career/BouncingBall.java" />
-        <option value="$PROJECT_DIR$/src/input/adventofcode/y2017/Day7.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/util/Tower.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day7RecursiveCircusTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day7RecursiveCircus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/career/ExpressionTree.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/career/ExpressionTreeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/career/SmallestMultipleTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/challenge/SmallestMultipleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/challenge/SmallestMultiple.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/career/RedWhiteJarTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/career/RedWhiteJar.java" />
-        <option value="$PROJECT_DIR$/src/input/adventofcode/y2017/Day8.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day8IHeardYouLikeRegistersTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/MapHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day8IHeardYouLikeRegisters.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/bot/DropbotTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/bot/Dropbot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/StringHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/career/BenchPlace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/llist/RemoveKFromList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/llist/RemoveKFromListTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/llist/ListPalindromeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/llist/ListPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/llist/TwoHugeNumbers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/llist/TwoHugeNumbersTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/llist/MergeTwoSingleLinkedLists.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/ReverseNodesInKGroupsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/llist/ReverseNodesInKGroupsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/llist/ReverseNodesInKGroups.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/util/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/llist/ListRearrangeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/llist/ListRearrange.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/ht/GroupingDishesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/ht/GroupingDishes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/ht/PossibleSumsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/ht/SwapLexOrderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/ht/SwapLexOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/tree/KthLargest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/util/Tree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/tree/RestoreBinaryTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/tree/RestoreBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/tree/FindSubstringsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/ht/PossibleSums.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/tree/FindSubstrings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/backtracking/ClimbingStaircaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Foo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/MedianOfTwoSortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/misc/MedianOfTwoSortedArraysTest.java" />
+        <option value="$PROJECT_DIR$/src/input/adventofcode/y2017/Day25.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day25HaltingProblem.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day25HaltingProblemTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/KnapsackProblem.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dp/KnapsackProblemTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/misc/PalindromeInMaxDistanceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/PalindromeInMaxDistance.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/misc/ParagraphDistanceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/ParagraphDistance.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/misc/PatternDigitMatcherTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/PatternDigitMatcher.java" />
+        <option value="$PROJECT_DIR$/src/input/adventofcode/y2017/Day24.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/graph/Graph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/graph/GraphNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/graph/GraphEdge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day24ElectromagneticMoat.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day24ElectromagneticMoatTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/RotateImage.java" />
+        <option value="$PROJECT_DIR$/src/input/adventofcode/y2017/Day21.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day21FractalArtTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day21FractalArt.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2261" />
-    <option name="y" value="213" />
-    <option name="width" value="1350" />
+    <option name="x" value="3349" />
+    <option name="y" value="342" />
+    <option name="width" value="1340" />
     <option name="height" value="879" />
   </component>
   <component name="ProjectView">
@@ -531,7 +636,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -569,6 +674,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="input" type="462c0819:PsiDirectoryNode" />
               <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="y2016" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
               <item name="y2017" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -606,64 +719,6 @@
               <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
-              <item name="codefight" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
-              <item name="codefight" type="462c0819:PsiDirectoryNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
-              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
               <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
@@ -673,7 +728,7 @@
               <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
               <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
               <item name="career" type="462c0819:PsiDirectoryNode" />
@@ -682,7 +737,7 @@
               <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
               <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
               <item name="codefight" type="462c0819:PsiDirectoryNode" />
@@ -691,108 +746,116 @@
               <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
               <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
               <item name="codefight" type="462c0819:PsiDirectoryNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
+              <item name="i" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
               <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
-              <item name="codefight" type="462c0819:PsiDirectoryNode" />
-              <item name="challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="misc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="editors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
+              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
+              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="y2017" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
+              <item name="codefight" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
+              <item name="codefight" type="462c0819:PsiDirectoryNode" />
+              <item name="i" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BrainSqueeze" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="brainsqueeze" type="462c0819:PsiDirectoryNode" />
+              <item name="misc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="reflect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
@@ -830,21 +893,64 @@
               <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
               <item name="junit" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BrainSqueeze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.scavi.brainsqueeze.adventofcode.y2017" />
       <recent name="com.scavi.brainsqueeze.career" />
       <recent name="com.scavi.brainsqueeze.codefight.challenge" />
     </key>
@@ -865,19 +971,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DropbotTest">
-    <configuration name="DropbotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Day21FractalArtTest">
+    <configuration name="Day21FractalArtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.scavi.brainsqueeze.codefight.bot.*" />
+          <option name="PATTERN" value="com.scavi.brainsqueeze.adventofcode.y2017.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="BrainSqueeze_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.codefight.bot" />
-      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.codefight.bot.DropbotTest" />
+      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.adventofcode.y2017" />
+      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.adventofcode.y2017.Day21FractalArtTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -891,19 +997,44 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DropbotTest.test3_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day24ElectromagneticMoatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.scavi.brainsqueeze.codefight.bot.*" />
+          <option name="PATTERN" value="com.scavi.brainsqueeze.adventofcode.y2017.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="BrainSqueeze_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.codefight.bot" />
-      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.codefight.bot.DropbotTest" />
-      <option name="METHOD_NAME" value="test3_0" />
+      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.adventofcode.y2017" />
+      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.adventofcode.y2017.Day24ElectromagneticMoatTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Day24ElectromagneticMoatTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.scavi.brainsqueeze.adventofcode.y2017.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BrainSqueeze_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.adventofcode.y2017" />
+      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.adventofcode.y2017.Day24ElectromagneticMoatTest" />
+      <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -916,20 +1047,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DropbotTest.test3_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RotateImageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.scavi.brainsqueeze.codefight.bot.*" />
+          <option name="PATTERN" value="com.scavi.brainsqueeze.codefight.i.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="BrainSqueeze_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.codefight.bot" />
-      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.codefight.bot.DropbotTest" />
-      <option name="METHOD_NAME" value="test3_2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.codefight.i" />
+      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.codefight.i.RotateImageTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -941,44 +1072,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DropbotTest.test3_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RotateImageTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.scavi.brainsqueeze.codefight.bot.*" />
+          <option name="PATTERN" value="com.scavi.brainsqueeze.codefight.i.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="BrainSqueeze_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.codefight.bot" />
-      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.codefight.bot.DropbotTest" />
-      <option name="METHOD_NAME" value="test3_3" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="DropbotTest.test3_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.scavi.brainsqueeze.codefight.bot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BrainSqueeze_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.codefight.bot" />
-      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.codefight.bot.DropbotTest" />
-      <option name="METHOD_NAME" value="test3_5" />
+      <option name="PACKAGE_NAME" value="com.scavi.brainsqueeze.codefight.i" />
+      <option name="MAIN_CLASS_NAME" value="com.scavi.brainsqueeze.codefight.i.RotateImageTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1072,19 +1178,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DropbotTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DropbotTest.test3_0" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DropbotTest.test3_3" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DropbotTest.test3_2" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DropbotTest.test3_5" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Day24ElectromagneticMoatTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Day24ElectromagneticMoatTest.test6" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Day21FractalArtTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RotateImageTest.test1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RotateImageTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DropbotTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DropbotTest.test3_5" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DropbotTest.test3_3" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DropbotTest.test3_2" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DropbotTest.test3_0" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Day21FractalArtTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RotateImageTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RotateImageTest.test1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Day24ElectromagneticMoatTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Day24ElectromagneticMoatTest.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -1105,61 +1211,62 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DropbotTest - 2017.12.08 at 12h 24m 42s.xml">
-      <configuration name="DropbotTest" configurationId="JUnit" />
+    <history-entry file="Day21FractalArtTest - 2018.01.09 at 19h 38m 29s.xml">
+      <configuration name="Day21FractalArtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DropbotTest - 2017.12.08 at 12h 27m 40s.xml">
-      <configuration name="DropbotTest" configurationId="JUnit" />
+    <history-entry file="Day21FractalArtTest - 2018.01.09 at 19h 38m 34s.xml">
+      <configuration name="Day21FractalArtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DropbotTest - 2017.12.08 at 12h 29m 53s.xml">
-      <configuration name="DropbotTest" configurationId="JUnit" />
+    <history-entry file="Day21FractalArtTest - 2018.01.09 at 19h 57m 44s.xml">
+      <configuration name="Day21FractalArtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DropbotTest - 2017.12.08 at 12h 30m 06s.xml">
-      <configuration name="DropbotTest" configurationId="JUnit" />
+    <history-entry file="Day21FractalArtTest - 2018.01.09 at 19h 57m 47s.xml">
+      <configuration name="Day21FractalArtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DropbotTest - 2017.12.08 at 12h 30m 26s.xml">
-      <configuration name="DropbotTest" configurationId="JUnit" />
+    <history-entry file="Day21FractalArtTest - 2018.01.09 at 19h 58m 22s.xml">
+      <configuration name="Day21FractalArtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DropbotTest - 2017.12.08 at 12h 30m 51s.xml">
-      <configuration name="DropbotTest" configurationId="JUnit" />
+    <history-entry file="Day21FractalArtTest - 2018.01.09 at 19h 58m 25s.xml">
+      <configuration name="Day21FractalArtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DropbotTest_test3_3 - 2017.12.08 at 12h 24m 37s.xml">
-      <configuration name="DropbotTest.test3_3" configurationId="JUnit" />
+    <history-entry file="Day21FractalArtTest - 2018.01.09 at 19h 58m 43s.xml">
+      <configuration name="Day21FractalArtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DropbotTest_test3_3 - 2017.12.08 at 12h 24m 39s.xml">
-      <configuration name="DropbotTest.test3_3" configurationId="JUnit" />
+    <history-entry file="Day21FractalArtTest - 2018.01.09 at 19h 58m 46s.xml">
+      <configuration name="Day21FractalArtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DropbotTest_test3_5 - 2017.12.08 at 12h 26m 37s.xml">
-      <configuration name="DropbotTest.test3_5" configurationId="JUnit" />
+    <history-entry file="Day21FractalArtTest - 2018.01.09 at 19h 59m 18s.xml">
+      <configuration name="Day21FractalArtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DropbotTest_test3_5 - 2017.12.08 at 12h 27m 38s.xml">
-      <configuration name="DropbotTest.test3_5" configurationId="JUnit" />
+    <history-entry file="Day21FractalArtTest - 2018.01.09 at 19h 59m 36s.xml">
+      <configuration name="Day21FractalArtTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2261" y="213" width="3373" height="1442" extended-state="6" />
-    <editor active="true" />
+    <frame x="1987" y="-2" width="3373" height="1442" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298351" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298351" sideWeight="0.46219984" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19265367" sideWeight="0.5111177" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19265367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19265367" sideWeight="0.4888823" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24043877" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1725467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19181737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298351" sideWeight="0.49659058" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21589205" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.464018" sideWeight="0.47583753" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1167,8 +1274,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24992588" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08745924" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298351" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1399,173 +1504,678 @@
           <properties />
           <option name="timeStamp" value="363" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/arcade/ValuesSumMinimization.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="397" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/arcade/StringsRearrangement.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/arcade/StringsRearrangement.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/arcade/StringsRearrangement.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/challenge/WalkTest.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day9StreamProcessing.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day9StreamProcessing.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day11HexEdTest.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="465" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/challenge/SubsetSum.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="471" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/challenge/SubsetSum.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="473" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day13PacketScannersTest.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="496" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day14DiskDefragmentation.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="519" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day17Spinlock.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="550" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/arcade/StringsRearrangement.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="642" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/arcade/StringsRearrangement.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="644" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/arcade/graph/RoadsBuildingTest.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="693" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/arcade/graph/RoadsBuilding.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="694" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/arcade/graph/EfficientRoadNetwork.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="695" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day20ParticleSwarm.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="702" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day22SporificaVirus.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="705" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day22SporificaVirus.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="706" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/career/BinValueLevelReplaceTest.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="709" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/career/BinValueLevelReplace.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="710" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/career/BenchPlace.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="711" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/llist/ReverseNodesInKGroups.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="714" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/llist/ListRearrange.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="724" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/llist/ListRearrange.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="726" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/llist/ListRearrange.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="727" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/ht/PossibleSums.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="750" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/ht/SwapLexOrder.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="754" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/ht/SwapLexOrder.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="755" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/ht/SwapLexOrder.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="756" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/tree/RestoreBinaryTree.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="759" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/tree/RestoreBinaryTree.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="761" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/tree/RestoreBinaryTree.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="762" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/ht/PossibleSumsTest.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="770" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/tree/FindSubstrings.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="772" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day23CoprocessorConflagrationTest.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="794" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day18Duet.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="796" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/misc/MedianOfTwoSortedArraysTest.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="803" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day25HaltingProblem.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="807" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day25HaltingProblemTest.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="808" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dp/KnapsackProblemTest.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="809" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/KnapsackProblem.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="810" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/KnapsackProblem.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="811" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/PalindromeInMaxDistance.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="813" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/misc/ParagraphDistanceTest.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="815" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/ParagraphDistance.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="817" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/ParagraphDistance.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="818" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/ParagraphDistance.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="819" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/misc/PatternDigitMatcherTest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="821" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day24ElectromagneticMoatTest.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="826" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day24ElectromagneticMoatTest.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="828" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day24ElectromagneticMoat.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="829" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day24ElectromagneticMoat.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="837" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day21FractalArtTest.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="840" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/RotateImage.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="853" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day21FractalArt.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="870" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="395" />
+      <option name="time" value="871" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/career/MaxProfitTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/tree/RestoreBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day3SpiralMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/career/MatrixFlipTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/career/MatrixFlip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/challenge/ForestGump.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.truth/truth/0.36/97370b9830eb30374318cb06ec12c0a1a8aeaf2e/truth-0.36-sources.jar!/com/google/common/truth/BooleanSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/challenge/ForestGumpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/input/adventofcode/y2017/Day4HighEntropyPassphrases" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day2CorruptionChecksumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" column="80" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day4HighEntropyPassphrases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/input/adventofcode/y2017/Day4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="459" column="39" lean-forward="false" selection-start-line="459" selection-start-column="39" selection-end-line="459" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day5MazeOfTwistyTrampolines.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day4HighEntropyPassphrasesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day3SpiralMemoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/input/adventofcode/y2017/Day5.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="942">
-          <caret line="1091" column="5" lean-forward="false" selection-start-line="1091" selection-start-column="5" selection-end-line="1091" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/input/adventofcode/y2017/Day6.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="61" lean-forward="false" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/PrimitiveHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/FileHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="69" column="32" lean-forward="false" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day6MemoryReallocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day5MazeOfTwistyTrampolinesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/HashMap.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="474" column="11" lean-forward="false" selection-start-line="474" selection-start-column="11" selection-end-line="474" selection-end-column="11" />
+        <state relative-caret-position="738">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/regex/Regex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/ht/PossibleSumsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/ht/PossibleSums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding>
-            <element signature="e#19327#19328#0" expanded="false" />
-            <element signature="e#19410#19411#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/tree/FindSubstringsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/tree/FindSubstrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/backtracking/ClimbingStaircaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="239" column="6" lean-forward="false" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day23CoprocessorConflagrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day23CoprocessorConflagration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/input/adventofcode/y2017/Day23.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day18Duet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding>
+            <element signature="e#5589#5590#0" expanded="true" />
+            <element signature="e#5629#5630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/BuildingWays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="103" column="11" lean-forward="false" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/MedianOfTwoSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/misc/MedianOfTwoSortedArraysTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="58" column="28" lean-forward="false" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/input/adventofcode/y2017/Day25.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day25HaltingProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3858#3859#0" expanded="false" />
+            <element signature="e#3897#3898#0" expanded="false" />
+            <element signature="e#3932#3933#0" expanded="false" />
+            <element signature="e#3971#3972#0" expanded="false" />
+            <element signature="e#4005#4006#0" expanded="false" />
+            <element signature="e#4043#4044#0" expanded="false" />
+            <element signature="e#4082#4083#0" expanded="false" />
+            <element signature="e#4124#4125#0" expanded="false" />
+            <element signature="e#4161#4162#0" expanded="false" />
+            <element signature="e#4202#4203#0" expanded="false" />
+            <element signature="e#4239#4240#0" expanded="false" />
+            <element signature="e#4280#4281#0" expanded="false" />
+            <element signature="e#4316#4317#0" expanded="false" />
+            <element signature="e#4356#4357#0" expanded="false" />
+            <element signature="e#4397#4398#0" expanded="false" />
+            <element signature="e#4441#4442#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day25HaltingProblemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/arcade/PalindromeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/llist/ListPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/llist/ListRearrange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Foo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/dp/KnapsackProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/dp/KnapsackProblemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/misc/PalindromeInMaxDistanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/ParagraphOfNWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/PalindromeInMaxDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="85" lean-forward="false" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/misc/ParagraphDistanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/ParagraphDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/misc/PatternDigitMatcherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/misc/PatternDigitMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/career/TemperatureLookup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/input/adventofcode/y2016/Day24.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1573,286 +2183,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/input/adventofcode/y2017/Day7.txt">
+    <entry file="file://$PROJECT_DIR$/src/input/adventofcode/y2017/Day24.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="1220" column="40" lean-forward="false" selection-start-line="1220" selection-start-column="40" selection-end-line="1220" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/career/BouncingBallTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/career/BouncingBall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="886">
-          <caret line="73" column="59" lean-forward="false" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="341" column="14" lean-forward="false" selection-start-line="341" selection-start-column="4" selection-end-line="341" selection-end-column="14" />
+        <state relative-caret-position="954">
+          <caret line="53" column="5" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/IOException.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        <state relative-caret-position="-704">
+          <caret line="104" column="11" lean-forward="false" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
+          <folding>
+            <element signature="e#3740#3741#0" expanded="false" />
+            <element signature="e#3777#3778#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/Pair.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/graph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/util/Tower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="109" column="1" lean-forward="false" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+        <state relative-caret-position="262">
+          <caret line="93" column="15" lean-forward="false" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#289#290#0" expanded="false" />
-            <element signature="e#337#338#0" expanded="false" />
-            <element signature="e#759#760#0" expanded="false" />
-            <element signature="e#791#792#0" expanded="false" />
-            <element signature="e#1042#1043#0" expanded="false" />
-            <element signature="e#1087#1088#0" expanded="false" />
-            <element signature="e#1249#1250#0" expanded="false" />
-            <element signature="e#1285#1286#0" expanded="false" />
-            <element signature="e#1331#1332#0" expanded="false" />
-            <element signature="e#1371#1372#0" expanded="false" />
-            <element signature="e#1405#1406#0" expanded="false" />
-            <element signature="e#1443#1444#0" expanded="false" />
-            <element signature="e#1483#1484#0" expanded="false" />
-            <element signature="e#1520#1521#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
-            <element signature="e#1653#1654#0" expanded="false" />
+            <element signature="e#929#930#0" expanded="false" />
+            <element signature="e#956#957#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/career/ExpressionTree.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/graph/GraphNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="86" column="68" lean-forward="false" selection-start-line="86" selection-start-column="56" selection-end-line="86" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#310#311#0" expanded="false" />
-            <element signature="e#357#358#0" expanded="false" />
-            <element signature="e#569#570#0" expanded="false" />
-            <element signature="e#605#606#0" expanded="false" />
-            <element signature="e#649#650#0" expanded="false" />
-            <element signature="e#687#688#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/challenge/SmallestMultipleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Arrays.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/graph/GraphEdge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="1241" column="23" lean-forward="false" selection-start-line="1241" selection-start-column="23" selection-end-line="1241" selection-end-column="23" />
+        <state relative-caret-position="397">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day24ElectromagneticMoat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="68" column="36" lean-forward="false" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day24ElectromagneticMoatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="863">
+          <caret line="120" column="41" lean-forward="false" selection-start-line="120" selection-start-column="41" selection-end-line="120" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="327" column="0" lean-forward="false" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/i/RotateImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/i/RotateImageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="26" column="52" lean-forward="false" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day22SporificaVirusTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/input/adventofcode/y2017/Day21.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="91" column="11" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/challenge/SmallestMultiple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/career/RedWhiteJarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/career/RedWhiteJar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day6MemoryReallocationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="80" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2016/Day8TwoFactorAuthentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/com/sun/beans/editors/StringEditor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day7RecursiveCircus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="56" column="58" lean-forward="false" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/career/ExpressionTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day7RecursiveCircusTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/input/adventofcode/y2017/Day8.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1986">
-          <caret line="999" column="25" lean-forward="false" selection-start-line="999" selection-start-column="25" selection-end-line="999" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/MapHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day8IHeardYouLikeRegisters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="43" column="63" lean-forward="false" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day8IHeardYouLikeRegistersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/adventofcode/y2017/Day21FractalArtTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.truth/truth/0.36/97370b9830eb30374318cb06ec12c0a1a8aeaf2e/truth-0.36-sources.jar!/com/google/common/truth/StringSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/scavi/brainsqueeze/codefight/bot/DropbotTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/codefight/bot/Dropbot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3744#3745#0" expanded="true" />
-            <element signature="e#3841#3842#0" expanded="true" />
-            <element signature="e#4214#4215#0" expanded="true" />
-            <element signature="e#4249#4250#0" expanded="true" />
-            <element signature="e#4283#4284#0" expanded="true" />
-            <element signature="e#4318#4319#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/util/StringHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scavi/brainsqueeze/adventofcode/y2017/Day21FractalArt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="117" column="25" lean-forward="false" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="396">
+          <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
