@@ -20,16 +20,30 @@ import com.scavi.brainsqueeze.codefight.util.ListNode;
  * Created by Scavenger on 7/8/2017.
  */
 public class RemoveKFromList {
+    /**
+     * Note: Try to solve this task in O(n) time using O(1) additional space, where n is the number of elements in
+     * the list, since this is what you'll be asked to do during an interview.
+     * <p>
+     * Given a singly linked list of integers l and an integer k, remove all elements from list l that have a value
+     * equal to k.
+     *
+     * @param l the list
+     * @param k the value to remove
+     * @return the new list
+     */
     ListNode<Integer> removeKFromList(ListNode<Integer> l, int k) {
         while (l != null && l.value == k) {
             l = l.next;
         }
-        ListNode<Integer> current = l;
-        while (current != null && current.next != null) {
-            while (current.next != null && current.next.value == k) {
-                current.next = current.next.next;
-            }
-            if (current.next != null) {
+
+        if (l != null) {
+            ListNode<Integer> current = l;
+            while (current != null) {
+                ListNode<Integer> tmp = current.next;
+                while (tmp != null && tmp.value == k) {
+                    tmp = tmp.next;
+                }
+                current.next = tmp;
                 current = current.next;
             }
         }

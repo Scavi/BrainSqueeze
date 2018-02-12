@@ -19,7 +19,7 @@ public class PossibleSums {
      * @return the different sums
      */
     public int possibleSums(final int[] coins, final int[] quantities) {
-        return possibleSums(new HashSet<>(), coins, quantities, 0, 0) - 1;
+        return possibleSums(new HashSet<>(), coins, quantities, 0, 0) - 1; // -1 because 0 is also in the result
     }
 
 
