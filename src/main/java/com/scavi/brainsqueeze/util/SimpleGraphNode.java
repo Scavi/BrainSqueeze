@@ -14,6 +14,8 @@
 
 package com.scavi.brainsqueeze.util;
 
+import sun.java2d.pipe.SpanShapeRenderer;
+
 import java.util.*;
 
 /**
@@ -93,6 +95,23 @@ public class SimpleGraphNode<T> {
         return _ancestors;
     }
 
+
+    @Override
+    public int hashCode() {
+        return _content != null ? _content.hashCode() : 0;
+    }
+
+
+    @Override
+    @SuppressWarnings("unchecked")
+    public boolean equals(Object obj) {
+        if (obj.getClass() != SimpleGraphNode.class) {
+            return false;
+        }
+        T toCompare = (T)((SimpleGraphNode) obj).getContent();
+        return (_content == null && toCompare == null) ||
+                _content != null &&  _content.equals(toCompare);
+    }
 
     @Override
     public String toString() {

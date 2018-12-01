@@ -37,7 +37,7 @@ public class LRUCacheJavaCreator {
      * @return the LRU cache
      */
     public static <V, T> Map<V, T> from(final int size) {
-        return new LinkedHashMap<V, T>(size * (4 / 3), 0.75f, true) {
+        return new LinkedHashMap<V, T>(size, 0.75f, true) {
             @Override
             protected boolean removeEldestEntry(Map.Entry<V, T> eldestEntry) {
                 return size() > size;
