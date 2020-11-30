@@ -37,12 +37,4 @@ public class TaskArrangeTest {
         int result = taskArranger.rearrangeTasks(tasks, 3);
         Assert.assertEquals(7, result);
     }
-
-    @Test
-    public void test3() {
-        TaskArrange taskArranger = new TaskArrange();
-        String tasks = "AABAABDCCCCCC";
-        int result = taskArranger.rearrangeTasks(tasks, 3);
-        Assert.assertEquals("CABCABCADCA_C__C".length(), result);
-    }
 }
