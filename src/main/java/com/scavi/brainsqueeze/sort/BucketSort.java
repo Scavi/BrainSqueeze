@@ -66,7 +66,7 @@ public class BucketSort {
      * @return bucket
      */
     @SuppressWarnings(value = "unchecked")
-    private final List<Float>[] createBucket(final int length) {
+    private List<Float>[] createBucket(final int length) {
         // creates the empty bucket list
         final List<Float>[] searchData = new List[length];
         for (int i = 0; i < length; ++i) {

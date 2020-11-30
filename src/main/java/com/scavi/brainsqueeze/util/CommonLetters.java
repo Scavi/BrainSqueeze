@@ -86,7 +86,7 @@ public class CommonLetters implements Comparable<CommonLetters> {
      * @return the max heap
      */
     public static PriorityQueue<CommonLetters> from(final int length,
-            final Map<Character, Integer> countCache) {
+                                                    final Map<Character, Integer> countCache) {
         return from(length, countCache, true);
     }
 
@@ -100,7 +100,7 @@ public class CommonLetters implements Comparable<CommonLetters> {
      * @return the max heap
      */
     public static PriorityQueue<CommonLetters> from(final int length,
-            final Map<Character, Integer> countCache, boolean isMaxHeap) {
+                                                    final Map<Character, Integer> countCache, boolean isMaxHeap) {
         PriorityQueue<CommonLetters> mostCommonLetters;
         if (isMaxHeap) {
             mostCommonLetters = new PriorityQueue<>(length, Collections.reverseOrder());

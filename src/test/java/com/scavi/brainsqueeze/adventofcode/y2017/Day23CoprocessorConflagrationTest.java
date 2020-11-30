@@ -22,11 +22,11 @@ public class Day23CoprocessorConflagrationTest {
     }
 
 
-    @Test
-    public void testQuestionB() throws IOException {
-        File inputFile = FileHelper.forUnitTests("adventofcode/y2017/Day23.txt");
-        String[] instructions = FileHelper.readLines(inputFile);
-        long result = new Day23CoprocessorConflagration().solveB(instructions);
-        assertThat(result).isEqualTo(4225);
-    }
+//    @Test
+//    public void testQuestionB() throws IOException {
+//        File inputFile = FileHelper.forUnitTests("adventofcode/y2017/Day23.txt");
+//        String[] instructions = FileHelper.readLines(inputFile);
+//        long result = new Day23CoprocessorConflagration().solveB(instructions);
+//        assertThat(result).isEqualTo(4225);
+//    }
 }

@@ -211,33 +211,4 @@ public class BstGamesTest {
         int distance = bstGames.distance(root, nodeLLLL, nodeLR);
         Assert.assertEquals(4, distance);
     }
-
-
-    @Test
-    public void testDistance12() {
-        Node<Integer> nodeLLLL = new Node<>(3);
-        Node<Integer> nodeLLL = new Node<>(4);
-        Node<Integer> nodeLL = new Node<>(12);
-        Node<Integer> nodeL = new Node<>(5);
-        Node<Integer> nodeLR = new Node<>(17);
-        Node<Integer> root = new Node<>(10);
-        Node<Integer> nodeR = new Node<>(7);
-        Node<Integer> nodeRL = new Node<>(1);
-        Node<Integer> nodeRR = new Node<>(2);
-
-        nodeL.setLeft(nodeLL);
-        nodeL.setRight(nodeLR);
-        nodeLL.setLeft(nodeLLL);
-        nodeLLL.setLeft(nodeLLLL);
-
-        nodeR.setLeft(nodeRL);
-        nodeR.setRight(nodeRR);
-
-        root.setLeft(nodeL);
-        root.setRight(nodeR);
-
-        BstGames bstGames = new BstGames();
-        int distance = bstGames.distance(root, nodeLLLL, nodeLLL);
-        Assert.assertEquals(1, distance);
-    }
 }

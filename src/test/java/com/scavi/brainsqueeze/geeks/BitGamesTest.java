@@ -79,12 +79,6 @@ public class BitGamesTest {
     }
 
     @Test
-    public void testSwapBitsInRange2() {
-        int result = new BitGames().swapBitsInRange(28, 1, 3, 1);
-        assertThat(result).isEqualTo(7);
-    }
-
-    @Test
     public void testAddSpeed() {
         int result = new BitGames().add(-12, 54);
         assertThat(result).isEqualTo(42);

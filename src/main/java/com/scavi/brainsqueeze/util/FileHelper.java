@@ -21,6 +21,8 @@ import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 import java.io.*;
 import java.net.URL;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.StringTokenizer;
@@ -34,9 +36,14 @@ import java.util.regex.Pattern;
 @ParametersAreNonnullByDefault
 public class FileHelper {
 
-    public static File forUnitTests(final String inputDir) {
-        URL uri = Day8TwoFactorAuthentication.class.getClassLoader().getResource("");
-        return new File(uri.getPath() + "../../../src/input/" + inputDir);
+    public static File forUnitTests(final String inputFile) {
+        Path path = Paths.get(System.getProperty("user.dir"), "src/input/", inputFile);
+        File file = new File(path.toString());
+        if (!file.exists()) {
+            throw new IllegalArgumentException(
+                    String.format("The input file '%s' doesn't exist!", file.getAbsolutePath()));
+        }
+        return file;
     }
 
 

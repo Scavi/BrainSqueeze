@@ -48,7 +48,7 @@ public class SearchGames {
         if (endPos > startPos) {
             int indexLeft = startPos;
             int indexRight = endPos;
-            int pivotElement = input[indexLeft]; // TODO
+            int pivotElement = input[indexLeft];
 
             while (indexLeft < indexRight) {
                 while (input[indexLeft] <= pivotElement && indexLeft < indexRight &&

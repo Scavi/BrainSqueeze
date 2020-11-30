@@ -75,11 +75,4 @@ public class BlockFillerTest {
     public void test8() {
         Assert.assertEquals(1752296281, new BlockFiller().fillingBlocks(21));
     }
-
-    @Test
-    public void test9() {
-        for (int i = 1; i <= 21; ++i) {
-            System.out.println(i + " -> " + new BlockFiller().fillingBlocks(i));
-        }
-    }
 }

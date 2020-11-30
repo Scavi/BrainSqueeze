@@ -38,6 +38,6 @@ public class Day21FractalArtTest {
         };
         Day21FractalArt fractal = new Day21FractalArt();
         int lightedPixels = fractal.solveA(grid, ruleData, 5);
-        assertThat(lightedPixels).isEqualTo(12);
+        assertThat(lightedPixels).isEqualTo(125);
     }
 }

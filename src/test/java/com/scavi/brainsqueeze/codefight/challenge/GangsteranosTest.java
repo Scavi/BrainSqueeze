@@ -72,23 +72,7 @@ public class GangsteranosTest {
     }
 
     @Test
-    public void test5() {
-        String[] input = {"Lady_Vic Abominatrix",
-                "Harley_Quinn Trinity",
-                "New_Wave Abominatrix",
-                "New_Wave Trinity",
-                "Lady_Vic Tigress",
-                "Harley_Quinn Hypnota",
-                "Harley_Quinn Tigress",
-                "Hypnota Mothergod",
-                "New_Wave Mothergod",
-                "Hypnota Abominatrix"};
-        Assert.assertFalse(new Gangsteranos().theFather(input));
-    }
-
-
-    @Test
-    public void test6() {
+    public void test65() {
         String[] input = {"Willia_Faircloth Jenee_Platero",
                 "Jenee_Platero Dennis_Lukes",
                 "Vanessa_Alward Colby_Leeds",
