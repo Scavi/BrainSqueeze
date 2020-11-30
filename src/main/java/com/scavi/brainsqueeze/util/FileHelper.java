@@ -37,7 +37,7 @@ import java.util.regex.Pattern;
 public class FileHelper {
 
     public static File forUnitTests(final String inputFile) {
-        Path path = Paths.get(System.getProperty("user.dir"), "src/input/", inputFile);
+        Path path = Paths.get(System.getProperty("user.dir"), "input", inputFile);
         File file = new File(path.toString());
         if (!file.exists()) {
             throw new IllegalArgumentException(
