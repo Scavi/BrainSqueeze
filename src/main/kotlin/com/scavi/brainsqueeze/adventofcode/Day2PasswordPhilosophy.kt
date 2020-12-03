@@ -1,27 +1,30 @@
 package com.scavi.brainsqueeze.adventofcode
 
 class Day2PasswordPhilosophy {
-    fun solveA(input: List<String>, policy: (tokens: Array<String>) -> Boolean): Int {
+    private val split = """(\d+)-(\d+) (.): (.*)""".toRegex()
+
+    fun solveA(input: List<String>, policy: (rule: Rule) -> Boolean): Int {
         var validPasswords = 0
         for (pwSetup in input) {
-            val tokens = pwSetup.split(regex = "\\s|:".toRegex()).toTypedArray()
-            validPasswords = if (policy(tokens)) validPasswords + 1 else validPasswords
+            val rule = parse(pwSetup)
+            validPasswords = if (policy(rule)) validPasswords + 1 else validPasswords
         }
         return validPasswords
     }
 
-    fun oldPolicyRule(tokens: Array<String>): Boolean {
-        val analyse = tokens[3].filter { it == tokens[1][0] }
-        return "${tokens[1]}{${tokens[0].replace("-", ",")}}".toRegex().matches(analyse) // x{1,2}
+    private fun parse(pwSetup: String): Rule {
+        val (f, t, ch, pass) = split.find(pwSetup)!!.destructured
+        return Rule(f.toInt(), t.toInt(), ch[0], pass)
     }
 
-    fun newPolicyRule(tokens: Array<String>): Boolean {
-        val pos1 = tokens[0].split("-")[0].toInt() - 1
-        val pos2 = tokens[0].split("-")[1].toInt() - 1
-        if (tokens[3].length <= pos2) {
-            return false
-        }
-        return (tokens[3][pos1] == tokens[1][0] && tokens[3][pos2] != tokens[1][0]) ||
-                (tokens[3][pos1] != tokens[1][0] && tokens[3][pos2] == tokens[1][0])
+    fun oldPolicyRule(rule: Rule): Boolean {
+        return rule.pass.filter { it == rule.ch }.count().let { it in rule.f..rule.t }
     }
+
+    fun newPolicyRule(rule: Rule): Boolean {
+        return (rule.pass.length >= rule.f && rule.pass[rule.f - 1] == rule.ch) xor
+                (rule.pass.length >= rule.t && rule.pass[rule.t - 1] == rule.ch)
+    }
+
+    data class Rule(val f: Int, val t: Int, val ch: Char, val pass: String)
 }
