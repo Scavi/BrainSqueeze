@@ -29,6 +29,10 @@ class Day4PassportProcessing {
         return validPassports
     }
 
+    // the when function reduces the original solution where mapped validation functions were used
+    // by 12 lines
+    // Reference:
+    // https://github.com/shaeberling/euler/blob/master/kotlin/src/com/s13g/aoc/aoc2020/Day4.kt#42
     private fun validate(field: String, value: String) : Boolean {
         return when (field) {
             "byr" -> value.toInt() in 1920..2002
