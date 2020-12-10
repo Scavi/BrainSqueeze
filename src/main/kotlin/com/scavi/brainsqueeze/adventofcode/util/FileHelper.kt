@@ -13,6 +13,14 @@ class FileHelper {
             return path.absoluteFile
         }
 
+        fun readAsIntList(filePath: File): MutableList<Int> {
+            val result = mutableListOf<Int>()
+            filePath.reader().forEachLine {
+                result.add(it.toInt())
+            }
+            return result
+        }
+
         fun readAsIntSet(filePath: File): Set<Int> {
             val result = mutableSetOf<Int>()
             filePath.reader().forEachLine {
