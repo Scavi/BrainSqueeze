@@ -20,6 +20,14 @@ class FileHelper {
             }
             return result
         }
+
+        fun readAsLongList(filePath: File): List<Long> {
+            val result = mutableListOf<Long>()
+            filePath.reader().forEachLine {
+                result.add(it.toLong())
+            }
+            return result
+        }
     }
 }
 
