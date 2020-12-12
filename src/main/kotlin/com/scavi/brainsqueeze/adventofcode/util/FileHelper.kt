@@ -36,6 +36,14 @@ class FileHelper {
             }
             return result
         }
+
+        fun readAsCharArray(filePath: File): List<CharArray> {
+            val result = mutableListOf<CharArray>()
+            filePath.reader().forEachLine {
+                result.add(it.toCharArray())
+            }
+            return result
+        }
     }
 }
 
